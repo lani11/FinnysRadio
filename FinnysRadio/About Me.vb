@@ -23,4 +23,8 @@
         Web_Browser.Show()
         Web_Browser.WebBrowser1.Navigate("http://finnyscomputers.webs.com/")
     End Sub
+
+    Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
+        System.Diagnostics.Process.Start("https://github.com/19cam92")
+    End Sub
 End Class
