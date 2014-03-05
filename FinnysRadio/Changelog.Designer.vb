@@ -25,8 +25,6 @@ Partial Class Changelog
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Changelog))
         Me.Label1 = New System.Windows.Forms.Label()
         Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
-        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
-        Me.Button2 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -48,41 +46,16 @@ Partial Class Changelog
         Me.RichTextBox1.ForeColor = System.Drawing.Color.Black
         Me.RichTextBox1.Location = New System.Drawing.Point(12, 12)
         Me.RichTextBox1.Name = "RichTextBox1"
-        Me.RichTextBox1.Size = New System.Drawing.Size(694, 390)
+        Me.RichTextBox1.Size = New System.Drawing.Size(822, 390)
         Me.RichTextBox1.TabIndex = 1
         Me.RichTextBox1.Text = ""
-        '
-        'CheckBox1
-        '
-        Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(12, 12)
-        Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(118, 19)
-        Me.CheckBox1.TabIndex = 4
-        Me.CheckBox1.Text = "Dont Show Again"
-        Me.CheckBox1.UseVisualStyleBackColor = True
-        Me.CheckBox1.Visible = False
-        '
-        'Button2
-        '
-        Me.Button2.BackColor = System.Drawing.Color.Gray
-        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button2.Image = Global.FinnysRadio.My.Resources.Resources.Close
-        Me.Button2.Location = New System.Drawing.Point(675, 9)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(31, 27)
-        Me.Button2.TabIndex = 6
-        Me.Button2.UseVisualStyleBackColor = False
-        Me.Button2.Visible = False
         '
         'Changelog
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Gray
-        Me.ClientSize = New System.Drawing.Size(718, 414)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.CheckBox1)
+        Me.ClientSize = New System.Drawing.Size(846, 414)
         Me.Controls.Add(Me.RichTextBox1)
         Me.Controls.Add(Me.Label1)
         Me.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -100,6 +73,4 @@ Partial Class Changelog
     End Sub
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents RichTextBox1 As System.Windows.Forms.RichTextBox
-    Friend WithEvents CheckBox1 As System.Windows.Forms.CheckBox
-    Friend WithEvents Button2 As System.Windows.Forms.Button
 End Class

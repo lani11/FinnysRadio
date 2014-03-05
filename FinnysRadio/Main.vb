@@ -16,17 +16,6 @@ Public Class Main
         username = username.Substring(username.IndexOf("\"), username.Length - username.IndexOf("\"))
         Dim MyVer As String = My.Application.Info.Version.ToString
 
-        'Loads Theme (TO BE ADDED)
-        'Dim fileReader As String = My.Computer.FileSystem.ReadAllText("options.txt").Replace("background:red", "background:blue")
-        'My.Computer.FileSystem.WriteAllText("options.txt", fileReader, False)
-
-        'Auto Updater (PLACE HOLDER)
-        'CheckForUpdates()
-
-        'Version Number (PLACE HOLDER)
-        'Dim MyVer As String = My.Application.Info.Version.ToString
-        'Label97.Text = "Version: " + MyVer
-
         Me.Text = "Finnys Radio " + MyVer
 
         'Check For Internet
@@ -69,7 +58,6 @@ Public Class Main
                 If Not MyVer = LastVer Then
                     Me.Hide()
                     Program_Update_Available.Show()
-                    'Updater.Show()
                 Else
                     'MsgBox("Program Is Update to Date")
                 End If
@@ -121,35 +109,19 @@ Public Class Main
     Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
         'finnysgames@gmail.com
         'finnyscomputers@gmail.com
-        'Dim objOutlk As New Outlook.Application 'Outlook
-        'Const olMailItem As Integer = 0
-        'Dim objMail As New System.Object
-
-        'objMail = objOutlk.CreateItem(olMailItem) 'Email item
-
-        'Insert "To" address
-        'objMail.To = "finnyscomputers@gmail.com"
-
-        'Insert "CC" address
-        'objMail.cc = "" 'Enter an address here To include a carbon copy; bcc is For blind carbon copy's
-
-        'Set up Subject Line
-        'objMail.subject = "Finnys Radio"
-
-        'To add an attachment
-        'objMail.attachments.add("enter your attachment path here")
-
-        'Set up your message body
-        'Dim msg As String
-
-        'msg = ""
-        'objMail.body = msg
-        'Use this To display before sending, otherwise call (use) objMail.Send to send without reviewing
-        'objMail.display()
-
-        'Clean up
-        'objMail = Nothing
-        'objOutlk = Nothing
+        'cameronfindlay123456789@gamil.com
+        Dim objApp As Object
+        Dim objEmail As Object
+        objApp = CreateObject("Outlook.Application")
+        objEmail = objApp.CreateItem(0)
+        With objEmail
+            .To = "cameronfindlay123456789@gamil.com"
+            .Subject = "Finnys Radio"
+            .body = ""
+            .display()
+        End With
+        objEmail = Nothing
+        objApp = Nothing
     End Sub
 
     'Menu Controls
@@ -353,22 +325,13 @@ Public Class Main
                     If Not MyVer = LastVer Then
                     Me.Hide()
                     Program_Update_Available.Show()
-                    'Updater.Show()
                     Else
-                        'MsgBox("Program Is Update to Date")
                         Program_Up_To_Date.Show()
                     End If
                 End If
             Else
-            'MsgBox("Could'nt Check For Updates. CHECK YOUR INTERNET")
             No_Network.Show()
         End If
-    End Sub
-
-    Private Sub UninstallToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles UninstallToolStripMenuItem.Click
-        'Uninstalls Radio
-        Me.Close()
-        System.Diagnostics.Process.Start("C:\Users\" & username & "\AppData\Roaming\FinnysRadio\Finnys Radio Uninstaller.exe")
     End Sub
 
     Private Sub AboutMeToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AboutMeToolStripMenuItem.Click
@@ -377,13 +340,13 @@ Public Class Main
     End Sub
 
     'Mini Mode
-    Private Sub Button20_Click(sender As Object, e As EventArgs) Handles Button20.Click
+    Private Sub Button20_Click(sender As Object, e As EventArgs)
         Me.Hide()
         Mini_Player.Show()
     End Sub
 
     'Hide To Taskbar Button
-    Private Sub Button100_Click(sender As Object, e As EventArgs) Handles Button100.Click
+    Private Sub Button100_Click(sender As Object, e As EventArgs)
         Me.Hide()
         HideRadioToolStripMenuItem.Enabled = False
         NotifyIcon1.BalloonTipIcon = ToolTipIcon.Info

@@ -12,7 +12,7 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyDescription("Radio")> 
 <Assembly: AssemblyCompany("Finnys Computers")> 
 <Assembly: AssemblyProduct("FinnysRadio")> 
-<Assembly: AssemblyCopyright("Copyright © Finnys Computers 2013")> 
+<Assembly: AssemblyCopyright("Copyright © Finnys Computers 2014")> 
 <Assembly: AssemblyTrademark("Finnys Computers")> 
 
 <Assembly: ComVisible(False)>
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("2.6.1.4")> 
-<Assembly: AssemblyFileVersion("2.6.1.4")> 
+<Assembly: AssemblyVersion("2.7.0.0")> 
+<Assembly: AssemblyFileVersion("2.7.0.0")> 

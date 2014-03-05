@@ -70,8 +70,9 @@ Partial Class About
         '
         Me.LinkLabel1.AutoSize = True
         Me.LinkLabel1.BackColor = System.Drawing.Color.Transparent
+        Me.LinkLabel1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.LinkLabel1.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LinkLabel1.LinkColor = System.Drawing.Color.Red
+        Me.LinkLabel1.LinkColor = System.Drawing.Color.Blue
         Me.LinkLabel1.Location = New System.Drawing.Point(87, 54)
         Me.LinkLabel1.Name = "LinkLabel1"
         Me.LinkLabel1.Size = New System.Drawing.Size(218, 17)
@@ -84,7 +85,7 @@ Partial Class About
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(40, 71)
+        Me.Label4.Location = New System.Drawing.Point(20, 71)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(46, 17)
         Me.Label4.TabIndex = 5
@@ -94,14 +95,15 @@ Partial Class About
         '
         Me.LinkLabel2.AutoSize = True
         Me.LinkLabel2.BackColor = System.Drawing.Color.Transparent
+        Me.LinkLabel2.Cursor = System.Windows.Forms.Cursors.Hand
         Me.LinkLabel2.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LinkLabel2.LinkColor = System.Drawing.Color.Red
-        Me.LinkLabel2.Location = New System.Drawing.Point(102, 71)
+        Me.LinkLabel2.LinkColor = System.Drawing.Color.Blue
+        Me.LinkLabel2.Location = New System.Drawing.Point(67, 71)
         Me.LinkLabel2.Name = "LinkLabel2"
-        Me.LinkLabel2.Size = New System.Drawing.Size(188, 17)
+        Me.LinkLabel2.Size = New System.Drawing.Size(244, 17)
         Me.LinkLabel2.TabIndex = 6
         Me.LinkLabel2.TabStop = True
-        Me.LinkLabel2.Text = "finnyscomputers@gmail.com"
+        Me.LinkLabel2.Text = "cameronfindlay123456789@gamil.com"
         '
         'Label5
         '

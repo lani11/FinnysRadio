@@ -193,26 +193,36 @@ Public Class Scanner
                 Dim LastVer As String = My.Computer.FileSystem.ReadAllText(file)
                 If Not MyVer = LastVer Then
                     Me.Hide()
-                    Updater.Show()
+                    Program_Update_Available.Show()
                 Else
-                    'MsgBox("Program Is Update to Date")
                     Program_Up_To_Date.Show()
                 End If
             End If
         Else
-            'MsgBox("Could'nt Check For Updates. CHECK YOUR INTERNET")
             No_Network.Show()
         End If
-    End Sub
-
-    Private Sub UninstallToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles UninstallToolStripMenuItem.Click
-        'Uninstalls Radio
-        Me.Close()
-        System.Diagnostics.Process.Start("C:\Users\" & username & "\AppData\Roaming\FinnysRadio\Finnys Radio Uninstaller.exe")
     End Sub
 
     Private Sub AboutMeToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AboutMeToolStripMenuItem.Click
         'About Me
         About_Me.Show()
+    End Sub
+
+    Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
+        'finnysgames@gmail.com
+        'finnyscomputers@gmail.com
+        'cameronfindlay123456789@gamil.com
+        Dim objApp As Object
+        Dim objEmail As Object
+        objApp = CreateObject("Outlook.Application")
+        objEmail = objApp.CreateItem(0)
+        With objEmail
+            .To = "cameronfindlay123456789@gamil.com"
+            .Subject = "Finnys Radio"
+            .body = ""
+            .display()
+        End With
+        objEmail = Nothing
+        objApp = Nothing
     End Sub
 End Class

@@ -59,8 +59,6 @@ Partial Class Main
         Me.TripleJToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TripleJUnearthedToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TripleMToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Label97 = New System.Windows.Forms.Label()
-        Me.Label100 = New System.Windows.Forms.Label()
         Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
         Me.Label99 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
@@ -124,19 +122,12 @@ Partial Class Main
         Me.DebugingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem2 = New System.Windows.Forms.ToolStripSeparator()
         Me.CheckForUpdatesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.UninstallToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AboutMeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.GoogleToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.FacebookToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.TwitterToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.FinnyscomputerwebscomToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.WebBrowser1 = New System.Windows.Forms.WebBrowser()
         Me.TimeDateTimer = New System.Windows.Forms.Timer(Me.components)
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Button100 = New System.Windows.Forms.Button()
-        Me.Button20 = New System.Windows.Forms.Button()
         Me.ContextMenuStrip1.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.MenuStrip1.SuspendLayout()
@@ -384,36 +375,13 @@ Partial Class Main
         Me.TripleMToolStripMenuItem.Size = New System.Drawing.Size(212, 22)
         Me.TripleMToolStripMenuItem.Text = "Triple M"
         '
-        'Label97
-        '
-        Me.Label97.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label97.AutoSize = True
-        Me.Label97.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label97.Location = New System.Drawing.Point(937, 41)
-        Me.Label97.Name = "Label97"
-        Me.Label97.Size = New System.Drawing.Size(91, 15)
-        Me.Label97.TabIndex = 0
-        Me.Label97.Text = "Version: 0.0.0.0"
-        Me.Label97.Visible = False
-        '
-        'Label100
-        '
-        Me.Label100.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label100.AutoSize = True
-        Me.Label100.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label100.Location = New System.Drawing.Point(752, 41)
-        Me.Label100.Name = "Label100"
-        Me.Label100.Size = New System.Drawing.Size(178, 15)
-        Me.Label100.TabIndex = 1
-        Me.Label100.Text = "Made By: Cameron AKA cam18"
-        Me.Label100.Visible = False
-        '
         'LinkLabel1
         '
         Me.LinkLabel1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.LinkLabel1.AutoSize = True
+        Me.LinkLabel1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.LinkLabel1.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LinkLabel1.LinkColor = System.Drawing.Color.Red
+        Me.LinkLabel1.LinkColor = System.Drawing.Color.Blue
         Me.LinkLabel1.Location = New System.Drawing.Point(1024, 632)
         Me.LinkLabel1.Name = "LinkLabel1"
         Me.LinkLabel1.Size = New System.Drawing.Size(168, 15)
@@ -1012,7 +980,7 @@ Partial Class Main
         '
         'HelpToolStripMenuItem
         '
-        Me.HelpToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ChangelogToolStripMenuItem, Me.AboutRadioToolStripMenuItem, Me.ToolStripMenuItem7, Me.DebugingToolStripMenuItem, Me.ToolStripMenuItem2, Me.CheckForUpdatesToolStripMenuItem, Me.UninstallToolStripMenuItem})
+        Me.HelpToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ChangelogToolStripMenuItem, Me.AboutRadioToolStripMenuItem, Me.ToolStripMenuItem7, Me.DebugingToolStripMenuItem, Me.ToolStripMenuItem2, Me.CheckForUpdatesToolStripMenuItem})
         Me.HelpToolStripMenuItem.ForeColor = System.Drawing.Color.Black
         Me.HelpToolStripMenuItem.Name = "HelpToolStripMenuItem"
         Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(44, 20)
@@ -1054,54 +1022,12 @@ Partial Class Main
         Me.CheckForUpdatesToolStripMenuItem.Size = New System.Drawing.Size(208, 24)
         Me.CheckForUpdatesToolStripMenuItem.Text = "Check For Update's"
         '
-        'UninstallToolStripMenuItem
-        '
-        Me.UninstallToolStripMenuItem.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.UninstallToolStripMenuItem.ForeColor = System.Drawing.Color.Red
-        Me.UninstallToolStripMenuItem.Name = "UninstallToolStripMenuItem"
-        Me.UninstallToolStripMenuItem.Size = New System.Drawing.Size(208, 24)
-        Me.UninstallToolStripMenuItem.Text = "Uninstall :("
-        Me.UninstallToolStripMenuItem.Visible = False
-        '
         'AboutMeToolStripMenuItem
         '
-        Me.AboutMeToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.GoogleToolStripMenuItem, Me.FacebookToolStripMenuItem, Me.TwitterToolStripMenuItem, Me.FinnyscomputerwebscomToolStripMenuItem})
         Me.AboutMeToolStripMenuItem.ForeColor = System.Drawing.Color.Black
         Me.AboutMeToolStripMenuItem.Name = "AboutMeToolStripMenuItem"
         Me.AboutMeToolStripMenuItem.Size = New System.Drawing.Size(72, 20)
         Me.AboutMeToolStripMenuItem.Text = "About Me"
-        '
-        'GoogleToolStripMenuItem
-        '
-        Me.GoogleToolStripMenuItem.Image = Global.FinnysRadio.My.Resources.Resources.google_plus_logo
-        Me.GoogleToolStripMenuItem.Name = "GoogleToolStripMenuItem"
-        Me.GoogleToolStripMenuItem.Size = New System.Drawing.Size(217, 22)
-        Me.GoogleToolStripMenuItem.Text = "Google +"
-        Me.GoogleToolStripMenuItem.Visible = False
-        '
-        'FacebookToolStripMenuItem
-        '
-        Me.FacebookToolStripMenuItem.Image = Global.FinnysRadio.My.Resources.Resources.facebook_logo
-        Me.FacebookToolStripMenuItem.Name = "FacebookToolStripMenuItem"
-        Me.FacebookToolStripMenuItem.Size = New System.Drawing.Size(217, 22)
-        Me.FacebookToolStripMenuItem.Text = "Facebook"
-        Me.FacebookToolStripMenuItem.Visible = False
-        '
-        'TwitterToolStripMenuItem
-        '
-        Me.TwitterToolStripMenuItem.Image = Global.FinnysRadio.My.Resources.Resources.twitter_icon
-        Me.TwitterToolStripMenuItem.Name = "TwitterToolStripMenuItem"
-        Me.TwitterToolStripMenuItem.Size = New System.Drawing.Size(217, 22)
-        Me.TwitterToolStripMenuItem.Text = "Twitter"
-        Me.TwitterToolStripMenuItem.Visible = False
-        '
-        'FinnyscomputerwebscomToolStripMenuItem
-        '
-        Me.FinnyscomputerwebscomToolStripMenuItem.Image = Global.FinnysRadio.My.Resources.Resources.Finnysgames_Logo
-        Me.FinnyscomputerwebscomToolStripMenuItem.Name = "FinnyscomputerwebscomToolStripMenuItem"
-        Me.FinnyscomputerwebscomToolStripMenuItem.Size = New System.Drawing.Size(217, 22)
-        Me.FinnyscomputerwebscomToolStripMenuItem.Text = "Finnyscomputer.webs.com"
-        Me.FinnyscomputerwebscomToolStripMenuItem.Visible = False
         '
         'WebBrowser1
         '
@@ -1132,7 +1058,7 @@ Partial Class Main
         'PictureBox1
         '
         Me.PictureBox1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.PictureBox1.Image = My.Resources.Resources.iconGray
+        Me.PictureBox1.Image = Global.FinnysRadio.My.Resources.Resources.iconGRAY
         Me.PictureBox1.Location = New System.Drawing.Point(3, 19)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(843, 548)
@@ -1148,44 +1074,12 @@ Partial Class Main
         Me.TextBox1.TabIndex = 10
         Me.TextBox1.Visible = False
         '
-        'Button100
-        '
-        Me.Button100.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button100.BackColor = System.Drawing.Color.DimGray
-        Me.Button100.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button100.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button100.ForeColor = System.Drawing.Color.Black
-        Me.Button100.Location = New System.Drawing.Point(1083, 1)
-        Me.Button100.Name = "Button100"
-        Me.Button100.Size = New System.Drawing.Size(109, 23)
-        Me.Button100.TabIndex = 11
-        Me.Button100.Text = "Hide To Taskbar"
-        Me.Button100.UseVisualStyleBackColor = False
-        Me.Button100.Visible = False
-        '
-        'Button20
-        '
-        Me.Button20.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button20.BackColor = System.Drawing.Color.DimGray
-        Me.Button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button20.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button20.ForeColor = System.Drawing.Color.Black
-        Me.Button20.Location = New System.Drawing.Point(968, 1)
-        Me.Button20.Name = "Button20"
-        Me.Button20.Size = New System.Drawing.Size(109, 23)
-        Me.Button20.TabIndex = 12
-        Me.Button20.Text = "Mini Mode"
-        Me.Button20.UseVisualStyleBackColor = False
-        Me.Button20.Visible = False
-        '
         'Main
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Gray
         Me.ClientSize = New System.Drawing.Size(1204, 656)
-        Me.Controls.Add(Me.Button20)
-        Me.Controls.Add(Me.Button100)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.WebBrowser1)
@@ -1194,8 +1088,6 @@ Partial Class Main
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Label99)
         Me.Controls.Add(Me.LinkLabel1)
-        Me.Controls.Add(Me.Label100)
-        Me.Controls.Add(Me.Label97)
         Me.Controls.Add(Me.MenuStrip1)
         Me.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ForeColor = System.Drawing.Color.White
@@ -1217,8 +1109,6 @@ Partial Class Main
 
     End Sub
     Friend WithEvents NotifyIcon1 As System.Windows.Forms.NotifyIcon
-    Friend WithEvents Label97 As System.Windows.Forms.Label
-    Friend WithEvents Label100 As System.Windows.Forms.Label
     Friend WithEvents LinkLabel1 As System.Windows.Forms.LinkLabel
     Friend WithEvents Label99 As System.Windows.Forms.Label
     Friend WithEvents Panel1 As System.Windows.Forms.Panel
@@ -1274,10 +1164,6 @@ Partial Class Main
     Friend WithEvents OptionsToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents AboutMeToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ThemeChangerToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents GoogleToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents FacebookToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents TwitterToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents FinnyscomputerwebscomToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents WebBrowser1 As System.Windows.Forms.WebBrowser
     Friend WithEvents TimeDateTimer As System.Windows.Forms.Timer
     Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
@@ -1290,7 +1176,6 @@ Partial Class Main
     Friend WithEvents APPSETTINGSToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ShowRadioToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents HideRadioToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents Button100 As System.Windows.Forms.Button
     Friend WithEvents CloseRadioToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ToolStripMenuItem5 As System.Windows.Forms.ToolStripSeparator
     Friend WithEvents MusicToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
@@ -1321,10 +1206,8 @@ Partial Class Main
     Friend WithEvents HelpToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents AboutRadioToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ChangelogToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents UninstallToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents CheckForUpdatesToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents MiniModeToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents Button20 As System.Windows.Forms.Button
     Friend WithEvents DebugingToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ToolStripMenuItem7 As System.Windows.Forms.ToolStripSeparator
     Friend WithEvents ToolStripMenuItem2 As System.Windows.Forms.ToolStripSeparator

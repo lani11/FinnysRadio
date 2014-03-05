@@ -56,12 +56,7 @@ Partial Class Scanner
         Me.DebugingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem2 = New System.Windows.Forms.ToolStripSeparator()
         Me.CheckForUpdatesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.UninstallToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AboutMeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.GoogleToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.FacebookToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.TwitterToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.FinnyscomputerwebscomToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Label99 = New System.Windows.Forms.Label()
         Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
         Me.WebBrowser1 = New System.Windows.Forms.WebBrowser()
@@ -326,6 +321,7 @@ Partial Class Scanner
         Me.OptionsToolStripMenuItem.Name = "OptionsToolStripMenuItem"
         Me.OptionsToolStripMenuItem.Size = New System.Drawing.Size(61, 20)
         Me.OptionsToolStripMenuItem.Text = "Options"
+        Me.OptionsToolStripMenuItem.Visible = False
         '
         'ThemeChangerToolStripMenuItem
         '
@@ -335,7 +331,7 @@ Partial Class Scanner
         '
         'HelpToolStripMenuItem
         '
-        Me.HelpToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ChangelogToolStripMenuItem, Me.AboutRadioToolStripMenuItem, Me.ToolStripMenuItem7, Me.DebugingToolStripMenuItem, Me.ToolStripMenuItem2, Me.CheckForUpdatesToolStripMenuItem, Me.UninstallToolStripMenuItem})
+        Me.HelpToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ChangelogToolStripMenuItem, Me.AboutRadioToolStripMenuItem, Me.ToolStripMenuItem7, Me.DebugingToolStripMenuItem, Me.ToolStripMenuItem2, Me.CheckForUpdatesToolStripMenuItem})
         Me.HelpToolStripMenuItem.ForeColor = System.Drawing.Color.Black
         Me.HelpToolStripMenuItem.Name = "HelpToolStripMenuItem"
         Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(44, 20)
@@ -377,54 +373,12 @@ Partial Class Scanner
         Me.CheckForUpdatesToolStripMenuItem.Size = New System.Drawing.Size(208, 24)
         Me.CheckForUpdatesToolStripMenuItem.Text = "Check For Update's"
         '
-        'UninstallToolStripMenuItem
-        '
-        Me.UninstallToolStripMenuItem.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.UninstallToolStripMenuItem.ForeColor = System.Drawing.Color.Red
-        Me.UninstallToolStripMenuItem.Name = "UninstallToolStripMenuItem"
-        Me.UninstallToolStripMenuItem.Size = New System.Drawing.Size(208, 24)
-        Me.UninstallToolStripMenuItem.Text = "Uninstall :("
-        Me.UninstallToolStripMenuItem.Visible = False
-        '
         'AboutMeToolStripMenuItem
         '
-        Me.AboutMeToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.GoogleToolStripMenuItem, Me.FacebookToolStripMenuItem, Me.TwitterToolStripMenuItem, Me.FinnyscomputerwebscomToolStripMenuItem})
         Me.AboutMeToolStripMenuItem.ForeColor = System.Drawing.Color.Black
         Me.AboutMeToolStripMenuItem.Name = "AboutMeToolStripMenuItem"
         Me.AboutMeToolStripMenuItem.Size = New System.Drawing.Size(72, 20)
         Me.AboutMeToolStripMenuItem.Text = "About Me"
-        '
-        'GoogleToolStripMenuItem
-        '
-        Me.GoogleToolStripMenuItem.Image = Global.FinnysRadio.My.Resources.Resources.google_plus_logo
-        Me.GoogleToolStripMenuItem.Name = "GoogleToolStripMenuItem"
-        Me.GoogleToolStripMenuItem.Size = New System.Drawing.Size(217, 22)
-        Me.GoogleToolStripMenuItem.Text = "Google +"
-        Me.GoogleToolStripMenuItem.Visible = False
-        '
-        'FacebookToolStripMenuItem
-        '
-        Me.FacebookToolStripMenuItem.Image = Global.FinnysRadio.My.Resources.Resources.facebook_logo
-        Me.FacebookToolStripMenuItem.Name = "FacebookToolStripMenuItem"
-        Me.FacebookToolStripMenuItem.Size = New System.Drawing.Size(217, 22)
-        Me.FacebookToolStripMenuItem.Text = "Facebook"
-        Me.FacebookToolStripMenuItem.Visible = False
-        '
-        'TwitterToolStripMenuItem
-        '
-        Me.TwitterToolStripMenuItem.Image = Global.FinnysRadio.My.Resources.Resources.twitter_icon
-        Me.TwitterToolStripMenuItem.Name = "TwitterToolStripMenuItem"
-        Me.TwitterToolStripMenuItem.Size = New System.Drawing.Size(217, 22)
-        Me.TwitterToolStripMenuItem.Text = "Twitter"
-        Me.TwitterToolStripMenuItem.Visible = False
-        '
-        'FinnyscomputerwebscomToolStripMenuItem
-        '
-        Me.FinnyscomputerwebscomToolStripMenuItem.Image = Global.FinnysRadio.My.Resources.Resources.Finnysgames_Logo
-        Me.FinnyscomputerwebscomToolStripMenuItem.Name = "FinnyscomputerwebscomToolStripMenuItem"
-        Me.FinnyscomputerwebscomToolStripMenuItem.Size = New System.Drawing.Size(217, 22)
-        Me.FinnyscomputerwebscomToolStripMenuItem.Text = "Finnyscomputer.webs.com"
-        Me.FinnyscomputerwebscomToolStripMenuItem.Visible = False
         '
         'Label99
         '
@@ -441,8 +395,9 @@ Partial Class Scanner
         '
         Me.LinkLabel1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.LinkLabel1.AutoSize = True
+        Me.LinkLabel1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.LinkLabel1.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LinkLabel1.LinkColor = System.Drawing.Color.Red
+        Me.LinkLabel1.LinkColor = System.Drawing.Color.Blue
         Me.LinkLabel1.Location = New System.Drawing.Point(1024, 632)
         Me.LinkLabel1.Name = "LinkLabel1"
         Me.LinkLabel1.Size = New System.Drawing.Size(168, 15)
@@ -689,12 +644,7 @@ Partial Class Scanner
     Friend WithEvents DebugingToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ToolStripMenuItem2 As System.Windows.Forms.ToolStripSeparator
     Friend WithEvents CheckForUpdatesToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents UninstallToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents AboutMeToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents GoogleToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents FacebookToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents TwitterToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents FinnyscomputerwebscomToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents Label99 As System.Windows.Forms.Label
     Friend WithEvents LinkLabel1 As System.Windows.Forms.LinkLabel
     Friend WithEvents WebBrowser1 As System.Windows.Forms.WebBrowser

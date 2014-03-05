@@ -31,13 +31,15 @@ Partial Class About_Me
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.PictureBox5 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
+        Me.LinkLabel2 = New System.Windows.Forms.LinkLabel()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'PictureBox1
@@ -70,7 +72,7 @@ Partial Class About_Me
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(60, 16)
         Me.Label2.TabIndex = 2
-        Me.Label2.Text = "Age: 21"
+        Me.Label2.Text = "Age: 22"
         '
         'Label3
         '
@@ -86,6 +88,7 @@ Partial Class About_Me
         'PictureBox2
         '
         Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox2.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox2.Image = Global.FinnysRadio.My.Resources.Resources.google_plus_logo
         Me.PictureBox2.Location = New System.Drawing.Point(168, 143)
         Me.PictureBox2.Name = "PictureBox2"
@@ -97,6 +100,7 @@ Partial Class About_Me
         'PictureBox3
         '
         Me.PictureBox3.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox3.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox3.Image = Global.FinnysRadio.My.Resources.Resources.facebook_logo
         Me.PictureBox3.Location = New System.Drawing.Point(226, 143)
         Me.PictureBox3.Name = "PictureBox3"
@@ -108,6 +112,7 @@ Partial Class About_Me
         'PictureBox4
         '
         Me.PictureBox4.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox4.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox4.Image = Global.FinnysRadio.My.Resources.Resources.twitter_icon
         Me.PictureBox4.Location = New System.Drawing.Point(284, 143)
         Me.PictureBox4.Name = "PictureBox4"
@@ -119,7 +124,8 @@ Partial Class About_Me
         'PictureBox5
         '
         Me.PictureBox5.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox5.Image = Global.FinnysRadio.My.Resources.Resources.Finnysgames_Logo
+        Me.PictureBox5.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox5.Image = Global.FinnysRadio.My.Resources.Resources.finnys_computers
         Me.PictureBox5.Location = New System.Drawing.Point(342, 143)
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.Size = New System.Drawing.Size(52, 45)
@@ -127,26 +133,42 @@ Partial Class About_Me
         Me.PictureBox5.TabIndex = 7
         Me.PictureBox5.TabStop = False
         '
+        'PictureBox6
+        '
+        Me.PictureBox6.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox6.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox6.Image = Global.FinnysRadio.My.Resources.Resources.github_logo
+        Me.PictureBox6.Location = New System.Drawing.Point(400, 143)
+        Me.PictureBox6.Name = "PictureBox6"
+        Me.PictureBox6.Size = New System.Drawing.Size(52, 45)
+        Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox6.TabIndex = 10
+        Me.PictureBox6.TabStop = False
+        '
+        'LinkLabel2
+        '
+        Me.LinkLabel2.AutoSize = True
+        Me.LinkLabel2.BackColor = System.Drawing.Color.Transparent
+        Me.LinkLabel2.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.LinkLabel2.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LinkLabel2.LinkColor = System.Drawing.Color.Blue
+        Me.LinkLabel2.Location = New System.Drawing.Point(216, 61)
+        Me.LinkLabel2.Name = "LinkLabel2"
+        Me.LinkLabel2.Size = New System.Drawing.Size(244, 17)
+        Me.LinkLabel2.TabIndex = 12
+        Me.LinkLabel2.TabStop = True
+        Me.LinkLabel2.Text = "cameronfindlay123456789@gamil.com"
+        '
         'Label4
         '
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.Color.Transparent
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.Location = New System.Drawing.Point(169, 61)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(56, 16)
-        Me.Label4.TabIndex = 8
-        Me.Label4.Text = "Github:"
-        '
-        'LinkLabel1
-        '
-        Me.LinkLabel1.AutoSize = True
-        Me.LinkLabel1.Location = New System.Drawing.Point(231, 62)
-        Me.LinkLabel1.Name = "LinkLabel1"
-        Me.LinkLabel1.Size = New System.Drawing.Size(161, 15)
-        Me.LinkLabel1.TabIndex = 9
-        Me.LinkLabel1.TabStop = True
-        Me.LinkLabel1.Text = "https://github.com/19cam92"
+        Me.Label4.Size = New System.Drawing.Size(46, 17)
+        Me.Label4.TabIndex = 11
+        Me.Label4.Text = "Email:"
         '
         'About_Me
         '
@@ -154,8 +176,9 @@ Partial Class About_Me
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Gray
         Me.ClientSize = New System.Drawing.Size(462, 199)
-        Me.Controls.Add(Me.LinkLabel1)
+        Me.Controls.Add(Me.LinkLabel2)
         Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.PictureBox6)
         Me.Controls.Add(Me.PictureBox5)
         Me.Controls.Add(Me.PictureBox4)
         Me.Controls.Add(Me.PictureBox3)
@@ -178,6 +201,7 @@ Partial Class About_Me
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -190,6 +214,7 @@ Partial Class About_Me
     Friend WithEvents PictureBox3 As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox4 As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox5 As System.Windows.Forms.PictureBox
+    Friend WithEvents PictureBox6 As System.Windows.Forms.PictureBox
+    Friend WithEvents LinkLabel2 As System.Windows.Forms.LinkLabel
     Friend WithEvents Label4 As System.Windows.Forms.Label
-    Friend WithEvents LinkLabel1 As System.Windows.Forms.LinkLabel
 End Class

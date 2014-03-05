@@ -24,9 +24,7 @@
         Main.Label95.ForeColor = Color.Orange
         Main.DATEToolStripMenuItem.ForeColor = Color.Orange
         Main.BackColor = Color.Black
-        Main.Label97.ForeColor = Color.White
         Main.Label99.ForeColor = Color.White
-        Main.Label100.ForeColor = Color.White
         ComboBox1.SelectedIndex = 0
         ComboBox2.SelectedIndex = 0
         ComboBox3.SelectedIndex = 0
@@ -199,69 +197,47 @@
         'Font Colours
         Select Case ComboBox3.SelectedIndex
             Case 1
-                Main.Label97.ForeColor = Color.White
                 Main.Label99.ForeColor = Color.White
-                Main.Label100.ForeColor = Color.White
                 'Me.ForeColor = Color.White
                 PictureBox1.BackColor = Color.White
             Case 2
-                Main.Label97.ForeColor = Color.Black
                 Main.Label99.ForeColor = Color.Black
-                Main.Label100.ForeColor = Color.Black
                 'Me.ForeColor = Color.Black
                 PictureBox1.BackColor = Color.Black
             Case 3
-                Main.Label97.ForeColor = Color.Gray
                 Main.Label99.ForeColor = Color.Gray
-                Main.Label100.ForeColor = Color.Gray
                 'Me.ForeColor = Color.Gray
                 PictureBox1.BackColor = Color.Gray
             Case 4
-                Main.Label97.ForeColor = Color.Red
                 Main.Label99.ForeColor = Color.Red
-                Main.Label100.ForeColor = Color.Red
                 'Me.ForeColor = Color.Red
                 PictureBox1.BackColor = Color.Red
             Case 5
-                Main.Label97.ForeColor = Color.Blue
                 Main.Label99.ForeColor = Color.Blue
-                Main.Label100.ForeColor = Color.Blue
                 'Me.ForeColor = Color.Blue
                 PictureBox1.BackColor = Color.Blue
             Case 6
-                Main.Label97.ForeColor = Color.Green
                 Main.Label99.ForeColor = Color.Green
-                Main.Label100.ForeColor = Color.Green
                 'Me.ForeColor = Color.Green
                 PictureBox1.BackColor = Color.Green
             Case 7
-                Main.Label97.ForeColor = Color.Yellow
                 Main.Label99.ForeColor = Color.Yellow
-                Main.Label100.ForeColor = Color.Yellow
                 'Me.ForeColor = Color.Yellow
                 PictureBox1.BackColor = Color.Yellow
             Case 8
-                Main.Label97.ForeColor = Color.Pink
                 Main.Label99.ForeColor = Color.Pink
-                Main.Label100.ForeColor = Color.Pink
                 'Me.ForeColor = Color.Pink
                 PictureBox1.BackColor = Color.Pink
             Case 9
-                Main.Label97.ForeColor = Color.Purple
                 Main.Label99.ForeColor = Color.Purple
-                Main.Label100.ForeColor = Color.Purple
                 'Me.ForeColor = Color.Purple
                 PictureBox1.BackColor = Color.Purple
             Case 10
-                Main.Label97.ForeColor = Color.Orange
                 Main.Label99.ForeColor = Color.Orange
-                Main.Label100.ForeColor = Color.Orange
                 'Me.ForeColor = Color.Orange
                 PictureBox1.BackColor = Color.Orange
             Case 11
-                Main.Label97.ForeColor = Color.Aqua
                 Main.Label99.ForeColor = Color.Aqua
-                Main.Label100.ForeColor = Color.Aqua
                 'Me.ForeColor = Color.Aqua
                 PictureBox1.BackColor = Color.Aqua
         End Select
