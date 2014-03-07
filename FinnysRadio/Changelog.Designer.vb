@@ -42,6 +42,7 @@ Partial Class Changelog
         'RichTextBox1
         '
         Me.RichTextBox1.BackColor = System.Drawing.Color.Gray
+        Me.RichTextBox1.Cursor = System.Windows.Forms.Cursors.Arrow
         Me.RichTextBox1.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RichTextBox1.ForeColor = System.Drawing.Color.Black
         Me.RichTextBox1.Location = New System.Drawing.Point(12, 12)
