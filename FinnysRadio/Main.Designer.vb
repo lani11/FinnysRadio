@@ -382,19 +382,19 @@ Partial Class Main
         Me.LinkLabel1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.LinkLabel1.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LinkLabel1.LinkColor = System.Drawing.Color.Blue
-        Me.LinkLabel1.Location = New System.Drawing.Point(1024, 632)
+        Me.LinkLabel1.Location = New System.Drawing.Point(968, 632)
         Me.LinkLabel1.Name = "LinkLabel1"
-        Me.LinkLabel1.Size = New System.Drawing.Size(168, 15)
+        Me.LinkLabel1.Size = New System.Drawing.Size(224, 15)
         Me.LinkLabel1.TabIndex = 2
         Me.LinkLabel1.TabStop = True
-        Me.LinkLabel1.Text = "finnyscomputers@gmail.com"
+        Me.LinkLabel1.Text = "cameronfindlay123456789@gamil.com"
         '
         'Label99
         '
         Me.Label99.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label99.AutoSize = True
         Me.Label99.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label99.Location = New System.Drawing.Point(759, 632)
+        Me.Label99.Location = New System.Drawing.Point(703, 632)
         Me.Label99.Name = "Label99"
         Me.Label99.Size = New System.Drawing.Size(259, 15)
         Me.Label99.TabIndex = 3

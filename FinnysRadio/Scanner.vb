@@ -97,7 +97,7 @@ Public Class Scanner
     End Sub
 
     Private Sub HideToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles HideToolStripMenuItem.Click
-        'Hide Radio
+        'Hide Scanner
         Me.Hide()
         'HideRadioToolStripMenuItem.Enabled = False
         NotifyIcon1.BalloonTipIcon = ToolTipIcon.Info

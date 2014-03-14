@@ -68,15 +68,7 @@ Partial Class Debuging
         Me.PerformanceCounter3 = New System.Diagnostics.PerformanceCounter()
         Me.PerformanceCounter4 = New System.Diagnostics.PerformanceCounter()
         Me.PerformanceCounterRAM = New System.Diagnostics.PerformanceCounter()
-        Me.GroupBox6 = New System.Windows.Forms.GroupBox()
-        Me.TextBox12 = New System.Windows.Forms.TextBox()
-        Me.Label19 = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.GroupBox9 = New System.Windows.Forms.GroupBox()
-        Me.Label21 = New System.Windows.Forms.Label()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.pingButton = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox7.SuspendLayout()
         CType(Me.PerformanceCounter1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -84,9 +76,6 @@ Partial Class Debuging
         CType(Me.PerformanceCounter3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PerformanceCounter4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PerformanceCounterRAM, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupBox6.SuspendLayout()
-        Me.GroupBox9.SuspendLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -358,7 +347,7 @@ Partial Class Debuging
         Me.GroupBox1.Controls.Add(Me.TextBox10)
         Me.GroupBox1.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.ForeColor = System.Drawing.Color.Black
-        Me.GroupBox1.Location = New System.Drawing.Point(12, 12)
+        Me.GroupBox1.Location = New System.Drawing.Point(11, 11)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(393, 370)
         Me.GroupBox1.TabIndex = 22
@@ -384,7 +373,7 @@ Partial Class Debuging
         Me.GroupBox7.Controls.Add(Me.Label18)
         Me.GroupBox7.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox7.ForeColor = System.Drawing.Color.Black
-        Me.GroupBox7.Location = New System.Drawing.Point(411, 12)
+        Me.GroupBox7.Location = New System.Drawing.Point(410, 11)
         Me.GroupBox7.Name = "GroupBox7"
         Me.GroupBox7.Size = New System.Drawing.Size(196, 148)
         Me.GroupBox7.TabIndex = 24
@@ -555,106 +544,15 @@ Partial Class Debuging
         Me.PerformanceCounterRAM.CategoryName = "Memory"
         Me.PerformanceCounterRAM.CounterName = "% Committed Bytes In Use"
         '
-        'GroupBox6
-        '
-        Me.GroupBox6.Controls.Add(Me.TextBox12)
-        Me.GroupBox6.Controls.Add(Me.Label19)
-        Me.GroupBox6.ForeColor = System.Drawing.Color.Black
-        Me.GroupBox6.Location = New System.Drawing.Point(411, 237)
-        Me.GroupBox6.Name = "GroupBox6"
-        Me.GroupBox6.Size = New System.Drawing.Size(196, 52)
-        Me.GroupBox6.TabIndex = 25
-        Me.GroupBox6.TabStop = False
-        Me.GroupBox6.Text = "Disk Info:"
-        Me.GroupBox6.Visible = False
-        '
-        'TextBox12
-        '
-        Me.TextBox12.BackColor = System.Drawing.Color.Gray
-        Me.TextBox12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox12.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox12.ForeColor = System.Drawing.Color.Black
-        Me.TextBox12.Location = New System.Drawing.Point(102, 21)
-        Me.TextBox12.Name = "TextBox12"
-        Me.TextBox12.ReadOnly = True
-        Me.TextBox12.Size = New System.Drawing.Size(83, 23)
-        Me.TextBox12.TabIndex = 1
-        Me.TextBox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'Label19
-        '
-        Me.Label19.AutoSize = True
-        Me.Label19.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label19.Location = New System.Drawing.Point(13, 23)
-        Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(83, 15)
-        Me.Label19.TabIndex = 0
-        Me.Label19.Text = "C:  Free Space:"
-        '
         'Timer1
         '
-        '
-        'GroupBox9
-        '
-        Me.GroupBox9.Controls.Add(Me.Label21)
-        Me.GroupBox9.Controls.Add(Me.PictureBox1)
-        Me.GroupBox9.Controls.Add(Me.Button5)
-        Me.GroupBox9.Controls.Add(Me.pingButton)
-        Me.GroupBox9.ForeColor = System.Drawing.Color.Black
-        Me.GroupBox9.Location = New System.Drawing.Point(411, 166)
-        Me.GroupBox9.Name = "GroupBox9"
-        Me.GroupBox9.Size = New System.Drawing.Size(196, 65)
-        Me.GroupBox9.TabIndex = 26
-        Me.GroupBox9.TabStop = False
-        Me.GroupBox9.Visible = False
-        '
-        'Label21
-        '
-        Me.Label21.AutoSize = True
-        Me.Label21.Location = New System.Drawing.Point(8, 29)
-        Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(121, 15)
-        Me.Label21.TabIndex = 7
-        Me.Label21.Text = "Update Server Online:"
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox1.Location = New System.Drawing.Point(141, 12)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(49, 49)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
-        Me.PictureBox1.TabIndex = 6
-        Me.PictureBox1.TabStop = False
-        '
-        'Button5
-        '
-        Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.Location = New System.Drawing.Point(238, 33)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(61, 23)
-        Me.Button5.TabIndex = 5
-        Me.Button5.Text = "Stop"
-        Me.Button5.UseVisualStyleBackColor = True
-        '
-        'pingButton
-        '
-        Me.pingButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.pingButton.Location = New System.Drawing.Point(238, 10)
-        Me.pingButton.Name = "pingButton"
-        Me.pingButton.Size = New System.Drawing.Size(61, 23)
-        Me.pingButton.TabIndex = 2
-        Me.pingButton.Text = "Ping"
-        Me.pingButton.UseVisualStyleBackColor = True
         '
         'Debuging
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Gray
-        Me.ClientSize = New System.Drawing.Size(638, 392)
-        Me.Controls.Add(Me.GroupBox9)
-        Me.Controls.Add(Me.GroupBox6)
+        Me.ClientSize = New System.Drawing.Size(617, 392)
         Me.Controls.Add(Me.GroupBox7)
         Me.Controls.Add(Me.GroupBox1)
         Me.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -675,11 +573,6 @@ Partial Class Debuging
         CType(Me.PerformanceCounter3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PerformanceCounter4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PerformanceCounterRAM, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupBox6.ResumeLayout(False)
-        Me.GroupBox6.PerformLayout()
-        Me.GroupBox9.ResumeLayout(False)
-        Me.GroupBox9.PerformLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -727,13 +620,5 @@ Partial Class Debuging
     Friend WithEvents PerformanceCounter3 As System.Diagnostics.PerformanceCounter
     Friend WithEvents PerformanceCounter4 As System.Diagnostics.PerformanceCounter
     Friend WithEvents PerformanceCounterRAM As System.Diagnostics.PerformanceCounter
-    Friend WithEvents GroupBox6 As System.Windows.Forms.GroupBox
-    Friend WithEvents TextBox12 As System.Windows.Forms.TextBox
-    Friend WithEvents Label19 As System.Windows.Forms.Label
     Friend WithEvents Timer1 As System.Windows.Forms.Timer
-    Friend WithEvents GroupBox9 As System.Windows.Forms.GroupBox
-    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
-    Friend WithEvents Button5 As System.Windows.Forms.Button
-    Friend WithEvents pingButton As System.Windows.Forms.Button
-    Friend WithEvents Label21 As System.Windows.Forms.Label
 End Class

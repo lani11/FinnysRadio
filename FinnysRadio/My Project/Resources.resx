@@ -124,14 +124,8 @@
   <data name="_ME" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Pics\About-Me\ME.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="twitter_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Pics\Social-Icons\twitter_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Play" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Pics\Play-Controls\Play.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="google_plus_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Pics\Social-Icons\google_plus_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="TRFM" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Pics\Radio-Logos\TRFM.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -148,17 +142,11 @@
   <data name="TripleM" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Pics\Radio-Logos\TripleM.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Finnysgames_Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Pics\Social-Icons\Finnysgames Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="ABC" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Pics\Radio-Logos\ABC.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="iconORANGE" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Pics\iconORANGE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="facebook_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Pics\Social-Icons\facebook_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Gold104" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Pics\Radio-Logos\Gold104.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -196,10 +184,22 @@
   <data name="Gold_1242" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Pics\Radio-Logos\Gold-1242.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="github_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Pics\Social-Icons\github_logo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="iconGRAY" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Pics\iconGRAY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="facebook_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pics\Social-Icons\facebook_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="github_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pics\Social-Icons\github_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gmail_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pics\Social-Icons\gmail_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="google_plus_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pics\Social-Icons\google_plus_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="twitter_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pics\Social-Icons\twitter_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

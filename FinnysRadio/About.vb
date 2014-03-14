@@ -1,6 +1,4 @@
-﻿'Imports Outlook = Microsoft.Office.Interop.Outlook
-
-Public Class About
+﻿Public Class About
 
     Private Sub About_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Dim MyVer As String = My.Application.Info.Version.ToString
@@ -8,7 +6,7 @@ Public Class About
     End Sub
 
     'Email Sender
-    Private Sub LinkLabel2_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel2.LinkClicked
+    Private Sub PictureBox7_Click(sender As Object, e As EventArgs) Handles PictureBox7.Click
         'finnysgames@gmail.com
         'finnyscomputers@gmail.com
         'cameronfindlay123456789@gamil.com
@@ -26,8 +24,16 @@ Public Class About
         objApp = Nothing
     End Sub
 
-    Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
+    Private Sub PictureBox5_Click(sender As Object, e As EventArgs) Handles PictureBox5.Click
         'Opens My Website Page
         System.Diagnostics.Process.Start("http://finnyscomputers.webs.com")
+    End Sub
+
+    Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
+        System.Diagnostics.Process.Start("https://plus.google.com/u/0/+derrickfindlay/about")
+    End Sub
+
+    Private Sub LinkLabel2_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel2.LinkClicked
+        System.Diagnostics.Process.Start("https://plus.google.com/u/0/103430161774735132249/about")
     End Sub
 End Class

@@ -144,12 +144,6 @@
     <Compile Include="Debuging.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Form1.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Main.Designer.vb">
       <DependentUpon>Main.vb</DependentUpon>
     </Compile>
@@ -191,12 +185,6 @@
     <Compile Include="Scanner.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Updater.Designer.vb">
-      <DependentUpon>Updater.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Updater.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -236,9 +224,6 @@
     <EmbeddedResource Include="Debuging.resx">
       <DependentUpon>Debuging.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.vb</DependentUpon>
     </EmbeddedResource>
@@ -256,9 +241,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Scanner.resx">
       <DependentUpon>Scanner.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Updater.resx">
-      <DependentUpon>Updater.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -288,6 +270,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Pics\Social-Icons\gmail_logo.png" />
+    <None Include="Pics\Social-Icons\github_logo.png" />
     <None Include="Pics\Social-Icons\github_logo.jpg" />
     <None Include="Pics\Social-Icons\finnys_computers.jpg" />
     <None Include="Pics\iconORANGE.png" />

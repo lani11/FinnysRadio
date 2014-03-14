@@ -2,7 +2,6 @@
 
     Dim username = My.User.Name
 
-    'My.Settings.Changelog.Add(CheckBox1.Checked.ToString)
     Private Sub Changlog_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         username = username.Substring(username.IndexOf("\"), username.Length - username.IndexOf("\"))
 

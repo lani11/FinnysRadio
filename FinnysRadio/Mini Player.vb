@@ -107,13 +107,6 @@
         Process.Start("C:\Windows\System32\SndVol")
     End Sub
 
-    Private Sub Button20_Click(sender As Object, e As EventArgs) Handles Button20.Click
-        'Full Mode
-        Me.Hide()
-        Main.Show()
-    End Sub
-
-
     'Radio Stations Buttons
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Main.GroupBox1.Hide()

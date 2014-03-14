@@ -4,7 +4,6 @@
 
 Imports System.Runtime.InteropServices
 Imports System
-'Imports Outlook = Microsoft.Office.Interop.Outlook
 
 Public Class Main
 
@@ -59,7 +58,7 @@ Public Class Main
                     Me.Hide()
                     Program_Update_Available.Show()
                 Else
-                    'MsgBox("Program Is Update to Date")
+
                 End If
             End If
         End If

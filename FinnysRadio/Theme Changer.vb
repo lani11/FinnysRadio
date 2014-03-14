@@ -6,8 +6,6 @@
         ComboBox1.SelectedIndex = 0
         ComboBox2.SelectedIndex = 0
         ComboBox3.SelectedIndex = 0
-
-        'Helper.Show()
     End Sub
 
     Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
@@ -19,11 +17,11 @@
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Main.Label96.ForeColor = Color.Orange
-        Main.TIMEToolStripMenuItem.ForeColor = Color.Orange
-        Main.Label95.ForeColor = Color.Orange
-        Main.DATEToolStripMenuItem.ForeColor = Color.Orange
-        Main.BackColor = Color.Black
+        Main.Label96.ForeColor = Color.Lime
+        Main.TIMEToolStripMenuItem.ForeColor = Color.Lime
+        Main.Label95.ForeColor = Color.Lime
+        Main.DATEToolStripMenuItem.ForeColor = Color.Lime
+        Main.BackColor = Color.Gray
         Main.Label99.ForeColor = Color.White
         ComboBox1.SelectedIndex = 0
         ComboBox2.SelectedIndex = 0

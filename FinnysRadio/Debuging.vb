@@ -21,11 +21,6 @@
         TextBox10.Text = My.Computer.Info.TotalPhysicalMemory
         TextBox11.Text = My.Computer.Info.AvailablePhysicalMemory
 
-        'Free Disk Space
-        'Dim freespaceC As Long
-        'freespaceC = My.Computer.FileSystem.GetDriveInfo("C:\").AvailableFreeSpace / 1000000000
-        'TextBox12.Text = freespaceC & ".0 GB Left"
-
         'CPU & RAM Usage
         ProgressBar1.Value = PerformanceCounter1.NextValue
         ProgressBar2.Value = PerformanceCounter2.NextValue
@@ -38,13 +33,5 @@
 
         ProgressBar5.Value = PerformanceCounterRAM.NextValue
         Label27.Text = ProgressBar5.Value.ToString + "%"
-
-        'Update Sever Online Checker
-        'Ip = "192.168.1.16"
-        'If My.Computer.Network.Ping(Ip) Then
-        'PictureBox1.Image = My.Resources.Green_Tick
-        'Else
-        'PictureBox1.Image = My.Resources.Red_cross
-        'End If
     End Sub
 End Class
