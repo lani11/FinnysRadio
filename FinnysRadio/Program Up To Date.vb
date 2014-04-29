@@ -25,9 +25,13 @@
                 System.Diagnostics.Process.Start("C:\Users\" & username & "\AppData\Roaming\Finnys Radio\Setup_Beta.exe")
                 Main.Close()
             End If
-        Else
-            If My.Computer.FileSystem.FileExists("C:\Users\" & username & "\AppData\Roaming\Finnys Radio\Setup.exe") Then
-                My.Computer.FileSystem.DeleteFile("C:\Users\" & username & "\AppData\Roaming\Finnys Radio\Setup.exe")
+        End If
+
+        If CheckBox1.Checked = False Then
+            If My.Computer.FileSystem.FileExists("\\SERVER-PC\Network Drive 1\Programs\FinnysRadio\Setup.exe") Then
+                If My.Computer.FileSystem.FileExists("C:\Users\" & username & "\AppData\Roaming\Finnys Radio\Setup.exe") Then
+                    My.Computer.FileSystem.DeleteFile("C:\Users\" & username & "\AppData\Roaming\Finnys Radio\Setup.exe")
+                End If
             End If
             My.Computer.FileSystem.CopyFile("\\SERVER-PC\Network Drive 1\Programs\FinnysRadio\Setup.exe", "C:\Users\" & username & "\AppData\Roaming\Finnys Radio\Setup.exe")
             System.Diagnostics.Process.Start("C:\Users\" & username & "\AppData\Roaming\Finnys Radio\Setup.exe")
