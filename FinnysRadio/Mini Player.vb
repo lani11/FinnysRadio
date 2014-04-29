@@ -60,6 +60,10 @@
         Main.Label17.ForeColor = Color.Red
         Main.Label18.ForeColor = Color.Red
         Main.Label19.ForeColor = Color.Red
+        Main.Label20.ForeColor = Color.Red
+        Main.Label21.ForeColor = Color.Red
+        Main.Label22.ForeColor = Color.Red
+        Main.Label23.ForeColor = Color.Red
 
         Label1.ForeColor = Color.Red
         Label2.ForeColor = Color.Red
@@ -80,6 +84,10 @@
         Label17.ForeColor = Color.Red
         Label18.ForeColor = Color.Red
         Label19.ForeColor = Color.Red
+        Label20.ForeColor = Color.Red
+        Label21.ForeColor = Color.Red
+        Label22.ForeColor = Color.Red
+        Label23.ForeColor = Color.Red
 
         Main.ABCClassicFMToolStripMenuItem.BackColor = Color.WhiteSmoke
         Main.ABCCountryToolStripMenuItem.BackColor = Color.WhiteSmoke
@@ -129,6 +137,10 @@
         Label17.ForeColor = Color.Red
         Label18.ForeColor = Color.Red
         Label19.ForeColor = Color.Red
+        Label20.ForeColor = Color.Red
+        Label21.ForeColor = Color.Red
+        Label22.ForeColor = Color.Red
+        Label23.ForeColor = Color.Red
 
         Main.Label1.ForeColor = Color.Lime
         Main.Label2.ForeColor = Color.Red
@@ -149,6 +161,10 @@
         Main.Label17.ForeColor = Color.Red
         Main.Label18.ForeColor = Color.Red
         Main.Label19.ForeColor = Color.Red
+        Main.Label20.ForeColor = Color.Red
+        Main.Label21.ForeColor = Color.Red
+        Main.Label22.ForeColor = Color.Red
+        Main.Label23.ForeColor = Color.Red
 
         Main.WebBrowser1.Navigate("http://www.abc.net.au/classic/player/")
         Main.TextBox1.Text = "http://www.abc.net.au/classic/player/"
@@ -175,6 +191,10 @@
         Main.TripleJToolStripMenuItem.BackColor = Color.WhiteSmoke
         Main.TripleJUnearthedToolStripMenuItem.BackColor = Color.WhiteSmoke
         Main.TripleMToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio1ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio2ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio3ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio4ToolStripMenuItem.BackColor = Color.WhiteSmoke
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
@@ -198,6 +218,10 @@
         Label17.ForeColor = Color.Red
         Label18.ForeColor = Color.Red
         Label19.ForeColor = Color.Red
+        Label20.ForeColor = Color.Red
+        Label21.ForeColor = Color.Red
+        Label22.ForeColor = Color.Red
+        Label23.ForeColor = Color.Red
 
         Main.Label1.ForeColor = Color.Red
         Main.Label2.ForeColor = Color.Lime
@@ -218,6 +242,10 @@
         Main.Label17.ForeColor = Color.Red
         Main.Label18.ForeColor = Color.Red
         Main.Label19.ForeColor = Color.Red
+        Main.Label20.ForeColor = Color.Red
+        Main.Label21.ForeColor = Color.Red
+        Main.Label22.ForeColor = Color.Red
+        Main.Label23.ForeColor = Color.Red
 
         Main.WebBrowser1.Navigate("http://abccountry.net.au/player-popup.htm")
         Main.TextBox1.Text = "http://abccountry.net.au/player-popup.htm"
@@ -243,6 +271,10 @@
         Main.TripleJToolStripMenuItem.BackColor = Color.WhiteSmoke
         Main.TripleJUnearthedToolStripMenuItem.BackColor = Color.WhiteSmoke
         Main.TripleMToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio1ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio2ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio3ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio4ToolStripMenuItem.BackColor = Color.WhiteSmoke
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
@@ -266,6 +298,10 @@
         Label17.ForeColor = Color.Red
         Label18.ForeColor = Color.Red
         Label19.ForeColor = Color.Red
+        Label20.ForeColor = Color.Red
+        Label21.ForeColor = Color.Red
+        Label22.ForeColor = Color.Red
+        Label23.ForeColor = Color.Red
 
         Main.Label1.ForeColor = Color.Red
         Main.Label2.ForeColor = Color.Red
@@ -286,6 +322,10 @@
         Main.Label17.ForeColor = Color.Red
         Main.Label18.ForeColor = Color.Red
         Main.Label19.ForeColor = Color.Red
+        Main.Label20.ForeColor = Color.Red
+        Main.Label21.ForeColor = Color.Red
+        Main.Label22.ForeColor = Color.Red
+        Main.Label23.ForeColor = Color.Red
 
         Main.WebBrowser1.Navigate("http://abcdigmusic.net.au/player-popup.htm")
         Main.TextBox1.Text = "http://abcdigmusic.net.au/player-popup.htm"
@@ -311,6 +351,10 @@
         Main.TripleJToolStripMenuItem.BackColor = Color.WhiteSmoke
         Main.TripleJUnearthedToolStripMenuItem.BackColor = Color.WhiteSmoke
         Main.TripleMToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio1ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio2ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio3ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio4ToolStripMenuItem.BackColor = Color.WhiteSmoke
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
@@ -334,6 +378,10 @@
         Label17.ForeColor = Color.Red
         Label18.ForeColor = Color.Red
         Label19.ForeColor = Color.Red
+        Label20.ForeColor = Color.Red
+        Label21.ForeColor = Color.Red
+        Label22.ForeColor = Color.Red
+        Label23.ForeColor = Color.Red
 
         Main.Label1.ForeColor = Color.Red
         Main.Label2.ForeColor = Color.Red
@@ -354,6 +402,10 @@
         Main.Label17.ForeColor = Color.Red
         Main.Label18.ForeColor = Color.Red
         Main.Label19.ForeColor = Color.Red
+        Main.Label20.ForeColor = Color.Red
+        Main.Label21.ForeColor = Color.Red
+        Main.Label22.ForeColor = Color.Red
+        Main.Label23.ForeColor = Color.Red
 
         Main.WebBrowser1.Navigate("http://www.abc.net.au/local/players/internet_radio.htm?streamFile=extra")
         Main.TextBox1.Text = "http://www.abc.net.au/local/players/internet_radio.htm?streamFile=extra"
@@ -379,6 +431,10 @@
         Main.TripleJToolStripMenuItem.BackColor = Color.WhiteSmoke
         Main.TripleJUnearthedToolStripMenuItem.BackColor = Color.WhiteSmoke
         Main.TripleMToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio1ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio2ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio3ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio4ToolStripMenuItem.BackColor = Color.WhiteSmoke
     End Sub
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
@@ -402,6 +458,10 @@
         Label17.ForeColor = Color.Red
         Label18.ForeColor = Color.Red
         Label19.ForeColor = Color.Red
+        Label20.ForeColor = Color.Red
+        Label21.ForeColor = Color.Red
+        Label22.ForeColor = Color.Red
+        Label23.ForeColor = Color.Red
 
         Main.Label1.ForeColor = Color.Red
         Main.Label2.ForeColor = Color.Red
@@ -422,6 +482,10 @@
         Main.Label17.ForeColor = Color.Red
         Main.Label18.ForeColor = Color.Red
         Main.Label19.ForeColor = Color.Red
+        Main.Label20.ForeColor = Color.Red
+        Main.Label21.ForeColor = Color.Red
+        Main.Label22.ForeColor = Color.Red
+        Main.Label23.ForeColor = Color.Red
 
         Main.WebBrowser1.Navigate("http://abcjazz.net.au/player-popup.htm")
         Main.TextBox1.Text = "http://abcjazz.net.au/player-popup.htm"
@@ -447,6 +511,10 @@
         Main.TripleJToolStripMenuItem.BackColor = Color.WhiteSmoke
         Main.TripleJUnearthedToolStripMenuItem.BackColor = Color.WhiteSmoke
         Main.TripleMToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio1ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio2ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio3ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio4ToolStripMenuItem.BackColor = Color.WhiteSmoke
     End Sub
 
     Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
@@ -470,6 +538,10 @@
         Label17.ForeColor = Color.Red
         Label18.ForeColor = Color.Red
         Label19.ForeColor = Color.Red
+        Label20.ForeColor = Color.Red
+        Label21.ForeColor = Color.Red
+        Label22.ForeColor = Color.Red
+        Label23.ForeColor = Color.Red
 
         Main.Label1.ForeColor = Color.Red
         Main.Label2.ForeColor = Color.Red
@@ -490,6 +562,10 @@
         Main.Label17.ForeColor = Color.Red
         Main.Label18.ForeColor = Color.Red
         Main.Label19.ForeColor = Color.Red
+        Main.Label20.ForeColor = Color.Red
+        Main.Label21.ForeColor = Color.Red
+        Main.Label22.ForeColor = Color.Red
+        Main.Label23.ForeColor = Color.Red
 
         Main.WebBrowser1.Navigate("http://www.abc.net.au/newsradio/audio/streaming.htm")
         Main.TextBox1.Text = "http://www.abc.net.au/newsradio/audio/streaming.htm"
@@ -515,6 +591,10 @@
         Main.TripleJToolStripMenuItem.BackColor = Color.WhiteSmoke
         Main.TripleJUnearthedToolStripMenuItem.BackColor = Color.WhiteSmoke
         Main.TripleMToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio1ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio2ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio3ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio4ToolStripMenuItem.BackColor = Color.WhiteSmoke
     End Sub
 
     Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
@@ -538,6 +618,10 @@
         Label17.ForeColor = Color.Red
         Label18.ForeColor = Color.Red
         Label19.ForeColor = Color.Red
+        Label20.ForeColor = Color.Red
+        Label21.ForeColor = Color.Red
+        Label22.ForeColor = Color.Red
+        Label23.ForeColor = Color.Red
 
         Main.Label1.ForeColor = Color.Red
         Main.Label2.ForeColor = Color.Red
@@ -558,6 +642,10 @@
         Main.Label17.ForeColor = Color.Red
         Main.Label18.ForeColor = Color.Red
         Main.Label19.ForeColor = Color.Red
+        Main.Label20.ForeColor = Color.Red
+        Main.Label21.ForeColor = Color.Red
+        Main.Label22.ForeColor = Color.Red
+        Main.Label23.ForeColor = Color.Red
 
         Main.WebBrowser1.Navigate("http://www.radioaustralia.net.au/listen/")
         Main.TextBox1.Text = "http://www.radioaustralia.net.au/listen/"
@@ -583,6 +671,10 @@
         Main.TripleJToolStripMenuItem.BackColor = Color.WhiteSmoke
         Main.TripleJUnearthedToolStripMenuItem.BackColor = Color.WhiteSmoke
         Main.TripleMToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio1ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio2ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio3ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio4ToolStripMenuItem.BackColor = Color.WhiteSmoke
     End Sub
 
     Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
@@ -606,6 +698,10 @@
         Label17.ForeColor = Color.Red
         Label18.ForeColor = Color.Red
         Label19.ForeColor = Color.Red
+        Label20.ForeColor = Color.Red
+        Label21.ForeColor = Color.Red
+        Label22.ForeColor = Color.Red
+        Label23.ForeColor = Color.Red
 
         Main.Label1.ForeColor = Color.Red
         Main.Label2.ForeColor = Color.Red
@@ -626,6 +722,10 @@
         Main.Label17.ForeColor = Color.Red
         Main.Label18.ForeColor = Color.Red
         Main.Label19.ForeColor = Color.Red
+        Main.Label20.ForeColor = Color.Red
+        Main.Label21.ForeColor = Color.Red
+        Main.Label22.ForeColor = Color.Red
+        Main.Label23.ForeColor = Color.Red
 
         Main.WebBrowser1.Navigate("http://www.abc.net.au/rn/legacy/player.htm")
         Main.TextBox1.Text = "http://www.abc.net.au/rn/legacy/player.htm"
@@ -651,6 +751,10 @@
         Main.TripleJToolStripMenuItem.BackColor = Color.WhiteSmoke
         Main.TripleJUnearthedToolStripMenuItem.BackColor = Color.WhiteSmoke
         Main.TripleMToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio1ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio2ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio3ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio4ToolStripMenuItem.BackColor = Color.WhiteSmoke
     End Sub
 
     Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
@@ -674,6 +778,10 @@
         Label17.ForeColor = Color.Red
         Label18.ForeColor = Color.Red
         Label19.ForeColor = Color.Red
+        Label20.ForeColor = Color.Red
+        Label21.ForeColor = Color.Red
+        Label22.ForeColor = Color.Red
+        Label23.ForeColor = Color.Red
 
         Main.Label1.ForeColor = Color.Red
         Main.Label2.ForeColor = Color.Red
@@ -694,6 +802,10 @@
         Main.Label17.ForeColor = Color.Red
         Main.Label18.ForeColor = Color.Red
         Main.Label19.ForeColor = Color.Red
+        Main.Label20.ForeColor = Color.Red
+        Main.Label21.ForeColor = Color.Red
+        Main.Label22.ForeColor = Color.Red
+        Main.Label23.ForeColor = Color.Red
 
         Main.WebBrowser1.Navigate("http://right-click.com.au/rcPlayer/index.php?c=gippslandfm")
         Main.TextBox1.Text = "http://right-click.com.au/rcPlayer/index.php?c=gippslandfm"
@@ -719,6 +831,10 @@
         Main.TripleJToolStripMenuItem.BackColor = Color.WhiteSmoke
         Main.TripleJUnearthedToolStripMenuItem.BackColor = Color.WhiteSmoke
         Main.TripleMToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio1ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio2ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio3ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio4ToolStripMenuItem.BackColor = Color.WhiteSmoke
     End Sub
 
     Private Sub Button10_Click(sender As Object, e As EventArgs) Handles Button10.Click
@@ -742,6 +858,10 @@
         Label17.ForeColor = Color.Red
         Label18.ForeColor = Color.Red
         Label19.ForeColor = Color.Red
+        Label20.ForeColor = Color.Red
+        Label21.ForeColor = Color.Red
+        Label22.ForeColor = Color.Red
+        Label23.ForeColor = Color.Red
 
         Main.Label1.ForeColor = Color.Red
         Main.Label2.ForeColor = Color.Red
@@ -762,6 +882,10 @@
         Main.Label17.ForeColor = Color.Red
         Main.Label18.ForeColor = Color.Red
         Main.Label19.ForeColor = Color.Red
+        Main.Label20.ForeColor = Color.Red
+        Main.Label21.ForeColor = Color.Red
+        Main.Label22.ForeColor = Color.Red
+        Main.Label23.ForeColor = Color.Red
 
         'WebBrowser1.Navigate("http://www.countrymusicradio.com.au/CMR_Online.cfm")
         Main.WebBrowser1.Navigate("http://www.countrymusicradio.com.au/")
@@ -789,6 +913,10 @@
         Main.TripleJToolStripMenuItem.BackColor = Color.WhiteSmoke
         Main.TripleJUnearthedToolStripMenuItem.BackColor = Color.WhiteSmoke
         Main.TripleMToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio1ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio2ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio3ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio4ToolStripMenuItem.BackColor = Color.WhiteSmoke
     End Sub
 
     Private Sub Button11_Click(sender As Object, e As EventArgs) Handles Button11.Click
@@ -812,6 +940,10 @@
         Label17.ForeColor = Color.Red
         Label18.ForeColor = Color.Red
         Label19.ForeColor = Color.Red
+        Label20.ForeColor = Color.Red
+        Label21.ForeColor = Color.Red
+        Label22.ForeColor = Color.Red
+        Label23.ForeColor = Color.Red
 
         Main.Label1.ForeColor = Color.Red
         Main.Label2.ForeColor = Color.Red
@@ -832,6 +964,10 @@
         Main.Label17.ForeColor = Color.Red
         Main.Label18.ForeColor = Color.Red
         Main.Label19.ForeColor = Color.Red
+        Main.Label20.ForeColor = Color.Red
+        Main.Label21.ForeColor = Color.Red
+        Main.Label22.ForeColor = Color.Red
+        Main.Label23.ForeColor = Color.Red
 
         'WebBrowser1.Navigate("http://player.arn.com.au/gold1043.aspx")
         'TextBox1.Text = "http://player.arn.com.au/gold1043.aspx"
@@ -858,6 +994,10 @@
         Main.TripleJToolStripMenuItem.BackColor = Color.WhiteSmoke
         Main.TripleJUnearthedToolStripMenuItem.BackColor = Color.WhiteSmoke
         Main.TripleMToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio1ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio2ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio3ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio4ToolStripMenuItem.BackColor = Color.WhiteSmoke
     End Sub
 
     Private Sub Button12_Click(sender As Object, e As EventArgs) Handles Button12.Click
@@ -881,6 +1021,10 @@
         Label17.ForeColor = Color.Red
         Label18.ForeColor = Color.Red
         Label19.ForeColor = Color.Red
+        Label20.ForeColor = Color.Red
+        Label21.ForeColor = Color.Red
+        Label22.ForeColor = Color.Red
+        Label23.ForeColor = Color.Red
 
         Main.Label1.ForeColor = Color.Red
         Main.Label2.ForeColor = Color.Red
@@ -901,6 +1045,10 @@
         Main.Label17.ForeColor = Color.Red
         Main.Label18.ForeColor = Color.Red
         Main.Label19.ForeColor = Color.Red
+        Main.Label20.ForeColor = Color.Red
+        Main.Label21.ForeColor = Color.Red
+        Main.Label22.ForeColor = Color.Red
+        Main.Label23.ForeColor = Color.Red
 
         Main.WebBrowser1.Navigate("http://player.streamtheworld.com/_players/aceradiobroadcast/?market=gippsland&callsign=GOLD1242")
         Main.TextBox1.Text = "http://player.streamtheworld.com/_players/aceradiobroadcast/?market=gippsland&callsign=GOLD1242"
@@ -926,6 +1074,10 @@
         Main.TripleJToolStripMenuItem.BackColor = Color.WhiteSmoke
         Main.TripleJUnearthedToolStripMenuItem.BackColor = Color.WhiteSmoke
         Main.TripleMToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio1ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio2ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio3ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio4ToolStripMenuItem.BackColor = Color.WhiteSmoke
     End Sub
 
     Private Sub Button13_Click(sender As Object, e As EventArgs) Handles Button13.Click
@@ -949,6 +1101,10 @@
         Label17.ForeColor = Color.Red
         Label18.ForeColor = Color.Red
         Label19.ForeColor = Color.Red
+        Label20.ForeColor = Color.Red
+        Label21.ForeColor = Color.Red
+        Label22.ForeColor = Color.Red
+        Label23.ForeColor = Color.Red
 
         Main.Label1.ForeColor = Color.Red
         Main.Label2.ForeColor = Color.Red
@@ -969,6 +1125,10 @@
         Main.Label17.ForeColor = Color.Red
         Main.Label18.ForeColor = Color.Red
         Main.Label19.ForeColor = Color.Red
+        Main.Label20.ForeColor = Color.Red
+        Main.Label21.ForeColor = Color.Red
+        Main.Label22.ForeColor = Color.Red
+        Main.Label23.ForeColor = Color.Red
 
         Main.WebBrowser1.Navigate("http://www.kidsfm.com.au/")
         Main.TextBox1.Text = "http://www.kidsfm.com.au/"
@@ -994,6 +1154,10 @@
         Main.TripleJToolStripMenuItem.BackColor = Color.WhiteSmoke
         Main.TripleJUnearthedToolStripMenuItem.BackColor = Color.WhiteSmoke
         Main.TripleMToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio1ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio2ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio3ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio4ToolStripMenuItem.BackColor = Color.WhiteSmoke
     End Sub
 
     Private Sub Button14_Click(sender As Object, e As EventArgs) Handles Button14.Click
@@ -1017,6 +1181,10 @@
         Label17.ForeColor = Color.Red
         Label18.ForeColor = Color.Red
         Label19.ForeColor = Color.Red
+        Label20.ForeColor = Color.Red
+        Label21.ForeColor = Color.Red
+        Label22.ForeColor = Color.Red
+        Label23.ForeColor = Color.Red
 
         Main.Label1.ForeColor = Color.Red
         Main.Label2.ForeColor = Color.Red
@@ -1037,6 +1205,10 @@
         Main.Label17.ForeColor = Color.Red
         Main.Label18.ForeColor = Color.Red
         Main.Label19.ForeColor = Color.Red
+        Main.Label20.ForeColor = Color.Red
+        Main.Label21.ForeColor = Color.Red
+        Main.Label22.ForeColor = Color.Red
+        Main.Label23.ForeColor = Color.Red
 
         'WebBrowser1.Navigate("http://www.myspace.com/music/player")
         'TextBox1.Text = "http://www.myspace.com/music/player"
@@ -1063,6 +1235,10 @@
         Main.TripleJToolStripMenuItem.BackColor = Color.WhiteSmoke
         Main.TripleJUnearthedToolStripMenuItem.BackColor = Color.WhiteSmoke
         Main.TripleMToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio1ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio2ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio3ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio4ToolStripMenuItem.BackColor = Color.WhiteSmoke
     End Sub
 
     Private Sub Button15_Click(sender As Object, e As EventArgs) Handles Button15.Click
@@ -1086,6 +1262,10 @@
         Label17.ForeColor = Color.Red
         Label18.ForeColor = Color.Red
         Label19.ForeColor = Color.Red
+        Label20.ForeColor = Color.Red
+        Label21.ForeColor = Color.Red
+        Label22.ForeColor = Color.Red
+        Label23.ForeColor = Color.Red
 
         Main.Label1.ForeColor = Color.Red
         Main.Label2.ForeColor = Color.Red
@@ -1106,6 +1286,10 @@
         Main.Label17.ForeColor = Color.Red
         Main.Label18.ForeColor = Color.Red
         Main.Label19.ForeColor = Color.Red
+        Main.Label20.ForeColor = Color.Red
+        Main.Label21.ForeColor = Color.Red
+        Main.Label22.ForeColor = Color.Red
+        Main.Label23.ForeColor = Color.Red
 
         Main.WebBrowser1.Navigate("http://www.star1045.com.au/player.aspx")
         Main.TextBox1.Text = "http://www.star1045.com.au/player.aspx"
@@ -1131,6 +1315,10 @@
         Main.TripleJToolStripMenuItem.BackColor = Color.WhiteSmoke
         Main.TripleJUnearthedToolStripMenuItem.BackColor = Color.WhiteSmoke
         Main.TripleMToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio1ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio2ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio3ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio4ToolStripMenuItem.BackColor = Color.WhiteSmoke
     End Sub
 
     Private Sub Button16_Click(sender As Object, e As EventArgs) Handles Button16.Click
@@ -1154,6 +1342,10 @@
         Label17.ForeColor = Color.Red
         Label18.ForeColor = Color.Red
         Label19.ForeColor = Color.Red
+        Label20.ForeColor = Color.Red
+        Label21.ForeColor = Color.Red
+        Label22.ForeColor = Color.Red
+        Label23.ForeColor = Color.Red
 
         Main.Label1.ForeColor = Color.Red
         Main.Label2.ForeColor = Color.Red
@@ -1174,6 +1366,10 @@
         Main.Label17.ForeColor = Color.Red
         Main.Label18.ForeColor = Color.Red
         Main.Label19.ForeColor = Color.Red
+        Main.Label20.ForeColor = Color.Red
+        Main.Label21.ForeColor = Color.Red
+        Main.Label22.ForeColor = Color.Red
+        Main.Label23.ForeColor = Color.Red
 
         Main.WebBrowser1.Navigate("http://player.streamtheworld.com/_players/aceradiobroadcast/?market=gippsland&callsign=TRFM")
         Main.TextBox1.Text = "http://player.streamtheworld.com/_players/aceradiobroadcast/?market=gippsland&callsign=TRFM"
@@ -1199,6 +1395,10 @@
         Main.TripleJToolStripMenuItem.BackColor = Color.WhiteSmoke
         Main.TripleJUnearthedToolStripMenuItem.BackColor = Color.WhiteSmoke
         Main.TripleMToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio1ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio2ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio3ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio4ToolStripMenuItem.BackColor = Color.WhiteSmoke
     End Sub
 
     Private Sub Button17_Click(sender As Object, e As EventArgs) Handles Button17.Click
@@ -1222,6 +1422,10 @@
         Label17.ForeColor = Color.Lime
         Label18.ForeColor = Color.Red
         Label19.ForeColor = Color.Red
+        Label20.ForeColor = Color.Red
+        Label21.ForeColor = Color.Red
+        Label22.ForeColor = Color.Red
+        Label23.ForeColor = Color.Red
 
         Main.Label1.ForeColor = Color.Red
         Main.Label2.ForeColor = Color.Red
@@ -1242,6 +1446,10 @@
         Main.Label17.ForeColor = Color.Lime
         Main.Label18.ForeColor = Color.Red
         Main.Label19.ForeColor = Color.Red
+        Main.Label20.ForeColor = Color.Red
+        Main.Label21.ForeColor = Color.Red
+        Main.Label22.ForeColor = Color.Red
+        Main.Label23.ForeColor = Color.Red
 
         Main.WebBrowser1.Navigate("http://www.abc.net.au/triplej/player/triplej.htm")
         Main.WebBrowser1.Navigate("http://www.abc.net.au/triplej/player/triplej.htm")
@@ -1268,6 +1476,10 @@
         Main.TripleJToolStripMenuItem.BackColor = Color.Lime
         Main.TripleJUnearthedToolStripMenuItem.BackColor = Color.WhiteSmoke
         Main.TripleMToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio1ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio2ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio3ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio4ToolStripMenuItem.BackColor = Color.WhiteSmoke
     End Sub
 
     Private Sub Button18_Click(sender As Object, e As EventArgs) Handles Button18.Click
@@ -1291,6 +1503,10 @@
         Label17.ForeColor = Color.Red
         Label18.ForeColor = Color.Lime
         Label19.ForeColor = Color.Red
+        Label20.ForeColor = Color.Red
+        Label21.ForeColor = Color.Red
+        Label22.ForeColor = Color.Red
+        Label23.ForeColor = Color.Red
 
         Main.Label1.ForeColor = Color.Red
         Main.Label2.ForeColor = Color.Red
@@ -1311,6 +1527,10 @@
         Main.Label17.ForeColor = Color.Red
         Main.Label18.ForeColor = Color.Lime
         Main.Label19.ForeColor = Color.Red
+        Main.Label20.ForeColor = Color.Red
+        Main.Label21.ForeColor = Color.Red
+        Main.Label22.ForeColor = Color.Red
+        Main.Label23.ForeColor = Color.Red
 
         Main.WebBrowser1.Navigate("http://www.abc.net.au/triplej/player/unearthed.htm")
         Main.TextBox1.Text = "http://www.abc.net.au/triplej/player/unearthed.htm"
@@ -1336,6 +1556,10 @@
         Main.TripleJToolStripMenuItem.BackColor = Color.WhiteSmoke
         Main.TripleJUnearthedToolStripMenuItem.BackColor = Color.Lime
         Main.TripleMToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio1ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio2ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio3ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio4ToolStripMenuItem.BackColor = Color.WhiteSmoke
     End Sub
 
     Private Sub Button19_Click(sender As Object, e As EventArgs) Handles Button19.Click
@@ -1359,6 +1583,10 @@
         Label17.ForeColor = Color.Red
         Label18.ForeColor = Color.Red
         Label19.ForeColor = Color.Lime
+        Label20.ForeColor = Color.Red
+        Label21.ForeColor = Color.Red
+        Label22.ForeColor = Color.Red
+        Label23.ForeColor = Color.Red
 
         Main.Label1.ForeColor = Color.Red
         Main.Label2.ForeColor = Color.Red
@@ -1379,6 +1607,10 @@
         Main.Label17.ForeColor = Color.Red
         Main.Label18.ForeColor = Color.Red
         Main.Label19.ForeColor = Color.Lime
+        Main.Label20.ForeColor = Color.Red
+        Main.Label21.ForeColor = Color.Red
+        Main.Label22.ForeColor = Color.Red
+        Main.Label23.ForeColor = Color.Red
 
         Main.WebBrowser1.Navigate("http://www.triplem.com.au/melbourne/player/")
         Main.TextBox1.Text = "http://www.triplem.com.au/melbourne/player/"
@@ -1404,5 +1636,329 @@
         Main.TripleJToolStripMenuItem.BackColor = Color.WhiteSmoke
         Main.TripleJUnearthedToolStripMenuItem.BackColor = Color.WhiteSmoke
         Main.TripleMToolStripMenuItem.BackColor = Color.Lime
+        Main.YimagoRadio1ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio2ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio3ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio4ToolStripMenuItem.BackColor = Color.WhiteSmoke
+    End Sub
+
+    Private Sub Button20_Click(sender As Object, e As EventArgs) Handles Button20.Click
+        Main.GroupBox1.Hide()
+        Label1.ForeColor = Color.Red
+        Label2.ForeColor = Color.Red
+        Label3.ForeColor = Color.Red
+        Label4.ForeColor = Color.Red
+        Label5.ForeColor = Color.Red
+        Label6.ForeColor = Color.Red
+        Label7.ForeColor = Color.Red
+        Label8.ForeColor = Color.Red
+        Label9.ForeColor = Color.Red
+        Label10.ForeColor = Color.Red
+        Label11.ForeColor = Color.Red
+        Label12.ForeColor = Color.Red
+        Label13.ForeColor = Color.Red
+        Label14.ForeColor = Color.Red
+        Label15.ForeColor = Color.Red
+        Label16.ForeColor = Color.Red
+        Label17.ForeColor = Color.Red
+        Label18.ForeColor = Color.Red
+        Label19.ForeColor = Color.Red
+        Label20.ForeColor = Color.Lime
+        Label21.ForeColor = Color.Red
+        Label22.ForeColor = Color.Red
+        Label23.ForeColor = Color.Red
+
+        Main.Label1.ForeColor = Color.Red
+        Main.Label2.ForeColor = Color.Red
+        Main.Label3.ForeColor = Color.Red
+        Main.Label4.ForeColor = Color.Red
+        Main.Label5.ForeColor = Color.Red
+        Main.Label6.ForeColor = Color.Red
+        Main.Label7.ForeColor = Color.Red
+        Main.Label8.ForeColor = Color.Red
+        Main.Label9.ForeColor = Color.Red
+        Main.Label10.ForeColor = Color.Red
+        Main.Label11.ForeColor = Color.Red
+        Main.Label12.ForeColor = Color.Red
+        Main.Label13.ForeColor = Color.Red
+        Main.Label14.ForeColor = Color.Red
+        Main.Label15.ForeColor = Color.Red
+        Main.Label16.ForeColor = Color.Red
+        Main.Label17.ForeColor = Color.Red
+        Main.Label18.ForeColor = Color.Red
+        Main.Label19.ForeColor = Color.Red
+        Main.Label20.ForeColor = Color.Lime
+        Main.Label21.ForeColor = Color.Red
+        Main.Label22.ForeColor = Color.Red
+        Main.Label23.ForeColor = Color.Red
+
+        Main.WebBrowser1.Navigate("http://alamo.mediaradioplayer.com/flash.html")
+        Main.TextBox1.Text = "http://alamo.mediaradioplayer.com/flash.html"
+
+        Main.NotifyIcon1.Text = "Finnys Radio-Listen to Yimago Radio 1"
+
+        Main.ABCClassicFMToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.ABCCountryToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.ABCDigMusicToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.MySpaceMusicToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.StarFMToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.TRFMToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.TripleJToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.TripleJUnearthedToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.TripleMToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio1ToolStripMenuItem.BackColor = Color.Lime
+        Main.YimagoRadio2ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio3ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio4ToolStripMenuItem.BackColor = Color.WhiteSmoke
+    End Sub
+
+    Private Sub Button21_Click(sender As Object, e As EventArgs) Handles Button21.Click
+        Main.GroupBox1.Hide()
+        Label1.ForeColor = Color.Red
+        Label2.ForeColor = Color.Red
+        Label3.ForeColor = Color.Red
+        Label4.ForeColor = Color.Red
+        Label5.ForeColor = Color.Red
+        Label6.ForeColor = Color.Red
+        Label7.ForeColor = Color.Red
+        Label8.ForeColor = Color.Red
+        Label9.ForeColor = Color.Red
+        Label10.ForeColor = Color.Red
+        Label11.ForeColor = Color.Red
+        Label12.ForeColor = Color.Red
+        Label13.ForeColor = Color.Red
+        Label14.ForeColor = Color.Red
+        Label15.ForeColor = Color.Red
+        Label16.ForeColor = Color.Red
+        Label17.ForeColor = Color.Red
+        Label18.ForeColor = Color.Red
+        Label19.ForeColor = Color.Red
+        Label20.ForeColor = Color.Red
+        Label21.ForeColor = Color.Lime
+        Label22.ForeColor = Color.Red
+        Label23.ForeColor = Color.Red
+
+        Main.Label1.ForeColor = Color.Red
+        Main.Label2.ForeColor = Color.Red
+        Main.Label3.ForeColor = Color.Red
+        Main.Label4.ForeColor = Color.Red
+        Main.Label5.ForeColor = Color.Red
+        Main.Label6.ForeColor = Color.Red
+        Main.Label7.ForeColor = Color.Red
+        Main.Label8.ForeColor = Color.Red
+        Main.Label9.ForeColor = Color.Red
+        Main.Label10.ForeColor = Color.Red
+        Main.Label11.ForeColor = Color.Red
+        Main.Label12.ForeColor = Color.Red
+        Main.Label13.ForeColor = Color.Red
+        Main.Label14.ForeColor = Color.Red
+        Main.Label15.ForeColor = Color.Red
+        Main.Label16.ForeColor = Color.Red
+        Main.Label17.ForeColor = Color.Red
+        Main.Label18.ForeColor = Color.Red
+        Main.Label19.ForeColor = Color.Red
+        Main.Label20.ForeColor = Color.Red
+        Main.Label21.ForeColor = Color.Lime
+        Main.Label22.ForeColor = Color.Red
+        Main.Label23.ForeColor = Color.Red
+
+        Main.WebBrowser1.Navigate("http://eriador.mediaradioplayer.com/flash.html")
+        Main.TextBox1.Text = "http://eriador.mediaradioplayer.com/flash.html"
+
+        Main.NotifyIcon1.Text = "Finnys Radio-Listen to Yimago Radio 2"
+
+        Main.ABCClassicFMToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.ABCCountryToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.ABCDigMusicToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.MySpaceMusicToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.StarFMToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.TRFMToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.TripleJToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.TripleJUnearthedToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.TripleMToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio1ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio2ToolStripMenuItem.BackColor = Color.Lime
+        Main.YimagoRadio3ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio4ToolStripMenuItem.BackColor = Color.WhiteSmoke
+    End Sub
+
+    Private Sub Button22_Click(sender As Object, e As EventArgs) Handles Button22.Click
+        Main.GroupBox1.Hide()
+        Label1.ForeColor = Color.Red
+        Label2.ForeColor = Color.Red
+        Label3.ForeColor = Color.Red
+        Label4.ForeColor = Color.Red
+        Label5.ForeColor = Color.Red
+        Label6.ForeColor = Color.Red
+        Label7.ForeColor = Color.Red
+        Label8.ForeColor = Color.Red
+        Label9.ForeColor = Color.Red
+        Label10.ForeColor = Color.Red
+        Label11.ForeColor = Color.Red
+        Label12.ForeColor = Color.Red
+        Label13.ForeColor = Color.Red
+        Label14.ForeColor = Color.Red
+        Label15.ForeColor = Color.Red
+        Label16.ForeColor = Color.Red
+        Label17.ForeColor = Color.Red
+        Label18.ForeColor = Color.Red
+        Label19.ForeColor = Color.Red
+        Label20.ForeColor = Color.Red
+        Label21.ForeColor = Color.Red
+        Label22.ForeColor = Color.Lime
+        Label23.ForeColor = Color.Red
+
+        Main.Label1.ForeColor = Color.Red
+        Main.Label2.ForeColor = Color.Red
+        Main.Label3.ForeColor = Color.Red
+        Main.Label4.ForeColor = Color.Red
+        Main.Label5.ForeColor = Color.Red
+        Main.Label6.ForeColor = Color.Red
+        Main.Label7.ForeColor = Color.Red
+        Main.Label8.ForeColor = Color.Red
+        Main.Label9.ForeColor = Color.Red
+        Main.Label10.ForeColor = Color.Red
+        Main.Label11.ForeColor = Color.Red
+        Main.Label12.ForeColor = Color.Red
+        Main.Label13.ForeColor = Color.Red
+        Main.Label14.ForeColor = Color.Red
+        Main.Label15.ForeColor = Color.Red
+        Main.Label16.ForeColor = Color.Red
+        Main.Label17.ForeColor = Color.Red
+        Main.Label18.ForeColor = Color.Red
+        Main.Label19.ForeColor = Color.Red
+        Main.Label20.ForeColor = Color.Red
+        Main.Label21.ForeColor = Color.Red
+        Main.Label22.ForeColor = Color.Lime
+        Main.Label23.ForeColor = Color.Red
+
+        Main.WebBrowser1.Navigate("http://elrond.mediaradioplayer.com/flash.html")
+        Main.TextBox1.Text = "http://elrond.mediaradioplayer.com/flash.html"
+
+        Main.NotifyIcon1.Text = "Finnys Radio-Listen to Yimago Radio 3"
+
+        Main.ABCClassicFMToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.ABCCountryToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.ABCDigMusicToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.MySpaceMusicToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.StarFMToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.TRFMToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.TripleJToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.TripleJUnearthedToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.TripleMToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio1ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio2ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio3ToolStripMenuItem.BackColor = Color.Lime
+        Main.YimagoRadio4ToolStripMenuItem.BackColor = Color.WhiteSmoke
+    End Sub
+
+    Private Sub Button23_Click(sender As Object, e As EventArgs) Handles Button23.Click
+        Main.GroupBox1.Hide()
+        Label1.ForeColor = Color.Red
+        Label2.ForeColor = Color.Red
+        Label3.ForeColor = Color.Red
+        Label4.ForeColor = Color.Red
+        Label5.ForeColor = Color.Red
+        Label6.ForeColor = Color.Red
+        Label7.ForeColor = Color.Red
+        Label8.ForeColor = Color.Red
+        Label9.ForeColor = Color.Red
+        Label10.ForeColor = Color.Red
+        Label11.ForeColor = Color.Red
+        Label12.ForeColor = Color.Red
+        Label13.ForeColor = Color.Red
+        Label14.ForeColor = Color.Red
+        Label15.ForeColor = Color.Red
+        Label16.ForeColor = Color.Red
+        Label17.ForeColor = Color.Red
+        Label18.ForeColor = Color.Red
+        Label19.ForeColor = Color.Red
+        Label20.ForeColor = Color.Red
+        Label21.ForeColor = Color.Red
+        Label22.ForeColor = Color.Red
+        Label23.ForeColor = Color.Lime
+
+        Main.Label1.ForeColor = Color.Red
+        Main.Label2.ForeColor = Color.Red
+        Main.Label3.ForeColor = Color.Red
+        Main.Label4.ForeColor = Color.Red
+        Main.Label5.ForeColor = Color.Red
+        Main.Label6.ForeColor = Color.Red
+        Main.Label7.ForeColor = Color.Red
+        Main.Label8.ForeColor = Color.Red
+        Main.Label9.ForeColor = Color.Red
+        Main.Label10.ForeColor = Color.Red
+        Main.Label11.ForeColor = Color.Red
+        Main.Label12.ForeColor = Color.Red
+        Main.Label13.ForeColor = Color.Red
+        Main.Label14.ForeColor = Color.Red
+        Main.Label15.ForeColor = Color.Red
+        Main.Label16.ForeColor = Color.Red
+        Main.Label17.ForeColor = Color.Red
+        Main.Label18.ForeColor = Color.Red
+        Main.Label19.ForeColor = Color.Red
+        Main.Label20.ForeColor = Color.Red
+        Main.Label21.ForeColor = Color.Red
+        Main.Label22.ForeColor = Color.Red
+        Main.Label23.ForeColor = Color.Lime
+
+        Main.WebBrowser1.Navigate("http://excalibur.mediaradioplayer.com/flash.html")
+        Main.TextBox1.Text = "http://excalibur.mediaradioplayer.com/flash.html"
+
+        Main.NotifyIcon1.Text = "Finnys Radio-Listen to Yimago Radio 4"
+
+        Main.ABCClassicFMToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.ABCCountryToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.ABCDigMusicToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.MySpaceMusicToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.StarFMToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.TRFMToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.TripleJToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.TripleJUnearthedToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.TripleMToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio1ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio2ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio3ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Main.YimagoRadio4ToolStripMenuItem.BackColor = Color.Lime
     End Sub
 End Class

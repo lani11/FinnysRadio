@@ -270,6 +270,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Pics\Radio-Logos\YimagoRadio4.png" />
+    <None Include="Pics\Radio-Logos\YimagoRadio3.png" />
+    <None Include="Pics\Radio-Logos\YimagoRadio2.gif" />
+    <None Include="Pics\Radio-Logos\YimagoRadio1.gif" />
     <None Include="Pics\Social-Icons\gmail_logo.png" />
     <None Include="Pics\Social-Icons\github_logo.png" />
     <None Include="Pics\Social-Icons\github_logo.jpg" />
