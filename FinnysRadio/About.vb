@@ -26,7 +26,7 @@
 
     Private Sub PictureBox5_Click(sender As Object, e As EventArgs) Handles PictureBox5.Click
         'Opens My Website Page
-        System.Diagnostics.Process.Start("http://finnyscomputers.webs.com")
+        System.Diagnostics.Process.Start("http://cameronfindlay123456.wix.com/finnys-radio")
     End Sub
 
     Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked

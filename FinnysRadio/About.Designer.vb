@@ -22,6 +22,7 @@ Partial Class About
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(About))
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -31,6 +32,7 @@ Partial Class About
         Me.PictureBox5 = New System.Windows.Forms.PictureBox()
         Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
         Me.LinkLabel2 = New System.Windows.Forms.LinkLabel()
+        Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -90,18 +92,20 @@ Partial Class About
         Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox7.TabIndex = 15
         Me.PictureBox7.TabStop = False
+        Me.ToolTip1.SetToolTip(Me.PictureBox7, "Email")
         '
         'PictureBox5
         '
         Me.PictureBox5.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox5.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox5.Image = Global.FinnysRadio.My.Resources.Resources.finnys_computers
+        Me.PictureBox5.Image = Global.FinnysRadio.My.Resources.Resources.iconGRAY
         Me.PictureBox5.Location = New System.Drawing.Point(168, 53)
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.Size = New System.Drawing.Size(52, 45)
         Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox5.TabIndex = 14
         Me.PictureBox5.TabStop = False
+        Me.ToolTip1.SetToolTip(Me.PictureBox5, "Finnys Radio")
         '
         'LinkLabel1
         '
@@ -161,4 +165,5 @@ Partial Class About
     Friend WithEvents PictureBox5 As System.Windows.Forms.PictureBox
     Friend WithEvents LinkLabel1 As System.Windows.Forms.LinkLabel
     Friend WithEvents LinkLabel2 As System.Windows.Forms.LinkLabel
+    Friend WithEvents ToolTip1 As System.Windows.Forms.ToolTip
 End Class
