@@ -28,7 +28,7 @@ Partial Class Program_Update_Available
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Button2 = New System.Windows.Forms.Button()
-        Me.Label4 = New System.Windows.Forms.Label()
+        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.SuspendLayout()
         '
         'Button1
@@ -56,7 +56,7 @@ Partial Class Program_Update_Available
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Segoe UI", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(70, 9)
+        Me.Label1.Location = New System.Drawing.Point(70, 24)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(367, 37)
         Me.Label1.TabIndex = 4
@@ -83,14 +83,15 @@ Partial Class Program_Update_Available
         Me.Button2.Text = "Update"
         Me.Button2.UseVisualStyleBackColor = True
         '
-        'Label4
+        'CheckBox1
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(12, 9)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(35, 15)
-        Me.Label4.TabIndex = 7
-        Me.Label4.Text = "BETA"
+        Me.CheckBox1.AutoSize = True
+        Me.CheckBox1.Location = New System.Drawing.Point(12, 9)
+        Me.CheckBox1.Name = "CheckBox1"
+        Me.CheckBox1.Size = New System.Drawing.Size(54, 19)
+        Me.CheckBox1.TabIndex = 10
+        Me.CheckBox1.Text = "BETA"
+        Me.CheckBox1.UseVisualStyleBackColor = True
         '
         'Program_Update_Available
         '
@@ -98,7 +99,7 @@ Partial Class Program_Update_Available
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Gray
         Me.ClientSize = New System.Drawing.Size(506, 202)
-        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label1)
@@ -122,5 +123,5 @@ Partial Class Program_Update_Available
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents Button2 As System.Windows.Forms.Button
-    Friend WithEvents Label4 As System.Windows.Forms.Label
+    Friend WithEvents CheckBox1 As System.Windows.Forms.CheckBox
 End Class

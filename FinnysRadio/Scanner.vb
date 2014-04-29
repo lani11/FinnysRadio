@@ -20,6 +20,12 @@ Public Class Scanner
     Private Sub Scanner_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         username = username.Substring(username.IndexOf("\"), username.Length - username.IndexOf("\"))
 
+        'Loads Theme
+        Label95.ForeColor = My.Settings.TimeColour
+        Label96.ForeColor = My.Settings.TimeColour
+        BackColor = My.Settings.BackgroundColour
+        ForeColor = My.Settings.FontColour
+
         'Enables Timer
         TimeDateTimer.Enabled = True
         TimeDateTimer.Interval = 1000

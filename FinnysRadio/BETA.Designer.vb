@@ -32,16 +32,18 @@ Partial Class BETA
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Segoe UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.Black
         Me.Label1.Location = New System.Drawing.Point(54, 49)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(262, 32)
+        Me.Label1.Size = New System.Drawing.Size(58, 32)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "THIS PART IS IN BETA"
+        Me.Label1.Text = "You"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Segoe UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.Black
         Me.Label2.Location = New System.Drawing.Point(0, 86)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(370, 32)
@@ -62,7 +64,7 @@ Partial Class BETA
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.Black
+        Me.BackColor = System.Drawing.Color.Gray
         Me.ClientSize = New System.Drawing.Size(370, 167)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label2)

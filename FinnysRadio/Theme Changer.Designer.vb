@@ -61,7 +61,7 @@ Partial Class Theme_Changer
         '
         Me.ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"Please Select One...", "Aqua", "Aquamarine", "Black", "Blue", "Gray", "Green", "Lime", "Magenta", "Olive", "Orange (Default)", "Pink", "Purple", "Red", "White", "Yellow"})
+        Me.ComboBox1.Items.AddRange(New Object() {"Please Select One...", "Aqua", "Aquamarine", "Black", "Blue", "Gray", "Green", "Lime", "Magenta", "Olive", "Orange", "Pink", "Purple", "Red", "White", "Yellow"})
         Me.ComboBox1.Location = New System.Drawing.Point(131, 33)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(190, 23)
@@ -102,7 +102,7 @@ Partial Class Theme_Changer
         '
         Me.ComboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Items.AddRange(New Object() {"Please Select One...", "Aqua", "Aquamarine", "Black (Default)", "Blue", "Gray", "Green", "Lime", "Magenta", "Olive", "Orange", "Pink", "Purple", "Red", "White", "Yellow"})
+        Me.ComboBox2.Items.AddRange(New Object() {"Please Select One...", "Aqua", "Aquamarine", "Black", "Blue", "Gray", "Green", "Lime", "Magenta", "Olive", "Orange", "Pink", "Purple", "Red", "White", "Yellow"})
         Me.ComboBox2.Location = New System.Drawing.Point(131, 62)
         Me.ComboBox2.Name = "ComboBox2"
         Me.ComboBox2.Size = New System.Drawing.Size(190, 23)
@@ -112,7 +112,7 @@ Partial Class Theme_Changer
         '
         Me.ComboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox3.FormattingEnabled = True
-        Me.ComboBox3.Items.AddRange(New Object() {"Please Select One...", "White (Default)", "Black", "Gray", "Red", "Blue", "Green", "Yellow", "Pink", "Purple", "Orange", "Aqua"})
+        Me.ComboBox3.Items.AddRange(New Object() {"Please Select One...", "White", "Black", "Gray", "Red", "Blue", "Green", "Yellow", "Pink", "Purple", "Orange", "Aqua"})
         Me.ComboBox3.Location = New System.Drawing.Point(131, 91)
         Me.ComboBox3.Name = "ComboBox3"
         Me.ComboBox3.Size = New System.Drawing.Size(190, 23)

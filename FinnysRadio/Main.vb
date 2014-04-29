@@ -15,6 +15,14 @@ Public Class Main
         username = username.Substring(username.IndexOf("\"), username.Length - username.IndexOf("\"))
         Dim MyVer As String = My.Application.Info.Version.ToString
 
+        'Loads Theme
+        Label95.ForeColor = My.Settings.TimeColour
+        Label96.ForeColor = My.Settings.TimeColour
+        BackColor = My.Settings.BackgroundColour
+        ForeColor = My.Settings.FontColour
+        TIMEToolStripMenuItem.ForeColor = My.Settings.TimeColour
+        DATEToolStripMenuItem.ForeColor = My.Settings.TimeColour
+
         Me.Text = "Finnys Radio " + MyVer
 
         'Check For Internet
