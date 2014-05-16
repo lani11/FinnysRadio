@@ -111,7 +111,7 @@ Partial Class Theme_Changer
         '
         Me.ComboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox3.FormattingEnabled = True
-        Me.ComboBox3.Items.AddRange(New Object() {"Please Select One...", "White", "Black", "Gray", "Red", "Blue", "Green", "Yellow", "Pink", "Purple", "Orange", "Aqua"})
+        Me.ComboBox3.Items.AddRange(New Object() {"Please Select One...", "Aqua", "Aquamarine", "Black", "Blue", "Gray", "Green", "Lime", "Magenta", "Olive", "Orange", "Pink", "Purple", "Red", "White", "Yellow"})
         Me.ComboBox3.Location = New System.Drawing.Point(131, 91)
         Me.ComboBox3.Name = "ComboBox3"
         Me.ComboBox3.Size = New System.Drawing.Size(190, 23)

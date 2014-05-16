@@ -216,49 +216,65 @@
         'Font Colours
         Select Case ComboBox3.SelectedIndex
             Case 1
-                Main.Label99.ForeColor = Color.White
-                PictureBox1.BackColor = Color.White
-                My.Settings.FontColour = Color.White
+                Main.Label99.ForeColor = Color.Aqua
+                PictureBox1.BackColor = Color.Aqua
+                My.Settings.FontColour = Color.Aqua
             Case 2
+                Main.Label99.ForeColor = Color.Aquamarine
+                PictureBox1.BackColor = Color.Aquamarine
+                My.Settings.FontColour = Color.Aquamarine
+            Case 3
                 Main.Label99.ForeColor = Color.Black
                 PictureBox1.BackColor = Color.Black
                 My.Settings.FontColour = Color.Black
-            Case 3
-                Main.Label99.ForeColor = Color.Gray
-                PictureBox1.BackColor = Color.Gray
-                My.Settings.FontColour = Color.Gray
             Case 4
-                Main.Label99.ForeColor = Color.Red
-                PictureBox1.BackColor = Color.Red
-                My.Settings.FontColour = Color.Red
-            Case 5
                 Main.Label99.ForeColor = Color.Blue
                 PictureBox1.BackColor = Color.Blue
                 My.Settings.FontColour = Color.Blue
+            Case 5
+                Main.Label99.ForeColor = Color.Gray
+                PictureBox1.BackColor = Color.Gray
+                My.Settings.FontColour = Color.Gray
             Case 6
                 Main.Label99.ForeColor = Color.Green
                 PictureBox1.BackColor = Color.Green
                 My.Settings.FontColour = Color.Green
             Case 7
-                Main.Label99.ForeColor = Color.Yellow
-                PictureBox1.BackColor = Color.Yellow
-                My.Settings.FontColour = Color.Yellow
+                Main.Label99.ForeColor = Color.Lime
+                PictureBox1.BackColor = Color.Lime
+                My.Settings.FontColour = Color.Lime
             Case 8
-                Main.Label99.ForeColor = Color.Pink
-                PictureBox1.BackColor = Color.Pink
-                My.Settings.FontColour = Color.Pink
+                Main.Label99.ForeColor = Color.Magenta
+                PictureBox1.BackColor = Color.Magenta
+                My.Settings.FontColour = Color.Magenta
             Case 9
-                Main.Label99.ForeColor = Color.Purple
-                PictureBox1.BackColor = Color.Purple
-                My.Settings.FontColour = Color.Purple
+                Main.Label99.ForeColor = Color.Olive
+                PictureBox1.BackColor = Color.Olive
+                My.Settings.FontColour = Color.Olive
             Case 10
                 Main.Label99.ForeColor = Color.Orange
                 PictureBox1.BackColor = Color.Orange
                 My.Settings.FontColour = Color.Orange
             Case 11
-                Main.Label99.ForeColor = Color.Aqua
-                PictureBox1.BackColor = Color.Aqua
-                My.Settings.FontColour = Color.Aqua
+                Main.Label99.ForeColor = Color.Pink
+                PictureBox1.BackColor = Color.Pink
+                My.Settings.FontColour = Color.Pink
+            Case 12
+                Main.Label99.ForeColor = Color.Purple
+                PictureBox1.BackColor = Color.Purple
+                My.Settings.FontColour = Color.Purple
+            Case 13
+                Main.Label99.ForeColor = Color.Red
+                PictureBox1.BackColor = Color.Red
+                My.Settings.FontColour = Color.Red
+            Case 14
+                Main.Label99.ForeColor = Color.White
+                PictureBox1.BackColor = Color.White
+                My.Settings.FontColour = Color.White
+            Case 15
+                Main.Label99.ForeColor = Color.Yellow
+                PictureBox1.BackColor = Color.Yellow
+                My.Settings.FontColour = Color.Yellow
         End Select
     End Sub
 End Class
