@@ -5,7 +5,9 @@
     End Sub
 
     Private Sub Mini_Player_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        'Loads Theme
+        BackColor = My.Settings.BackgroundColour
+        ForeColor = My.Settings.FontColour
     End Sub
 
     'Menu Controls

@@ -5,6 +5,10 @@
     Private Sub Program_Up_To_Date_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         username = username.Substring(username.IndexOf("\"), username.Length - username.IndexOf("\"))
 
+        'Loads Theme
+        BackColor = My.Settings.BackgroundColour
+        ForeColor = My.Settings.FontColour
+
         Me.CheckBox1.Checked = My.Settings.Beta
 
         Dim MyVer As String = My.Application.Info.Version.ToString

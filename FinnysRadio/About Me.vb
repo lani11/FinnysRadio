@@ -1,5 +1,13 @@
 ﻿Public Class About_Me
 
+    Private Sub About_Me_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        'Loads Theme
+        BackColor = My.Settings.BackgroundColour
+        ForeColor = My.Settings.FontColour
+        GroupBox1.BackColor = My.Settings.BackgroundColour
+        GroupBox1.ForeColor = My.Settings.FontColour
+    End Sub
+
     'Email Sender
     Private Sub PictureBox7_Click(sender As Object, e As EventArgs) Handles PictureBox7.Click
         'finnysgames@gmail.com

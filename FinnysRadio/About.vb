@@ -1,6 +1,10 @@
 ﻿Public Class About
 
     Private Sub About_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        'Loads Theme
+        BackColor = My.Settings.BackgroundColour
+        ForeColor = My.Settings.FontColour
+
         Dim MyVer As String = My.Application.Info.Version.ToString
         Label2.Text = "Version: " + MyVer
     End Sub

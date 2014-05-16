@@ -3,6 +3,13 @@
     Dim BackgroundColour As New My.MySettings
     Dim FontColour As New My.MySettings
     Private Sub TimeColourChanger_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        'Loads Theme
+        BackColor = My.Settings.BackgroundColour
+        ForeColor = My.Settings.FontColour
+        Button1.ForeColor = Color.Black
+        Button7.ForeColor = Color.Black
+
+        'Resets ComboBoxs
         ComboBox1.SelectedIndex = 0
         ComboBox2.SelectedIndex = 0
         ComboBox3.SelectedIndex = 0
@@ -18,14 +25,14 @@
         Main.Label95.ForeColor = Color.Lime
         Main.DATEToolStripMenuItem.ForeColor = Color.Lime
         Main.BackColor = Color.Gray
-        Main.Label99.ForeColor = Color.White
+        Main.Label99.ForeColor = Color.Black
         ComboBox1.SelectedIndex = 0
         ComboBox2.SelectedIndex = 0
         ComboBox3.SelectedIndex = 0
         PictureBox1.BackColor = Color.White
         My.Settings.TimeColour = Color.Lime
         My.Settings.BackgroundColour = Color.Gray
-        My.Settings.FontColour = Color.White
+        My.Settings.FontColour = Color.Black
     End Sub
 
     Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox1.SelectedIndexChanged

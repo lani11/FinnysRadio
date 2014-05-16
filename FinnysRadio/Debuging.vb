@@ -3,6 +3,10 @@
     Dim Ip As String
 
     Private Sub Debuging_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        'Loads Theme
+        BackColor = My.Settings.BackgroundColour
+        ForeColor = My.Settings.FontColour
+
         Timer1.Enabled = True
         Timer1.Interval = 500
     End Sub

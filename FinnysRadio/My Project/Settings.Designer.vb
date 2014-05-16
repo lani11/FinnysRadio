@@ -80,7 +80,7 @@ Namespace My
         
         <Global.System.Configuration.UserScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("White")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("Black")>  _
         Public Property FontColour() As Global.System.Drawing.Color
             Get
                 Return CType(Me("FontColour"),Global.System.Drawing.Color)

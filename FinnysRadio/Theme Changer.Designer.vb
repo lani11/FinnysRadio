@@ -96,7 +96,6 @@ Partial Class Theme_Changer
         Me.Label5.Size = New System.Drawing.Size(73, 15)
         Me.Label5.TabIndex = 17
         Me.Label5.Text = "Font Colour:"
-        Me.Label5.Visible = False
         '
         'ComboBox2
         '
@@ -117,7 +116,6 @@ Partial Class Theme_Changer
         Me.ComboBox3.Name = "ComboBox3"
         Me.ComboBox3.Size = New System.Drawing.Size(190, 23)
         Me.ComboBox3.TabIndex = 19
-        Me.ComboBox3.Visible = False
         '
         'PictureBox1
         '
