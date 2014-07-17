@@ -24,6 +24,9 @@
         TextBox9.Text = My.Computer.FileSystem.Drives.Count
         TextBox10.Text = My.Computer.Info.TotalPhysicalMemory
         TextBox11.Text = My.Computer.Info.AvailablePhysicalMemory
+        TextBox12.Text = My.Computer.Info.AvailableVirtualMemory
+        TextBox13.Text = My.Computer.Info.TotalVirtualMemory
+        TextBox14.Text = My.Computer.Info.InstalledUICulture.ToString
 
         'CPU & RAM Usage
         ProgressBar1.Value = PerformanceCounter1.NextValue

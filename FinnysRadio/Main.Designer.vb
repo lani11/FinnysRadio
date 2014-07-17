@@ -35,30 +35,38 @@ Partial Class Main
         Me.CloseRadioToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem5 = New System.Windows.Forms.ToolStripSeparator()
         Me.MusicToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PlayLastStationToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.StopToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.VolumeToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PlayLastStationToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.StopToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.VolumeToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem6 = New System.Windows.Forms.ToolStripSeparator()
         Me.RADIOSTATIONSToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ABCClassicFMToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ABCCountryToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ABCDigMusicToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ABCExtraToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ABCJazzToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ABCRadioToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ABCRadioAustrailiaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ABCRadioAustraliaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ABCRadioNationalToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CountryMusicRadiocomToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.GToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.GippslandFMToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ConnrtyMusicRadiocomToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Gold1043ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Gold1242ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.KToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.KidsFMToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.MToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MySpaceMusicToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.StarFMToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TRFMToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TripleJToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TripleJUnearthedToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TripleMToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.YToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.YimagoRadio1ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.YimagoRadio2ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.YimagoRadio3ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -156,16 +164,16 @@ Partial Class Main
         '
         'ContextMenuStrip1
         '
-        Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TIMEToolStripMenuItem, Me.DATEToolStripMenuItem, Me.ToolStripMenuItem4, Me.APPSETTINGSToolStripMenuItem, Me.ShowRadioToolStripMenuItem, Me.HideRadioToolStripMenuItem, Me.CloseRadioToolStripMenuItem, Me.ToolStripMenuItem5, Me.MusicToolStripMenuItem, Me.PlayLastStationToolStripMenuItem1, Me.StopToolStripMenuItem1, Me.VolumeToolStripMenuItem1, Me.ToolStripMenuItem6, Me.RADIOSTATIONSToolStripMenuItem, Me.ABCClassicFMToolStripMenuItem, Me.ABCCountryToolStripMenuItem, Me.ABCDigMusicToolStripMenuItem, Me.ABCExtraToolStripMenuItem, Me.ABCJazzToolStripMenuItem, Me.ABCRadioToolStripMenuItem, Me.ABCRadioAustrailiaToolStripMenuItem, Me.ABCRadioNationalToolStripMenuItem, Me.GippslandFMToolStripMenuItem, Me.ConnrtyMusicRadiocomToolStripMenuItem, Me.Gold1043ToolStripMenuItem, Me.Gold1242ToolStripMenuItem, Me.KidsFMToolStripMenuItem, Me.MySpaceMusicToolStripMenuItem, Me.StarFMToolStripMenuItem, Me.TRFMToolStripMenuItem, Me.TripleJToolStripMenuItem, Me.TripleJUnearthedToolStripMenuItem, Me.TripleMToolStripMenuItem, Me.YimagoRadio1ToolStripMenuItem, Me.YimagoRadio2ToolStripMenuItem, Me.YimagoRadio3ToolStripMenuItem, Me.YimagoRadio4ToolStripMenuItem})
+        Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TIMEToolStripMenuItem, Me.DATEToolStripMenuItem, Me.ToolStripMenuItem4, Me.APPSETTINGSToolStripMenuItem, Me.ToolStripMenuItem5, Me.MusicToolStripMenuItem, Me.ToolStripMenuItem6, Me.RADIOSTATIONSToolStripMenuItem})
         Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
-        Me.ContextMenuStrip1.Size = New System.Drawing.Size(213, 770)
+        Me.ContextMenuStrip1.Size = New System.Drawing.Size(185, 154)
         '
         'TIMEToolStripMenuItem
         '
         Me.TIMEToolStripMenuItem.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TIMEToolStripMenuItem.ForeColor = System.Drawing.Color.Lime
         Me.TIMEToolStripMenuItem.Name = "TIMEToolStripMenuItem"
-        Me.TIMEToolStripMenuItem.Size = New System.Drawing.Size(212, 22)
+        Me.TIMEToolStripMenuItem.Size = New System.Drawing.Size(184, 22)
         Me.TIMEToolStripMenuItem.Text = "TIME: 00:00:00 00"
         '
         'DATEToolStripMenuItem
@@ -173,246 +181,308 @@ Partial Class Main
         Me.DATEToolStripMenuItem.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DATEToolStripMenuItem.ForeColor = System.Drawing.Color.Lime
         Me.DATEToolStripMenuItem.Name = "DATEToolStripMenuItem"
-        Me.DATEToolStripMenuItem.Size = New System.Drawing.Size(212, 22)
+        Me.DATEToolStripMenuItem.Size = New System.Drawing.Size(184, 22)
         Me.DATEToolStripMenuItem.Text = "DATE: 00/00/0000"
         '
         'ToolStripMenuItem4
         '
         Me.ToolStripMenuItem4.Name = "ToolStripMenuItem4"
-        Me.ToolStripMenuItem4.Size = New System.Drawing.Size(209, 6)
+        Me.ToolStripMenuItem4.Size = New System.Drawing.Size(148, 6)
         '
         'APPSETTINGSToolStripMenuItem
         '
-        Me.APPSETTINGSToolStripMenuItem.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.APPSETTINGSToolStripMenuItem.ForeColor = System.Drawing.Color.Red
+        Me.APPSETTINGSToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ShowRadioToolStripMenuItem, Me.HideRadioToolStripMenuItem, Me.CloseRadioToolStripMenuItem})
+        Me.APPSETTINGSToolStripMenuItem.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.APPSETTINGSToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlText
         Me.APPSETTINGSToolStripMenuItem.Name = "APPSETTINGSToolStripMenuItem"
-        Me.APPSETTINGSToolStripMenuItem.Size = New System.Drawing.Size(212, 22)
-        Me.APPSETTINGSToolStripMenuItem.Text = "APP SETTINGS"
+        Me.APPSETTINGSToolStripMenuItem.Size = New System.Drawing.Size(151, 22)
+        Me.APPSETTINGSToolStripMenuItem.Text = "Radio Settings"
         '
         'ShowRadioToolStripMenuItem
         '
         Me.ShowRadioToolStripMenuItem.Name = "ShowRadioToolStripMenuItem"
-        Me.ShowRadioToolStripMenuItem.Size = New System.Drawing.Size(212, 22)
+        Me.ShowRadioToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.ShowRadioToolStripMenuItem.Text = "Show Radio"
         '
         'HideRadioToolStripMenuItem
         '
         Me.HideRadioToolStripMenuItem.Name = "HideRadioToolStripMenuItem"
-        Me.HideRadioToolStripMenuItem.Size = New System.Drawing.Size(212, 22)
+        Me.HideRadioToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.HideRadioToolStripMenuItem.Text = "Hide Radio"
         '
         'CloseRadioToolStripMenuItem
         '
         Me.CloseRadioToolStripMenuItem.Name = "CloseRadioToolStripMenuItem"
-        Me.CloseRadioToolStripMenuItem.Size = New System.Drawing.Size(212, 22)
+        Me.CloseRadioToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.CloseRadioToolStripMenuItem.Text = "Close Radio"
         '
         'ToolStripMenuItem5
         '
         Me.ToolStripMenuItem5.Name = "ToolStripMenuItem5"
-        Me.ToolStripMenuItem5.Size = New System.Drawing.Size(209, 6)
+        Me.ToolStripMenuItem5.Size = New System.Drawing.Size(148, 6)
         '
         'MusicToolStripMenuItem
         '
-        Me.MusicToolStripMenuItem.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MusicToolStripMenuItem.ForeColor = System.Drawing.Color.Red
+        Me.MusicToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PlayLastStationToolStripMenuItem2, Me.StopToolStripMenuItem2, Me.VolumeToolStripMenuItem2})
+        Me.MusicToolStripMenuItem.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.MusicToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlText
         Me.MusicToolStripMenuItem.Name = "MusicToolStripMenuItem"
-        Me.MusicToolStripMenuItem.Size = New System.Drawing.Size(212, 22)
-        Me.MusicToolStripMenuItem.Text = "MUSIC OPTIONS"
+        Me.MusicToolStripMenuItem.Size = New System.Drawing.Size(151, 22)
+        Me.MusicToolStripMenuItem.Text = "Music Options"
         '
-        'PlayLastStationToolStripMenuItem1
+        'PlayLastStationToolStripMenuItem2
         '
-        Me.PlayLastStationToolStripMenuItem1.Image = Global.FinnysRadio.My.Resources.Resources.Play
-        Me.PlayLastStationToolStripMenuItem1.Name = "PlayLastStationToolStripMenuItem1"
-        Me.PlayLastStationToolStripMenuItem1.Size = New System.Drawing.Size(212, 22)
-        Me.PlayLastStationToolStripMenuItem1.Text = "Play Last Station"
+        Me.PlayLastStationToolStripMenuItem2.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.PlayLastStationToolStripMenuItem2.Image = Global.FinnysRadio.My.Resources.Resources.Play
+        Me.PlayLastStationToolStripMenuItem2.Name = "PlayLastStationToolStripMenuItem2"
+        Me.PlayLastStationToolStripMenuItem2.Size = New System.Drawing.Size(160, 22)
+        Me.PlayLastStationToolStripMenuItem2.Text = "Play Last Station"
         '
-        'StopToolStripMenuItem1
+        'StopToolStripMenuItem2
         '
-        Me.StopToolStripMenuItem1.Image = Global.FinnysRadio.My.Resources.Resources._Stop
-        Me.StopToolStripMenuItem1.Name = "StopToolStripMenuItem1"
-        Me.StopToolStripMenuItem1.Size = New System.Drawing.Size(212, 22)
-        Me.StopToolStripMenuItem1.Text = "Stop"
+        Me.StopToolStripMenuItem2.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.StopToolStripMenuItem2.Image = Global.FinnysRadio.My.Resources.Resources._Stop
+        Me.StopToolStripMenuItem2.Name = "StopToolStripMenuItem2"
+        Me.StopToolStripMenuItem2.Size = New System.Drawing.Size(160, 22)
+        Me.StopToolStripMenuItem2.Text = "Stop"
         '
-        'VolumeToolStripMenuItem1
+        'VolumeToolStripMenuItem2
         '
-        Me.VolumeToolStripMenuItem1.Image = Global.FinnysRadio.My.Resources.Resources.Volume
-        Me.VolumeToolStripMenuItem1.Name = "VolumeToolStripMenuItem1"
-        Me.VolumeToolStripMenuItem1.Size = New System.Drawing.Size(212, 22)
-        Me.VolumeToolStripMenuItem1.Text = "Volume"
+        Me.VolumeToolStripMenuItem2.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.VolumeToolStripMenuItem2.Image = Global.FinnysRadio.My.Resources.Resources.Volume
+        Me.VolumeToolStripMenuItem2.Name = "VolumeToolStripMenuItem2"
+        Me.VolumeToolStripMenuItem2.Size = New System.Drawing.Size(160, 22)
+        Me.VolumeToolStripMenuItem2.Text = "Volume"
         '
         'ToolStripMenuItem6
         '
         Me.ToolStripMenuItem6.Name = "ToolStripMenuItem6"
-        Me.ToolStripMenuItem6.Size = New System.Drawing.Size(209, 6)
+        Me.ToolStripMenuItem6.Size = New System.Drawing.Size(148, 6)
         '
         'RADIOSTATIONSToolStripMenuItem
         '
-        Me.RADIOSTATIONSToolStripMenuItem.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RADIOSTATIONSToolStripMenuItem.ForeColor = System.Drawing.Color.Red
+        Me.RADIOSTATIONSToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AToolStripMenuItem, Me.CToolStripMenuItem, Me.GToolStripMenuItem, Me.KToolStripMenuItem, Me.MToolStripMenuItem, Me.SToolStripMenuItem, Me.TToolStripMenuItem, Me.YToolStripMenuItem})
+        Me.RADIOSTATIONSToolStripMenuItem.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RADIOSTATIONSToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlText
         Me.RADIOSTATIONSToolStripMenuItem.Name = "RADIOSTATIONSToolStripMenuItem"
-        Me.RADIOSTATIONSToolStripMenuItem.Size = New System.Drawing.Size(212, 22)
-        Me.RADIOSTATIONSToolStripMenuItem.Text = "RADIO STATIONS"
+        Me.RADIOSTATIONSToolStripMenuItem.Size = New System.Drawing.Size(151, 22)
+        Me.RADIOSTATIONSToolStripMenuItem.Text = "Radio Stations"
+        '
+        'AToolStripMenuItem
+        '
+        Me.AToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ABCClassicFMToolStripMenuItem, Me.ABCCountryToolStripMenuItem, Me.ABCDigMusicToolStripMenuItem, Me.ABCExtraToolStripMenuItem, Me.ABCJazzToolStripMenuItem, Me.ABCRadioToolStripMenuItem, Me.ABCRadioAustraliaToolStripMenuItem, Me.ABCRadioNationalToolStripMenuItem})
+        Me.AToolStripMenuItem.Name = "AToolStripMenuItem"
+        Me.AToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.AToolStripMenuItem.Text = "A"
         '
         'ABCClassicFMToolStripMenuItem
         '
-        Me.ABCClassicFMToolStripMenuItem.Image = Global.FinnysRadio.My.Resources.Resources.ABC
+        Me.ABCClassicFMToolStripMenuItem.Image = CType(resources.GetObject("ABCClassicFMToolStripMenuItem.Image"), System.Drawing.Image)
         Me.ABCClassicFMToolStripMenuItem.Name = "ABCClassicFMToolStripMenuItem"
-        Me.ABCClassicFMToolStripMenuItem.Size = New System.Drawing.Size(212, 22)
+        Me.ABCClassicFMToolStripMenuItem.Size = New System.Drawing.Size(179, 22)
         Me.ABCClassicFMToolStripMenuItem.Text = "ABC Classic FM"
         '
         'ABCCountryToolStripMenuItem
         '
-        Me.ABCCountryToolStripMenuItem.Image = Global.FinnysRadio.My.Resources.Resources.ABC
+        Me.ABCCountryToolStripMenuItem.Image = CType(resources.GetObject("ABCCountryToolStripMenuItem.Image"), System.Drawing.Image)
         Me.ABCCountryToolStripMenuItem.Name = "ABCCountryToolStripMenuItem"
-        Me.ABCCountryToolStripMenuItem.Size = New System.Drawing.Size(212, 22)
+        Me.ABCCountryToolStripMenuItem.Size = New System.Drawing.Size(179, 22)
         Me.ABCCountryToolStripMenuItem.Text = "ABC Country"
         '
         'ABCDigMusicToolStripMenuItem
         '
-        Me.ABCDigMusicToolStripMenuItem.Image = Global.FinnysRadio.My.Resources.Resources.ABC
+        Me.ABCDigMusicToolStripMenuItem.Image = CType(resources.GetObject("ABCDigMusicToolStripMenuItem.Image"), System.Drawing.Image)
         Me.ABCDigMusicToolStripMenuItem.Name = "ABCDigMusicToolStripMenuItem"
-        Me.ABCDigMusicToolStripMenuItem.Size = New System.Drawing.Size(212, 22)
+        Me.ABCDigMusicToolStripMenuItem.Size = New System.Drawing.Size(179, 22)
         Me.ABCDigMusicToolStripMenuItem.Text = "ABC Dig Music"
         '
         'ABCExtraToolStripMenuItem
         '
         Me.ABCExtraToolStripMenuItem.Image = CType(resources.GetObject("ABCExtraToolStripMenuItem.Image"), System.Drawing.Image)
         Me.ABCExtraToolStripMenuItem.Name = "ABCExtraToolStripMenuItem"
-        Me.ABCExtraToolStripMenuItem.Size = New System.Drawing.Size(212, 22)
+        Me.ABCExtraToolStripMenuItem.Size = New System.Drawing.Size(179, 22)
         Me.ABCExtraToolStripMenuItem.Text = "ABC Extra"
         '
         'ABCJazzToolStripMenuItem
         '
         Me.ABCJazzToolStripMenuItem.Image = CType(resources.GetObject("ABCJazzToolStripMenuItem.Image"), System.Drawing.Image)
         Me.ABCJazzToolStripMenuItem.Name = "ABCJazzToolStripMenuItem"
-        Me.ABCJazzToolStripMenuItem.Size = New System.Drawing.Size(212, 22)
+        Me.ABCJazzToolStripMenuItem.Size = New System.Drawing.Size(179, 22)
         Me.ABCJazzToolStripMenuItem.Text = "ABC Jazz"
         '
         'ABCRadioToolStripMenuItem
         '
         Me.ABCRadioToolStripMenuItem.Image = CType(resources.GetObject("ABCRadioToolStripMenuItem.Image"), System.Drawing.Image)
         Me.ABCRadioToolStripMenuItem.Name = "ABCRadioToolStripMenuItem"
-        Me.ABCRadioToolStripMenuItem.Size = New System.Drawing.Size(212, 22)
+        Me.ABCRadioToolStripMenuItem.Size = New System.Drawing.Size(179, 22)
         Me.ABCRadioToolStripMenuItem.Text = "ABC Radio"
         '
-        'ABCRadioAustrailiaToolStripMenuItem
+        'ABCRadioAustraliaToolStripMenuItem
         '
-        Me.ABCRadioAustrailiaToolStripMenuItem.Image = CType(resources.GetObject("ABCRadioAustrailiaToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.ABCRadioAustrailiaToolStripMenuItem.Name = "ABCRadioAustrailiaToolStripMenuItem"
-        Me.ABCRadioAustrailiaToolStripMenuItem.Size = New System.Drawing.Size(212, 22)
-        Me.ABCRadioAustrailiaToolStripMenuItem.Text = "ABC Radio Australia"
+        Me.ABCRadioAustraliaToolStripMenuItem.Image = CType(resources.GetObject("ABCRadioAustraliaToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.ABCRadioAustraliaToolStripMenuItem.Name = "ABCRadioAustraliaToolStripMenuItem"
+        Me.ABCRadioAustraliaToolStripMenuItem.Size = New System.Drawing.Size(179, 22)
+        Me.ABCRadioAustraliaToolStripMenuItem.Text = "ABC Radio Australia"
         '
         'ABCRadioNationalToolStripMenuItem
         '
         Me.ABCRadioNationalToolStripMenuItem.Image = CType(resources.GetObject("ABCRadioNationalToolStripMenuItem.Image"), System.Drawing.Image)
         Me.ABCRadioNationalToolStripMenuItem.Name = "ABCRadioNationalToolStripMenuItem"
-        Me.ABCRadioNationalToolStripMenuItem.Size = New System.Drawing.Size(212, 22)
+        Me.ABCRadioNationalToolStripMenuItem.Size = New System.Drawing.Size(179, 22)
         Me.ABCRadioNationalToolStripMenuItem.Text = "ABC Radio National"
+        '
+        'CToolStripMenuItem
+        '
+        Me.CToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CountryMusicRadiocomToolStripMenuItem})
+        Me.CToolStripMenuItem.Name = "CToolStripMenuItem"
+        Me.CToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.CToolStripMenuItem.Text = "C"
+        '
+        'CountryMusicRadiocomToolStripMenuItem
+        '
+        Me.CountryMusicRadiocomToolStripMenuItem.Image = Global.FinnysRadio.My.Resources.Resources.CMR
+        Me.CountryMusicRadiocomToolStripMenuItem.Name = "CountryMusicRadiocomToolStripMenuItem"
+        Me.CountryMusicRadiocomToolStripMenuItem.Size = New System.Drawing.Size(212, 22)
+        Me.CountryMusicRadiocomToolStripMenuItem.Text = "Country Music Radio.com"
+        '
+        'GToolStripMenuItem
+        '
+        Me.GToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.GippslandFMToolStripMenuItem, Me.Gold1043ToolStripMenuItem, Me.Gold1242ToolStripMenuItem})
+        Me.GToolStripMenuItem.Name = "GToolStripMenuItem"
+        Me.GToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.GToolStripMenuItem.Text = "G"
         '
         'GippslandFMToolStripMenuItem
         '
         Me.GippslandFMToolStripMenuItem.Image = Global.FinnysRadio.My.Resources.Resources.GippslandFM
         Me.GippslandFMToolStripMenuItem.Name = "GippslandFMToolStripMenuItem"
-        Me.GippslandFMToolStripMenuItem.Size = New System.Drawing.Size(212, 22)
+        Me.GippslandFMToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.GippslandFMToolStripMenuItem.Text = "Gippsland FM"
-        '
-        'ConnrtyMusicRadiocomToolStripMenuItem
-        '
-        Me.ConnrtyMusicRadiocomToolStripMenuItem.Image = Global.FinnysRadio.My.Resources.Resources.CMR
-        Me.ConnrtyMusicRadiocomToolStripMenuItem.Name = "ConnrtyMusicRadiocomToolStripMenuItem"
-        Me.ConnrtyMusicRadiocomToolStripMenuItem.Size = New System.Drawing.Size(212, 22)
-        Me.ConnrtyMusicRadiocomToolStripMenuItem.Text = "Country Music Radio.com"
         '
         'Gold1043ToolStripMenuItem
         '
         Me.Gold1043ToolStripMenuItem.Image = Global.FinnysRadio.My.Resources.Resources.Gold104
         Me.Gold1043ToolStripMenuItem.Name = "Gold1043ToolStripMenuItem"
-        Me.Gold1043ToolStripMenuItem.Size = New System.Drawing.Size(212, 22)
+        Me.Gold1043ToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.Gold1043ToolStripMenuItem.Text = "Gold 104.3"
         '
         'Gold1242ToolStripMenuItem
         '
         Me.Gold1242ToolStripMenuItem.Image = Global.FinnysRadio.My.Resources.Resources.Gold_1242
         Me.Gold1242ToolStripMenuItem.Name = "Gold1242ToolStripMenuItem"
-        Me.Gold1242ToolStripMenuItem.Size = New System.Drawing.Size(212, 22)
+        Me.Gold1242ToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.Gold1242ToolStripMenuItem.Text = "Gold 1242"
+        '
+        'KToolStripMenuItem
+        '
+        Me.KToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.KidsFMToolStripMenuItem})
+        Me.KToolStripMenuItem.Name = "KToolStripMenuItem"
+        Me.KToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.KToolStripMenuItem.Text = "K"
         '
         'KidsFMToolStripMenuItem
         '
         Me.KidsFMToolStripMenuItem.Image = Global.FinnysRadio.My.Resources.Resources.KidsFM
         Me.KidsFMToolStripMenuItem.Name = "KidsFMToolStripMenuItem"
-        Me.KidsFMToolStripMenuItem.Size = New System.Drawing.Size(212, 22)
+        Me.KidsFMToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.KidsFMToolStripMenuItem.Text = "Kids FM"
+        '
+        'MToolStripMenuItem
+        '
+        Me.MToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MySpaceMusicToolStripMenuItem})
+        Me.MToolStripMenuItem.Name = "MToolStripMenuItem"
+        Me.MToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.MToolStripMenuItem.Text = "M"
         '
         'MySpaceMusicToolStripMenuItem
         '
         Me.MySpaceMusicToolStripMenuItem.Image = Global.FinnysRadio.My.Resources.Resources.MySpace_Music
         Me.MySpaceMusicToolStripMenuItem.Name = "MySpaceMusicToolStripMenuItem"
-        Me.MySpaceMusicToolStripMenuItem.Size = New System.Drawing.Size(212, 22)
-        Me.MySpaceMusicToolStripMenuItem.Text = "MySpace Music"
+        Me.MySpaceMusicToolStripMenuItem.Size = New System.Drawing.Size(160, 22)
+        Me.MySpaceMusicToolStripMenuItem.Text = "My Space Music"
+        '
+        'SToolStripMenuItem
+        '
+        Me.SToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.StarFMToolStripMenuItem})
+        Me.SToolStripMenuItem.Name = "SToolStripMenuItem"
+        Me.SToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.SToolStripMenuItem.Text = "S"
         '
         'StarFMToolStripMenuItem
         '
         Me.StarFMToolStripMenuItem.Image = Global.FinnysRadio.My.Resources.Resources.StarFM
         Me.StarFMToolStripMenuItem.Name = "StarFMToolStripMenuItem"
-        Me.StarFMToolStripMenuItem.Size = New System.Drawing.Size(212, 22)
+        Me.StarFMToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.StarFMToolStripMenuItem.Text = "Star FM"
+        '
+        'TToolStripMenuItem
+        '
+        Me.TToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TRFMToolStripMenuItem, Me.TripleJToolStripMenuItem, Me.TripleJUnearthedToolStripMenuItem, Me.TripleMToolStripMenuItem})
+        Me.TToolStripMenuItem.Name = "TToolStripMenuItem"
+        Me.TToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.TToolStripMenuItem.Text = "T"
         '
         'TRFMToolStripMenuItem
         '
         Me.TRFMToolStripMenuItem.Image = Global.FinnysRadio.My.Resources.Resources.TRFM
         Me.TRFMToolStripMenuItem.Name = "TRFMToolStripMenuItem"
-        Me.TRFMToolStripMenuItem.Size = New System.Drawing.Size(212, 22)
+        Me.TRFMToolStripMenuItem.Size = New System.Drawing.Size(169, 22)
         Me.TRFMToolStripMenuItem.Text = "TR FM"
         '
         'TripleJToolStripMenuItem
         '
         Me.TripleJToolStripMenuItem.Image = Global.FinnysRadio.My.Resources.Resources.Triplej
         Me.TripleJToolStripMenuItem.Name = "TripleJToolStripMenuItem"
-        Me.TripleJToolStripMenuItem.Size = New System.Drawing.Size(212, 22)
+        Me.TripleJToolStripMenuItem.Size = New System.Drawing.Size(169, 22)
         Me.TripleJToolStripMenuItem.Text = "Triple J"
         '
         'TripleJUnearthedToolStripMenuItem
         '
         Me.TripleJUnearthedToolStripMenuItem.Image = Global.FinnysRadio.My.Resources.Resources.TripleJ_Unearthed
         Me.TripleJUnearthedToolStripMenuItem.Name = "TripleJUnearthedToolStripMenuItem"
-        Me.TripleJUnearthedToolStripMenuItem.Size = New System.Drawing.Size(212, 22)
+        Me.TripleJUnearthedToolStripMenuItem.Size = New System.Drawing.Size(169, 22)
         Me.TripleJUnearthedToolStripMenuItem.Text = "Triple J Unearthed"
         '
         'TripleMToolStripMenuItem
         '
         Me.TripleMToolStripMenuItem.Image = Global.FinnysRadio.My.Resources.Resources.TripleM
         Me.TripleMToolStripMenuItem.Name = "TripleMToolStripMenuItem"
-        Me.TripleMToolStripMenuItem.Size = New System.Drawing.Size(212, 22)
+        Me.TripleMToolStripMenuItem.Size = New System.Drawing.Size(169, 22)
         Me.TripleMToolStripMenuItem.Text = "Triple M"
+        '
+        'YToolStripMenuItem
+        '
+        Me.YToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.YimagoRadio1ToolStripMenuItem, Me.YimagoRadio2ToolStripMenuItem, Me.YimagoRadio3ToolStripMenuItem, Me.YimagoRadio4ToolStripMenuItem})
+        Me.YToolStripMenuItem.Name = "YToolStripMenuItem"
+        Me.YToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.YToolStripMenuItem.Text = "Y"
         '
         'YimagoRadio1ToolStripMenuItem
         '
         Me.YimagoRadio1ToolStripMenuItem.Image = Global.FinnysRadio.My.Resources.Resources.YimagoRadio1
         Me.YimagoRadio1ToolStripMenuItem.Name = "YimagoRadio1ToolStripMenuItem"
-        Me.YimagoRadio1ToolStripMenuItem.Size = New System.Drawing.Size(212, 22)
+        Me.YimagoRadio1ToolStripMenuItem.Size = New System.Drawing.Size(157, 22)
         Me.YimagoRadio1ToolStripMenuItem.Text = "Yimago Radio 1"
         '
         'YimagoRadio2ToolStripMenuItem
         '
         Me.YimagoRadio2ToolStripMenuItem.Image = Global.FinnysRadio.My.Resources.Resources.YimagoRadio2
         Me.YimagoRadio2ToolStripMenuItem.Name = "YimagoRadio2ToolStripMenuItem"
-        Me.YimagoRadio2ToolStripMenuItem.Size = New System.Drawing.Size(212, 22)
+        Me.YimagoRadio2ToolStripMenuItem.Size = New System.Drawing.Size(157, 22)
         Me.YimagoRadio2ToolStripMenuItem.Text = "Yimago Radio 2"
         '
         'YimagoRadio3ToolStripMenuItem
         '
         Me.YimagoRadio3ToolStripMenuItem.Image = Global.FinnysRadio.My.Resources.Resources.YimagoRadio3
         Me.YimagoRadio3ToolStripMenuItem.Name = "YimagoRadio3ToolStripMenuItem"
-        Me.YimagoRadio3ToolStripMenuItem.Size = New System.Drawing.Size(212, 22)
+        Me.YimagoRadio3ToolStripMenuItem.Size = New System.Drawing.Size(157, 22)
         Me.YimagoRadio3ToolStripMenuItem.Text = "Yimago Radio 3"
         '
         'YimagoRadio4ToolStripMenuItem
         '
         Me.YimagoRadio4ToolStripMenuItem.Image = Global.FinnysRadio.My.Resources.Resources.YimagoRadio4
         Me.YimagoRadio4ToolStripMenuItem.Name = "YimagoRadio4ToolStripMenuItem"
-        Me.YimagoRadio4ToolStripMenuItem.Size = New System.Drawing.Size(212, 22)
+        Me.YimagoRadio4ToolStripMenuItem.Size = New System.Drawing.Size(157, 22)
         Me.YimagoRadio4ToolStripMenuItem.Text = "Yimago Radio 4"
         '
         'LinkLabel1
@@ -1305,39 +1375,6 @@ Partial Class Main
     Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
     Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
-    Friend WithEvents ContextMenuStrip1 As System.Windows.Forms.ContextMenuStrip
-    Friend WithEvents TIMEToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents DATEToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ToolStripMenuItem4 As System.Windows.Forms.ToolStripSeparator
-    Friend WithEvents APPSETTINGSToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ShowRadioToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents HideRadioToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents CloseRadioToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ToolStripMenuItem5 As System.Windows.Forms.ToolStripSeparator
-    Friend WithEvents MusicToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents PlayLastStationToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents StopToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents VolumeToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ToolStripMenuItem6 As System.Windows.Forms.ToolStripSeparator
-    Friend WithEvents RADIOSTATIONSToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ABCClassicFMToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ABCCountryToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ABCDigMusicToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ABCExtraToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ABCJazzToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ABCRadioToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ABCRadioAustrailiaToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ABCRadioNationalToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents GippslandFMToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ConnrtyMusicRadiocomToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents Gold1043ToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents Gold1242ToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents KidsFMToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents StarFMToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents MySpaceMusicToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents TRFMToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents TripleJToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents TripleJUnearthedToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents HelpToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents AboutRadioToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ChangelogToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
@@ -1355,7 +1392,48 @@ Partial Class Main
     Friend WithEvents Label20 As System.Windows.Forms.Label
     Friend WithEvents Button21 As System.Windows.Forms.Button
     Friend WithEvents Button20 As System.Windows.Forms.Button
+    Friend WithEvents ContextMenuStrip1 As System.Windows.Forms.ContextMenuStrip
+    Friend WithEvents TIMEToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents DATEToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem4 As System.Windows.Forms.ToolStripSeparator
+    Friend WithEvents APPSETTINGSToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ShowRadioToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents HideRadioToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents CloseRadioToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem5 As System.Windows.Forms.ToolStripSeparator
+    Friend WithEvents MusicToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents PlayLastStationToolStripMenuItem2 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents StopToolStripMenuItem2 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents VolumeToolStripMenuItem2 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem6 As System.Windows.Forms.ToolStripSeparator
+    Friend WithEvents RADIOSTATIONSToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents AToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ABCClassicFMToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ABCCountryToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ABCDigMusicToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ABCExtraToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ABCJazzToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ABCRadioToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ABCRadioAustraliaToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ABCRadioNationalToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents CToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents CountryMusicRadiocomToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents GToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents GippslandFMToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents Gold1043ToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents Gold1242ToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents KToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents KidsFMToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents MToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents MySpaceMusicToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents SToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents StarFMToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents TToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents TRFMToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents TripleJToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents TripleJUnearthedToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents TripleMToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents YToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents YimagoRadio1ToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents YimagoRadio2ToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents YimagoRadio3ToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem

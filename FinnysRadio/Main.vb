@@ -182,10 +182,10 @@ Public Class Main
         ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCRadioAustraliaToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
         GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
+        CountryMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
         KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
@@ -276,10 +276,10 @@ Public Class Main
         ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCRadioAustraliaToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
         GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
+        CountryMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
         KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
@@ -390,13 +390,13 @@ Public Class Main
         Me.Close()
     End Sub
 
-    Private Sub PlayLastStationToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles PlayLastStationToolStripMenuItem1.Click
+    Private Sub PlayLastStationToolStripMenuItem2_Click(sender As Object, e As EventArgs) Handles PlayLastStationToolStripMenuItem2.Click
         'Play Last Station
         GroupBox1.Hide()
         WebBrowser1.Navigate(TextBox1.Text)
     End Sub
 
-    Private Sub StopToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles StopToolStripMenuItem1.Click
+    Private Sub StopToolStripMenuItem2_Click(sender As Object, e As EventArgs) Handles StopToolStripMenuItem2.Click
         'Stop Playing Station
         GroupBox1.Show()
         WebBrowser1.Navigate("http://finnyscomputers.webs.com")
@@ -454,10 +454,10 @@ Public Class Main
         ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCRadioAustraliaToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
         GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
+        CountryMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
         KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
@@ -473,10 +473,11 @@ Public Class Main
         YimagoRadio4ToolStripMenuItem.BackColor = Color.WhiteSmoke
     End Sub
 
-    Private Sub VolumeToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles VolumeToolStripMenuItem1.Click
+    Private Sub VolumeToolStripMenuItem2_Click(sender As Object, e As EventArgs) Handles VolumeToolStripMenuItem2.Click
         'Volume Control
         Process.Start("C:\Windows\System32\SndVol")
     End Sub
+
 
     'Radio Stations Buttons
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
@@ -540,10 +541,10 @@ Public Class Main
         ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCRadioAustraliaToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
         GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
+        CountryMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
         KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
@@ -620,10 +621,10 @@ Public Class Main
         ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCRadioAustraliaToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
         GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
+        CountryMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
         KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
@@ -700,10 +701,10 @@ Public Class Main
         ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCRadioAustraliaToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
         GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
+        CountryMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
         KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
@@ -780,10 +781,10 @@ Public Class Main
         ABCExtraToolStripMenuItem.BackColor = Color.Lime
         ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCRadioAustraliaToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
         GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
+        CountryMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
         KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
@@ -860,10 +861,10 @@ Public Class Main
         ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCJazzToolStripMenuItem.BackColor = Color.Lime
         ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCRadioAustraliaToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
         GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
+        CountryMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
         KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
@@ -940,10 +941,10 @@ Public Class Main
         ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioToolStripMenuItem.BackColor = Color.Lime
-        ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCRadioAustraliaToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
         GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
+        CountryMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
         KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
@@ -1020,10 +1021,10 @@ Public Class Main
         ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.Lime
+        ABCRadioAustraliaToolStripMenuItem.BackColor = Color.Lime
         ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
         GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
+        CountryMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
         KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
@@ -1100,10 +1101,10 @@ Public Class Main
         ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCRadioAustraliaToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioNationalToolStripMenuItem.BackColor = Color.Lime
         GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
+        CountryMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
         KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
@@ -1180,10 +1181,10 @@ Public Class Main
         ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCRadioAustraliaToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
         GippslandFMToolStripMenuItem.BackColor = Color.Lime
-        ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
+        CountryMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
         KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
@@ -1262,10 +1263,10 @@ Public Class Main
         ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCRadioAustraliaToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
         GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.Lime
+        CountryMusicRadiocomToolStripMenuItem.BackColor = Color.Lime
         Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
         KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
@@ -1343,10 +1344,10 @@ Public Class Main
         ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCRadioAustraliaToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
         GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
+        CountryMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1043ToolStripMenuItem.BackColor = Color.Lime
         Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
         KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
@@ -1423,10 +1424,10 @@ Public Class Main
         ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCRadioAustraliaToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
         GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
+        CountryMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1242ToolStripMenuItem.BackColor = Color.Lime
         KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
@@ -1503,10 +1504,10 @@ Public Class Main
         ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCRadioAustraliaToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
         GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
+        CountryMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
         KidsFMToolStripMenuItem.BackColor = Color.Lime
@@ -1584,10 +1585,10 @@ Public Class Main
         ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCRadioAustraliaToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
         GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
+        CountryMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
         KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
@@ -1664,10 +1665,10 @@ Public Class Main
         ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCRadioAustraliaToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
         GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
+        CountryMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
         KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
@@ -1744,10 +1745,10 @@ Public Class Main
         ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCRadioAustraliaToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
         GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
+        CountryMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
         KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
@@ -1825,10 +1826,10 @@ Public Class Main
         ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCRadioAustraliaToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
         GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
+        CountryMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
         KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
@@ -1905,10 +1906,10 @@ Public Class Main
         ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCRadioAustraliaToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
         GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
+        CountryMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
         KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
@@ -1985,10 +1986,10 @@ Public Class Main
         ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCRadioAustraliaToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
         GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
+        CountryMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
         KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
@@ -2065,10 +2066,10 @@ Public Class Main
         ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCRadioAustraliaToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
         GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
+        CountryMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
         KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
@@ -2145,10 +2146,10 @@ Public Class Main
         ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCRadioAustraliaToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
         GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
+        CountryMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
         KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
@@ -2225,10 +2226,10 @@ Public Class Main
         ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCRadioAustraliaToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
         GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
+        CountryMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
         KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
@@ -2305,10 +2306,10 @@ Public Class Main
         ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCRadioAustraliaToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
         GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
+        CountryMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
         KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
@@ -2329,7 +2330,7 @@ Public Class Main
 
 
     'Notify Icon Radio Stations
-    Private Sub ABCClassicToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ABCClassicFMToolStripMenuItem.Click
+    Private Sub ABCClassicFMToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ABCClassicFMToolStripMenuItem.Click
         GroupBox1.Hide()
         Label1.ForeColor = Color.Lime
         Label2.ForeColor = Color.Red
@@ -2394,10 +2395,10 @@ Public Class Main
         ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCRadioAustraliaToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
         GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
+        CountryMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
         KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
@@ -2478,10 +2479,10 @@ Public Class Main
         ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCRadioAustraliaToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
         GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
+        CountryMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
         KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
@@ -2562,10 +2563,10 @@ Public Class Main
         ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCRadioAustraliaToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
         GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
+        CountryMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
         KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
@@ -2646,10 +2647,10 @@ Public Class Main
         ABCExtraToolStripMenuItem.BackColor = Color.Lime
         ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCRadioAustraliaToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
         GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
+        CountryMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
         KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
@@ -2730,10 +2731,10 @@ Public Class Main
         ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCJazzToolStripMenuItem.BackColor = Color.Lime
         ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCRadioAustraliaToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
         GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
+        CountryMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
         KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
@@ -2814,10 +2815,10 @@ Public Class Main
         ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioToolStripMenuItem.BackColor = Color.Lime
-        ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCRadioAustraliaToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
         GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
+        CountryMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
         KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
@@ -2833,7 +2834,7 @@ Public Class Main
         YimagoRadio4ToolStripMenuItem.BackColor = Color.WhiteSmoke
     End Sub
 
-    Private Sub ABCRadioAustraliaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ABCRadioAustrailiaToolStripMenuItem.Click
+    Private Sub ABCRadioAustraliaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ABCRadioAustraliaToolStripMenuItem.Click
         GroupBox1.Hide()
         Label1.ForeColor = Color.Red
         Label2.ForeColor = Color.Red
@@ -2898,10 +2899,10 @@ Public Class Main
         ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.Lime
+        ABCRadioAustraliaToolStripMenuItem.BackColor = Color.Lime
         ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
         GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
+        CountryMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
         KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
@@ -2982,10 +2983,94 @@ Public Class Main
         ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCRadioAustraliaToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioNationalToolStripMenuItem.BackColor = Color.Lime
         GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
+        CountryMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
+        MySpaceMusicToolStripMenuItem.BackColor = Color.WhiteSmoke
+        StarFMToolStripMenuItem.BackColor = Color.WhiteSmoke
+        TRFMToolStripMenuItem.BackColor = Color.WhiteSmoke
+        TripleJToolStripMenuItem.BackColor = Color.WhiteSmoke
+        TripleJUnearthedToolStripMenuItem.BackColor = Color.WhiteSmoke
+        TripleMToolStripMenuItem.BackColor = Color.WhiteSmoke
+        YimagoRadio1ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        YimagoRadio2ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        YimagoRadio3ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        YimagoRadio4ToolStripMenuItem.BackColor = Color.WhiteSmoke
+    End Sub
+
+    Private Sub CountryMusicRadiocomToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CountryMusicRadiocomToolStripMenuItem.Click
+        GroupBox1.Hide()
+        Label1.ForeColor = Color.Red
+        Label2.ForeColor = Color.Red
+        Label3.ForeColor = Color.Red
+        Label4.ForeColor = Color.Red
+        Label5.ForeColor = Color.Red
+        Label6.ForeColor = Color.Red
+        Label7.ForeColor = Color.Red
+        Label8.ForeColor = Color.Red
+        Label9.ForeColor = Color.Red
+        Label10.ForeColor = Color.Lime
+        Label11.ForeColor = Color.Red
+        Label12.ForeColor = Color.Red
+        Label13.ForeColor = Color.Red
+        Label14.ForeColor = Color.Red
+        Label15.ForeColor = Color.Red
+        Label16.ForeColor = Color.Red
+        Label17.ForeColor = Color.Red
+        Label18.ForeColor = Color.Red
+        Label19.ForeColor = Color.Red
+        Label20.ForeColor = Color.Red
+        Label21.ForeColor = Color.Red
+        Label22.ForeColor = Color.Red
+        Label23.ForeColor = Color.Red
+
+        Mini_Player.Label1.ForeColor = Color.Red
+        Mini_Player.Label2.ForeColor = Color.Red
+        Mini_Player.Label3.ForeColor = Color.Red
+        Mini_Player.Label4.ForeColor = Color.Red
+        Mini_Player.Label5.ForeColor = Color.Red
+        Mini_Player.Label6.ForeColor = Color.Red
+        Mini_Player.Label7.ForeColor = Color.Red
+        Mini_Player.Label8.ForeColor = Color.Red
+        Mini_Player.Label9.ForeColor = Color.Red
+        Mini_Player.Label10.ForeColor = Color.Lime
+        Mini_Player.Label11.ForeColor = Color.Red
+        Mini_Player.Label12.ForeColor = Color.Red
+        Mini_Player.Label13.ForeColor = Color.Red
+        Mini_Player.Label14.ForeColor = Color.Red
+        Mini_Player.Label15.ForeColor = Color.Red
+        Mini_Player.Label16.ForeColor = Color.Red
+        Mini_Player.Label17.ForeColor = Color.Red
+        Mini_Player.Label18.ForeColor = Color.Red
+        Mini_Player.Label19.ForeColor = Color.Red
+        Mini_Player.Label20.ForeColor = Color.Red
+        Mini_Player.Label21.ForeColor = Color.Red
+        Mini_Player.Label22.ForeColor = Color.Red
+        Mini_Player.Label23.ForeColor = Color.Red
+
+        WebBrowser1.Navigate("http://www.countrymusicradio.com.au/CMR_Online.cfm")
+        TextBox1.Text = "http://www.countrymusicradio.com.au/CMR_Online.cfm"
+
+        NotifyIcon1.BalloonTipIcon = ToolTipIcon.Info
+        NotifyIcon1.BalloonTipTitle = "INFO"
+        NotifyIcon1.BalloonTipText = "Listen to Country Music Radio.com"
+        NotifyIcon1.ShowBalloonTip(1)
+        NotifyIcon1.Text = "Finnys Radio-Listen to Country Music Radio.com"
+
+        ABCClassicFMToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCCountryToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCDigMusicToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCRadioAustraliaToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
+        GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
+        CountryMusicRadiocomToolStripMenuItem.BackColor = Color.Lime
         Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
         KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
@@ -3066,94 +3151,10 @@ Public Class Main
         ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCRadioAustraliaToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
         GippslandFMToolStripMenuItem.BackColor = Color.Lime
-        ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
-        Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
-        Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
-        KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        MySpaceMusicToolStripMenuItem.BackColor = Color.WhiteSmoke
-        StarFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        TRFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        TripleJToolStripMenuItem.BackColor = Color.WhiteSmoke
-        TripleJUnearthedToolStripMenuItem.BackColor = Color.WhiteSmoke
-        TripleMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        YimagoRadio1ToolStripMenuItem.BackColor = Color.WhiteSmoke
-        YimagoRadio2ToolStripMenuItem.BackColor = Color.WhiteSmoke
-        YimagoRadio3ToolStripMenuItem.BackColor = Color.WhiteSmoke
-        YimagoRadio4ToolStripMenuItem.BackColor = Color.WhiteSmoke
-    End Sub
-
-    Private Sub ConnrtyMusicRadiocomToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ConnrtyMusicRadiocomToolStripMenuItem.Click
-        GroupBox1.Hide()
-        Label1.ForeColor = Color.Red
-        Label2.ForeColor = Color.Red
-        Label3.ForeColor = Color.Red
-        Label4.ForeColor = Color.Red
-        Label5.ForeColor = Color.Red
-        Label6.ForeColor = Color.Red
-        Label7.ForeColor = Color.Red
-        Label8.ForeColor = Color.Red
-        Label9.ForeColor = Color.Red
-        Label10.ForeColor = Color.Lime
-        Label11.ForeColor = Color.Red
-        Label12.ForeColor = Color.Red
-        Label13.ForeColor = Color.Red
-        Label14.ForeColor = Color.Red
-        Label15.ForeColor = Color.Red
-        Label16.ForeColor = Color.Red
-        Label17.ForeColor = Color.Red
-        Label18.ForeColor = Color.Red
-        Label19.ForeColor = Color.Red
-        Label20.ForeColor = Color.Red
-        Label21.ForeColor = Color.Red
-        Label22.ForeColor = Color.Red
-        Label23.ForeColor = Color.Red
-
-        Mini_Player.Label1.ForeColor = Color.Red
-        Mini_Player.Label2.ForeColor = Color.Red
-        Mini_Player.Label3.ForeColor = Color.Red
-        Mini_Player.Label4.ForeColor = Color.Red
-        Mini_Player.Label5.ForeColor = Color.Red
-        Mini_Player.Label6.ForeColor = Color.Red
-        Mini_Player.Label7.ForeColor = Color.Red
-        Mini_Player.Label8.ForeColor = Color.Red
-        Mini_Player.Label9.ForeColor = Color.Red
-        Mini_Player.Label10.ForeColor = Color.Lime
-        Mini_Player.Label11.ForeColor = Color.Red
-        Mini_Player.Label12.ForeColor = Color.Red
-        Mini_Player.Label13.ForeColor = Color.Red
-        Mini_Player.Label14.ForeColor = Color.Red
-        Mini_Player.Label15.ForeColor = Color.Red
-        Mini_Player.Label16.ForeColor = Color.Red
-        Mini_Player.Label17.ForeColor = Color.Red
-        Mini_Player.Label18.ForeColor = Color.Red
-        Mini_Player.Label19.ForeColor = Color.Red
-        Mini_Player.Label20.ForeColor = Color.Red
-        Mini_Player.Label21.ForeColor = Color.Red
-        Mini_Player.Label22.ForeColor = Color.Red
-        Mini_Player.Label23.ForeColor = Color.Red
-
-        WebBrowser1.Navigate("http://www.countrymusicradio.com.au/CMR_Online.cfm")
-        TextBox1.Text = "http://www.countrymusicradio.com.au/CMR_Online.cfm"
-
-        NotifyIcon1.BalloonTipIcon = ToolTipIcon.Info
-        NotifyIcon1.BalloonTipTitle = "INFO"
-        NotifyIcon1.BalloonTipText = "Listen to Country Music Radio.com"
-        NotifyIcon1.ShowBalloonTip(1)
-        NotifyIcon1.Text = "Finnys Radio-Listen to Country Music Radio.com"
-
-        ABCClassicFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCCountryToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCDigMusicToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
-        GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.Lime
+        CountryMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
         KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
@@ -3234,10 +3235,10 @@ Public Class Main
         ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCRadioAustraliaToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
         GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
+        CountryMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1043ToolStripMenuItem.BackColor = Color.Lime
         Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
         KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
@@ -3253,7 +3254,7 @@ Public Class Main
         YimagoRadio4ToolStripMenuItem.BackColor = Color.WhiteSmoke
     End Sub
 
-    Private Sub Gold2142ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles Gold1242ToolStripMenuItem.Click
+    Private Sub Gold1242ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles Gold1242ToolStripMenuItem.Click
         GroupBox1.Hide()
         Label1.ForeColor = Color.Red
         Label2.ForeColor = Color.Red
@@ -3318,10 +3319,10 @@ Public Class Main
         ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCRadioAustraliaToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
         GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
+        CountryMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1242ToolStripMenuItem.BackColor = Color.Lime
         KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
@@ -3402,10 +3403,10 @@ Public Class Main
         ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCRadioAustraliaToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
         GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
+        CountryMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
         KidsFMToolStripMenuItem.BackColor = Color.Lime
@@ -3486,10 +3487,10 @@ Public Class Main
         ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCRadioAustraliaToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
         GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
+        CountryMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
         KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
@@ -3570,10 +3571,10 @@ Public Class Main
         ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCRadioAustraliaToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
         GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
+        CountryMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
         KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
@@ -3654,10 +3655,10 @@ Public Class Main
         ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCRadioAustraliaToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
         GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
+        CountryMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
         KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
@@ -3738,10 +3739,10 @@ Public Class Main
         ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCRadioAustraliaToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
         GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
+        CountryMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
         KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
@@ -3822,10 +3823,10 @@ Public Class Main
         ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCRadioAustraliaToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
         GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
+        CountryMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
         KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
@@ -3906,10 +3907,10 @@ Public Class Main
         ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCRadioAustraliaToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
         GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
+        CountryMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
         KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
@@ -3978,6 +3979,10 @@ Public Class Main
         WebBrowser1.Navigate("http://alamo.mediaradioplayer.com/flash.html")
         TextBox1.Text = "http://alamo.mediaradioplayer.com/flash.html"
 
+        NotifyIcon1.BalloonTipIcon = ToolTipIcon.Info
+        NotifyIcon1.BalloonTipTitle = "INFO"
+        NotifyIcon1.BalloonTipText = "Listen to Yimago Radio 1"
+        NotifyIcon1.ShowBalloonTip(1)
         NotifyIcon1.Text = "Finnys Radio-Listen to Yimago Radio 1"
 
         ABCClassicFMToolStripMenuItem.BackColor = Color.WhiteSmoke
@@ -3986,10 +3991,10 @@ Public Class Main
         ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCRadioAustraliaToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
         GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
+        CountryMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
         KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
@@ -4058,6 +4063,10 @@ Public Class Main
         WebBrowser1.Navigate("http://eriador.mediaradioplayer.com/flash.html")
         TextBox1.Text = "http://eriador.mediaradioplayer.com/flash.html"
 
+        NotifyIcon1.BalloonTipIcon = ToolTipIcon.Info
+        NotifyIcon1.BalloonTipTitle = "INFO"
+        NotifyIcon1.BalloonTipText = "Listen to Yimago Radio 2"
+        NotifyIcon1.ShowBalloonTip(1)
         NotifyIcon1.Text = "Finnys Radio-Listen to Yimago Radio 2"
 
         ABCClassicFMToolStripMenuItem.BackColor = Color.WhiteSmoke
@@ -4066,10 +4075,10 @@ Public Class Main
         ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCRadioAustraliaToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
         GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
+        CountryMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
         KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
@@ -4138,6 +4147,10 @@ Public Class Main
         WebBrowser1.Navigate("http://elrond.mediaradioplayer.com/flash.html")
         TextBox1.Text = "http://elrond.mediaradioplayer.com/flash.html"
 
+        NotifyIcon1.BalloonTipIcon = ToolTipIcon.Info
+        NotifyIcon1.BalloonTipTitle = "INFO"
+        NotifyIcon1.BalloonTipText = "Listen to Yimago Radio 3"
+        NotifyIcon1.ShowBalloonTip(1)
         NotifyIcon1.Text = "Finnys Radio-Listen to Yimago Radio 3"
 
         ABCClassicFMToolStripMenuItem.BackColor = Color.WhiteSmoke
@@ -4146,10 +4159,10 @@ Public Class Main
         ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCRadioAustraliaToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
         GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
+        CountryMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
         KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
@@ -4218,6 +4231,10 @@ Public Class Main
         WebBrowser1.Navigate("http://excalibur.mediaradioplayer.com/flash.html")
         TextBox1.Text = "http://excalibur.mediaradioplayer.com/flash.html"
 
+        NotifyIcon1.BalloonTipIcon = ToolTipIcon.Info
+        NotifyIcon1.BalloonTipTitle = "INFO"
+        NotifyIcon1.BalloonTipText = "Listen to Yimago Radio 4"
+        NotifyIcon1.ShowBalloonTip(1)
         NotifyIcon1.Text = "Finnys Radio-Listen to Yimago Radio 4"
 
         ABCClassicFMToolStripMenuItem.BackColor = Color.WhiteSmoke
@@ -4226,10 +4243,10 @@ Public Class Main
         ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCRadioAustrailiaToolStripMenuItem.BackColor = Color.WhiteSmoke
+        ABCRadioAustraliaToolStripMenuItem.BackColor = Color.WhiteSmoke
         ABCRadioNationalToolStripMenuItem.BackColor = Color.WhiteSmoke
         GippslandFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ConnrtyMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
+        CountryMusicRadiocomToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1043ToolStripMenuItem.BackColor = Color.WhiteSmoke
         Gold1242ToolStripMenuItem.BackColor = Color.WhiteSmoke
         KidsFMToolStripMenuItem.BackColor = Color.WhiteSmoke
