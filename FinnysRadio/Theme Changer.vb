@@ -13,6 +13,11 @@
         ComboBox1.SelectedIndex = 0
         ComboBox2.SelectedIndex = 0
         ComboBox3.SelectedIndex = 0
+
+        If My.Settings.ShowClock = True Then
+            CheckBox1.Checked = True
+        End If
+
     End Sub
 
     Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
@@ -33,6 +38,10 @@
         My.Settings.TimeColour = Color.Lime
         My.Settings.BackgroundColour = Color.Gray
         My.Settings.FontColour = Color.Black
+        BackColor = My.Settings.BackgroundColour
+        Main.Label95.Show()
+        Main.Label96.Show()
+        CheckBox1.Checked = True
     End Sub
 
     Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox1.SelectedIndexChanged
@@ -276,5 +285,17 @@
                 PictureBox1.BackColor = Color.Yellow
                 My.Settings.FontColour = Color.Yellow
         End Select
+    End Sub
+
+    Private Sub CheckBox1_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox1.CheckedChanged
+        If CheckBox1.Checked = True Then
+            Main.Label95.Show()
+            Main.Label96.Show()
+            My.Settings.ShowClock = True
+        Else
+            Main.Label95.Hide()
+            Main.Label96.Hide()
+            My.Settings.ShowClock = False
+        End If
     End Sub
 End Class

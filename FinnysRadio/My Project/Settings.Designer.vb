@@ -101,6 +101,18 @@ Namespace My
                 Me("Beta") = value
             End Set
         End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("True")>  _
+        Public Property ShowClock() As String
+            Get
+                Return CType(Me("ShowClock"),String)
+            End Get
+            Set
+                Me("ShowClock") = value
+            End Set
+        End Property
     End Class
 End Namespace
 

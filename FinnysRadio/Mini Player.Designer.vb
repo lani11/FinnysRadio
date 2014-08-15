@@ -34,6 +34,14 @@ Partial Class Mini_Player
         Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripSeparator()
         Me.VolumeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Label23 = New System.Windows.Forms.Label()
+        Me.Label22 = New System.Windows.Forms.Label()
+        Me.Button22 = New System.Windows.Forms.Button()
+        Me.Button23 = New System.Windows.Forms.Button()
+        Me.Label21 = New System.Windows.Forms.Label()
+        Me.Label20 = New System.Windows.Forms.Label()
+        Me.Button21 = New System.Windows.Forms.Button()
+        Me.Button20 = New System.Windows.Forms.Button()
         Me.Label19 = New System.Windows.Forms.Label()
         Me.Button19 = New System.Windows.Forms.Button()
         Me.Label18 = New System.Windows.Forms.Label()
@@ -72,14 +80,6 @@ Partial Class Mini_Player
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.Label23 = New System.Windows.Forms.Label()
-        Me.Label22 = New System.Windows.Forms.Label()
-        Me.Button22 = New System.Windows.Forms.Button()
-        Me.Button23 = New System.Windows.Forms.Button()
-        Me.Label21 = New System.Windows.Forms.Label()
-        Me.Label20 = New System.Windows.Forms.Label()
-        Me.Button21 = New System.Windows.Forms.Button()
-        Me.Button20 = New System.Windows.Forms.Button()
         Me.MenuStrip1.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
@@ -115,7 +115,6 @@ Partial Class Mini_Player
         '
         'CloseToolStripMenuItem
         '
-        Me.CloseToolStripMenuItem.Image = Global.FinnysRadio.My.Resources.Resources.Close
         Me.CloseToolStripMenuItem.Name = "CloseToolStripMenuItem"
         Me.CloseToolStripMenuItem.Size = New System.Drawing.Size(160, 22)
         Me.CloseToolStripMenuItem.Text = "Close"
@@ -209,6 +208,94 @@ Partial Class Mini_Player
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(316, 210)
         Me.Panel1.TabIndex = 9
+        '
+        'Label23
+        '
+        Me.Label23.AutoSize = True
+        Me.Label23.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label23.ForeColor = System.Drawing.Color.Red
+        Me.Label23.Location = New System.Drawing.Point(216, 740)
+        Me.Label23.Name = "Label23"
+        Me.Label23.Size = New System.Drawing.Size(77, 21)
+        Me.Label23.TabIndex = 55
+        Me.Label23.Text = "PLAYING"
+        '
+        'Label22
+        '
+        Me.Label22.AutoSize = True
+        Me.Label22.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label22.ForeColor = System.Drawing.Color.Red
+        Me.Label22.Location = New System.Drawing.Point(216, 707)
+        Me.Label22.Name = "Label22"
+        Me.Label22.Size = New System.Drawing.Size(77, 21)
+        Me.Label22.TabIndex = 54
+        Me.Label22.Text = "PLAYING"
+        '
+        'Button22
+        '
+        Me.Button22.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button22.ForeColor = System.Drawing.Color.Black
+        Me.Button22.Location = New System.Drawing.Point(3, 705)
+        Me.Button22.Name = "Button22"
+        Me.Button22.Size = New System.Drawing.Size(207, 27)
+        Me.Button22.TabIndex = 53
+        Me.Button22.Text = "Yimago Radio 3"
+        Me.Button22.UseVisualStyleBackColor = True
+        '
+        'Button23
+        '
+        Me.Button23.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button23.ForeColor = System.Drawing.Color.Black
+        Me.Button23.Location = New System.Drawing.Point(3, 738)
+        Me.Button23.Name = "Button23"
+        Me.Button23.Size = New System.Drawing.Size(207, 27)
+        Me.Button23.TabIndex = 52
+        Me.Button23.Text = "Yimago Radio 4"
+        Me.Button23.UseVisualStyleBackColor = True
+        '
+        'Label21
+        '
+        Me.Label21.AutoSize = True
+        Me.Label21.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label21.ForeColor = System.Drawing.Color.Red
+        Me.Label21.Location = New System.Drawing.Point(216, 673)
+        Me.Label21.Name = "Label21"
+        Me.Label21.Size = New System.Drawing.Size(77, 21)
+        Me.Label21.TabIndex = 51
+        Me.Label21.Text = "PLAYING"
+        '
+        'Label20
+        '
+        Me.Label20.AutoSize = True
+        Me.Label20.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label20.ForeColor = System.Drawing.Color.Red
+        Me.Label20.Location = New System.Drawing.Point(216, 640)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(77, 21)
+        Me.Label20.TabIndex = 49
+        Me.Label20.Text = "PLAYING"
+        '
+        'Button21
+        '
+        Me.Button21.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button21.ForeColor = System.Drawing.Color.Black
+        Me.Button21.Location = New System.Drawing.Point(3, 672)
+        Me.Button21.Name = "Button21"
+        Me.Button21.Size = New System.Drawing.Size(207, 27)
+        Me.Button21.TabIndex = 50
+        Me.Button21.Text = "Yimago Radio 2"
+        Me.Button21.UseVisualStyleBackColor = True
+        '
+        'Button20
+        '
+        Me.Button20.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button20.ForeColor = System.Drawing.Color.Black
+        Me.Button20.Location = New System.Drawing.Point(3, 639)
+        Me.Button20.Name = "Button20"
+        Me.Button20.Size = New System.Drawing.Size(207, 27)
+        Me.Button20.TabIndex = 48
+        Me.Button20.Text = "Yimago Radio 1"
+        Me.Button20.UseVisualStyleBackColor = True
         '
         'Label19
         '
@@ -627,94 +714,6 @@ Partial Class Mini_Player
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "ABC Classic FM"
         Me.Button1.UseVisualStyleBackColor = True
-        '
-        'Label23
-        '
-        Me.Label23.AutoSize = True
-        Me.Label23.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label23.ForeColor = System.Drawing.Color.Red
-        Me.Label23.Location = New System.Drawing.Point(216, 740)
-        Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(77, 21)
-        Me.Label23.TabIndex = 55
-        Me.Label23.Text = "PLAYING"
-        '
-        'Label22
-        '
-        Me.Label22.AutoSize = True
-        Me.Label22.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label22.ForeColor = System.Drawing.Color.Red
-        Me.Label22.Location = New System.Drawing.Point(216, 707)
-        Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(77, 21)
-        Me.Label22.TabIndex = 54
-        Me.Label22.Text = "PLAYING"
-        '
-        'Button22
-        '
-        Me.Button22.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button22.ForeColor = System.Drawing.Color.Black
-        Me.Button22.Location = New System.Drawing.Point(3, 705)
-        Me.Button22.Name = "Button22"
-        Me.Button22.Size = New System.Drawing.Size(207, 27)
-        Me.Button22.TabIndex = 53
-        Me.Button22.Text = "Yimago Radio 3"
-        Me.Button22.UseVisualStyleBackColor = True
-        '
-        'Button23
-        '
-        Me.Button23.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button23.ForeColor = System.Drawing.Color.Black
-        Me.Button23.Location = New System.Drawing.Point(3, 738)
-        Me.Button23.Name = "Button23"
-        Me.Button23.Size = New System.Drawing.Size(207, 27)
-        Me.Button23.TabIndex = 52
-        Me.Button23.Text = "Yimago Radio 4"
-        Me.Button23.UseVisualStyleBackColor = True
-        '
-        'Label21
-        '
-        Me.Label21.AutoSize = True
-        Me.Label21.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label21.ForeColor = System.Drawing.Color.Red
-        Me.Label21.Location = New System.Drawing.Point(216, 673)
-        Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(77, 21)
-        Me.Label21.TabIndex = 51
-        Me.Label21.Text = "PLAYING"
-        '
-        'Label20
-        '
-        Me.Label20.AutoSize = True
-        Me.Label20.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label20.ForeColor = System.Drawing.Color.Red
-        Me.Label20.Location = New System.Drawing.Point(216, 640)
-        Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(77, 21)
-        Me.Label20.TabIndex = 49
-        Me.Label20.Text = "PLAYING"
-        '
-        'Button21
-        '
-        Me.Button21.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button21.ForeColor = System.Drawing.Color.Black
-        Me.Button21.Location = New System.Drawing.Point(3, 672)
-        Me.Button21.Name = "Button21"
-        Me.Button21.Size = New System.Drawing.Size(207, 27)
-        Me.Button21.TabIndex = 50
-        Me.Button21.Text = "Yimago Radio 2"
-        Me.Button21.UseVisualStyleBackColor = True
-        '
-        'Button20
-        '
-        Me.Button20.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button20.ForeColor = System.Drawing.Color.Black
-        Me.Button20.Location = New System.Drawing.Point(3, 639)
-        Me.Button20.Name = "Button20"
-        Me.Button20.Size = New System.Drawing.Size(207, 27)
-        Me.Button20.TabIndex = 48
-        Me.Button20.Text = "Yimago Radio 1"
-        Me.Button20.UseVisualStyleBackColor = True
         '
         'Mini_Player
         '

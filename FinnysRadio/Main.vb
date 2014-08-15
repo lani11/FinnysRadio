@@ -23,6 +23,14 @@ Public Class Main
         TIMEToolStripMenuItem.ForeColor = My.Settings.TimeColour
         DATEToolStripMenuItem.ForeColor = My.Settings.TimeColour
 
+        If My.Settings.ShowClock = True Then
+            Label95.Show()
+            Label96.Show()
+        Else
+            Label95.Hide()
+            Label96.Hide()
+        End If
+
         Me.Text = "Finnys Radio " + MyVer
 
         'Check For Internet
