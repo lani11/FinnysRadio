@@ -26,59 +26,17 @@ Public Class Scanner
         BackColor = My.Settings.BackgroundColour
         ForeColor = My.Settings.FontColour
 
+        If My.Settings.ShowClock = True Then
+            Label95.Show()
+            Label96.Show()
+        Else
+            Label95.Hide()
+            Label96.Hide()
+        End If
+
         'Enables Timer
         TimeDateTimer.Enabled = True
         TimeDateTimer.Interval = 1000
-    End Sub
-
-    Private Sub Button12_Click(sender As Object, e As EventArgs) Handles Button12.Click
-        GroupBox1.Hide()
-        Label1.ForeColor = Color.Lime
-        Label2.ForeColor = Color.Red
-        Label3.ForeColor = Color.Red
-        Label4.ForeColor = Color.Red
-        Label5.ForeColor = Color.Red
-        WebBrowser1.Navigate("http://www.broadcastify.com/listen/feed/7061/web")
-    End Sub
-
-    Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
-        GroupBox1.Hide()
-        Label1.ForeColor = Color.Red
-        Label2.ForeColor = Color.Lime
-        Label3.ForeColor = Color.Red
-        Label4.ForeColor = Color.Red
-        Label5.ForeColor = Color.Red
-        WebBrowser1.Navigate("http://www.broadcastify.com/listen/feed/13368/web")
-    End Sub
-
-    Private Sub Button13_Click(sender As Object, e As EventArgs) Handles Button13.Click
-        GroupBox1.Hide()
-        Label1.ForeColor = Color.Red
-        Label2.ForeColor = Color.Red
-        Label3.ForeColor = Color.Lime
-        Label4.ForeColor = Color.Red
-        Label5.ForeColor = Color.Red
-        WebBrowser1.Navigate("http://www.broadcastify.com/listen/feed/7061/web")
-    End Sub
-
-    Private Sub Button11_Click(sender As Object, e As EventArgs) Handles Button11.Click
-        GroupBox1.Hide()
-        Label1.ForeColor = Color.Red
-        Label2.ForeColor = Color.Red
-        Label3.ForeColor = Color.Red
-        Label4.ForeColor = Color.Lime
-        Label5.ForeColor = Color.Red
-        WebBrowser1.Navigate("http://www.broadcastify.com/listen/feed/13368/web")
-    End Sub
-
-    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
-        GroupBox1.Hide()
-        Label1.ForeColor = Color.Red
-        Label2.ForeColor = Color.Red
-        Label3.ForeColor = Color.Red
-        Label4.ForeColor = Color.Red
-        Label5.ForeColor = Color.Lime
-        WebBrowser1.Navigate("http://www.broadcastify.com/listen/feed/11697/web")
     End Sub
 
     'Clock And Date
@@ -134,40 +92,16 @@ Public Class Scanner
         Label4.ForeColor = Color.Red
         Label5.ForeColor = Color.Red
 
-        Mini_Player.Label1.ForeColor = Color.Red
-        Mini_Player.Label2.ForeColor = Color.Red
-        Mini_Player.Label3.ForeColor = Color.Red
-        Mini_Player.Label4.ForeColor = Color.Red
-        Mini_Player.Label5.ForeColor = Color.Red
-        Mini_Player.Label6.ForeColor = Color.Red
-        Mini_Player.Label7.ForeColor = Color.Red
-        Mini_Player.Label8.ForeColor = Color.Red
-        Mini_Player.Label9.ForeColor = Color.Red
-        Mini_Player.Label10.ForeColor = Color.Red
-        Mini_Player.Label11.ForeColor = Color.Red
-        Mini_Player.Label12.ForeColor = Color.Red
-        Mini_Player.Label13.ForeColor = Color.Red
-        Mini_Player.Label14.ForeColor = Color.Red
-        Mini_Player.Label15.ForeColor = Color.Red
-        Mini_Player.Label16.ForeColor = Color.Red
-        Mini_Player.Label17.ForeColor = Color.Red
-        Mini_Player.Label18.ForeColor = Color.Red
-        Mini_Player.Label19.ForeColor = Color.Red
-
-        ABCClassicFMToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCCountryToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCDigMusicToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCExtraToolStripMenuItem.BackColor = Color.WhiteSmoke
-        ABCJazzToolStripMenuItem.BackColor = Color.WhiteSmoke
+        GippslandPoliceQ1Q2ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        GippslandVicFireToolStripMenuItem.BackColor = Color.WhiteSmoke
+        RuralAmbulanceToolStripMenuItem.BackColor = Color.WhiteSmoke
+        VictoriaPoliceCFAMFBToolStripMenuItem.BackColor = Color.WhiteSmoke
+        VictoriaStateEmergencyToolStripMenuItem.BackColor = Color.WhiteSmoke
     End Sub
 
     Private Sub VolumeToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles VolumeToolStripMenuItem.Click
         'Volume Control
         Process.Start("C:\Windows\System32\SndVol")
-    End Sub
-
-    Private Sub ThemeChangerToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ThemeChangerToolStripMenuItem.Click
-
     End Sub
 
     Private Sub ChangelogToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ChangelogToolStripMenuItem.Click
@@ -230,5 +164,160 @@ Public Class Scanner
         End With
         objEmail = Nothing
         objApp = Nothing
+    End Sub
+
+    Private Sub ShowRadioToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ShowRadioToolStripMenuItem.Click
+        'Show Radio
+        Me.Show()
+        HideRadioToolStripMenuItem.Enabled = True
+    End Sub
+
+    Private Sub HideRadioToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles HideRadioToolStripMenuItem.Click
+        'Hide Radio
+        Me.Hide()
+        HideRadioToolStripMenuItem.Enabled = False
+        NotifyIcon1.BalloonTipIcon = ToolTipIcon.Info
+        NotifyIcon1.BalloonTipTitle = "Finnys Radio"
+        NotifyIcon1.BalloonTipText = "FINNYS RADIO IS STILL RUNNING RIGHT CLICK FOR OPTIONS DOUBLE CLICK TO SHOW"
+        NotifyIcon1.ShowBalloonTip(1)
+    End Sub
+
+    Private Sub CloseRadioToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CloseRadioToolStripMenuItem.Click
+        'Close Radio
+        Me.Close()
+    End Sub
+
+    Private Sub PlayLastStationToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles PlayLastStationToolStripMenuItem1.Click
+        'Play Last Station
+        GroupBox1.Hide()
+        WebBrowser1.Navigate(TextBox1.Text)
+    End Sub
+
+    Private Sub StopToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles StopToolStripMenuItem1.Click
+        'Stop Playing Station
+        GroupBox1.Show()
+        WebBrowser1.Navigate("http://finnyscomputers.webs.com")
+        Label1.ForeColor = Color.Red
+        Label2.ForeColor = Color.Red
+        Label3.ForeColor = Color.Red
+        Label4.ForeColor = Color.Red
+        Label5.ForeColor = Color.Red
+
+        GippslandPoliceQ1Q2ToolStripMenuItem.BackColor = Color.WhiteSmoke
+        GippslandVicFireToolStripMenuItem.BackColor = Color.WhiteSmoke
+        RuralAmbulanceToolStripMenuItem.BackColor = Color.WhiteSmoke
+        VictoriaPoliceCFAMFBToolStripMenuItem.BackColor = Color.WhiteSmoke
+        VictoriaStateEmergencyToolStripMenuItem.BackColor = Color.WhiteSmoke
+    End Sub
+
+    Private Sub VolumeToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles VolumeToolStripMenuItem1.Click
+        'Volume Control
+        Process.Start("C:\Windows\System32\SndVol")
+    End Sub
+
+    Private Sub Button12_Click(sender As Object, e As EventArgs) Handles Button12.Click
+        GroupBox1.Hide()
+        Label1.ForeColor = Color.Lime
+        Label2.ForeColor = Color.Red
+        Label3.ForeColor = Color.Red
+        Label4.ForeColor = Color.Red
+        Label5.ForeColor = Color.Red
+        WebBrowser1.Navigate("http://www.broadcastify.com/listen/feed/7061/web")
+    End Sub
+
+    Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
+        GroupBox1.Hide()
+        Label1.ForeColor = Color.Red
+        Label2.ForeColor = Color.Lime
+        Label3.ForeColor = Color.Red
+        Label4.ForeColor = Color.Red
+        Label5.ForeColor = Color.Red
+        WebBrowser1.Navigate("http://www.broadcastify.com/listen/feed/13368/web")
+    End Sub
+
+    Private Sub Button13_Click(sender As Object, e As EventArgs) Handles Button13.Click
+        GroupBox1.Hide()
+        Label1.ForeColor = Color.Red
+        Label2.ForeColor = Color.Red
+        Label3.ForeColor = Color.Lime
+        Label4.ForeColor = Color.Red
+        Label5.ForeColor = Color.Red
+        WebBrowser1.Navigate("http://www.broadcastify.com/listen/feed/7061/web")
+    End Sub
+
+    Private Sub Button11_Click(sender As Object, e As EventArgs) Handles Button11.Click
+        GroupBox1.Hide()
+        Label1.ForeColor = Color.Red
+        Label2.ForeColor = Color.Red
+        Label3.ForeColor = Color.Red
+        Label4.ForeColor = Color.Lime
+        Label5.ForeColor = Color.Red
+        WebBrowser1.Navigate("http://www.broadcastify.com/listen/feed/13368/web")
+    End Sub
+
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        GroupBox1.Hide()
+        Label1.ForeColor = Color.Red
+        Label2.ForeColor = Color.Red
+        Label3.ForeColor = Color.Red
+        Label4.ForeColor = Color.Red
+        Label5.ForeColor = Color.Lime
+        WebBrowser1.Navigate("http://www.broadcastify.com/listen/feed/11697/web")
+    End Sub
+
+
+    '######################################################################################################################################################
+
+
+    'Notify Icon Radio Stations
+
+    Private Sub GippslandPoliceQ1Q2ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles GippslandPoliceQ1Q2ToolStripMenuItem.Click
+        GroupBox1.Hide()
+        Label1.ForeColor = Color.Lime
+        Label2.ForeColor = Color.Red
+        Label3.ForeColor = Color.Red
+        Label4.ForeColor = Color.Red
+        Label5.ForeColor = Color.Red
+        WebBrowser1.Navigate("http://www.broadcastify.com/listen/feed/7061/web")
+    End Sub
+
+    Private Sub GippslandVicFireToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles GippslandVicFireToolStripMenuItem.Click
+        GroupBox1.Hide()
+        Label1.ForeColor = Color.Red
+        Label2.ForeColor = Color.Lime
+        Label3.ForeColor = Color.Red
+        Label4.ForeColor = Color.Red
+        Label5.ForeColor = Color.Red
+        WebBrowser1.Navigate("http://www.broadcastify.com/listen/feed/13368/web")
+    End Sub
+
+    Private Sub RuralAmbulanceToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RuralAmbulanceToolStripMenuItem.Click
+        GroupBox1.Hide()
+        Label1.ForeColor = Color.Red
+        Label2.ForeColor = Color.Red
+        Label3.ForeColor = Color.Lime
+        Label4.ForeColor = Color.Red
+        Label5.ForeColor = Color.Red
+        WebBrowser1.Navigate("http://www.broadcastify.com/listen/feed/7061/web")
+    End Sub
+
+    Private Sub VictoriaPoliceCFAMFBToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles VictoriaPoliceCFAMFBToolStripMenuItem.Click
+        GroupBox1.Hide()
+        Label1.ForeColor = Color.Red
+        Label2.ForeColor = Color.Red
+        Label3.ForeColor = Color.Red
+        Label4.ForeColor = Color.Lime
+        Label5.ForeColor = Color.Red
+        WebBrowser1.Navigate("http://www.broadcastify.com/listen/feed/13368/web")
+    End Sub
+
+    Private Sub VictoriaStateEmergencyToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles VictoriaStateEmergencyToolStripMenuItem.Click
+        GroupBox1.Hide()
+        Label1.ForeColor = Color.Red
+        Label2.ForeColor = Color.Red
+        Label3.ForeColor = Color.Red
+        Label4.ForeColor = Color.Red
+        Label5.ForeColor = Color.Lime
+        WebBrowser1.Navigate("http://www.broadcastify.com/listen/feed/11697/web")
     End Sub
 End Class

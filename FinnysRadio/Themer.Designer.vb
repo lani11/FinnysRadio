@@ -41,9 +41,9 @@ Partial Class Theme_Changer
         'Button7
         '
         Me.Button7.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button7.Location = New System.Drawing.Point(274, 166)
+        Me.Button7.Location = New System.Drawing.Point(128, 166)
         Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(205, 36)
+        Me.Button7.Size = New System.Drawing.Size(114, 36)
         Me.Button7.TabIndex = 6
         Me.Button7.Text = "SAVE"
         Me.Button7.UseVisualStyleBackColor = True
@@ -114,16 +114,16 @@ Partial Class Theme_Changer
         Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.PictureBox1.Location = New System.Drawing.Point(321, 19)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(152, 81)
+        Me.PictureBox1.Size = New System.Drawing.Size(140, 81)
         Me.PictureBox1.TabIndex = 20
         Me.PictureBox1.TabStop = False
         '
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(274, 124)
+        Me.Button1.Location = New System.Drawing.Point(248, 166)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(205, 36)
+        Me.Button1.Size = New System.Drawing.Size(114, 36)
         Me.Button1.TabIndex = 21
         Me.Button1.Text = "RESET"
         Me.Button1.UseVisualStyleBackColor = True
@@ -131,6 +131,7 @@ Partial Class Theme_Changer
         'GroupBox2
         '
         Me.GroupBox2.Controls.Add(Me.Label3)
+        Me.GroupBox2.Controls.Add(Me.CheckBox1)
         Me.GroupBox2.Controls.Add(Me.ComboBox1)
         Me.GroupBox2.Controls.Add(Me.Label4)
         Me.GroupBox2.Controls.Add(Me.PictureBox1)
@@ -140,7 +141,7 @@ Partial Class Theme_Changer
         Me.GroupBox2.ForeColor = System.Drawing.Color.Black
         Me.GroupBox2.Location = New System.Drawing.Point(12, 12)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(467, 106)
+        Me.GroupBox2.Size = New System.Drawing.Size(467, 148)
         Me.GroupBox2.TabIndex = 22
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Theme Changer"
@@ -149,7 +150,7 @@ Partial Class Theme_Changer
         '
         Me.CheckBox1.AutoSize = True
         Me.CheckBox1.ForeColor = System.Drawing.Color.White
-        Me.CheckBox1.Location = New System.Drawing.Point(12, 137)
+        Me.CheckBox1.Location = New System.Drawing.Point(9, 103)
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(118, 19)
         Me.CheckBox1.TabIndex = 23
@@ -162,7 +163,6 @@ Partial Class Theme_Changer
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Gray
         Me.ClientSize = New System.Drawing.Size(491, 211)
-        Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Button7)
@@ -179,7 +179,6 @@ Partial Class Theme_Changer
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox2.PerformLayout()
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
     Friend WithEvents Button7 As System.Windows.Forms.Button

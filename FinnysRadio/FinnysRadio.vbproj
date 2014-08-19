@@ -195,10 +195,10 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="Theme Changer.Designer.vb">
-      <DependentUpon>Theme Changer.vb</DependentUpon>
+    <Compile Include="Themer.Designer.vb">
+      <DependentUpon>Themer.vb</DependentUpon>
     </Compile>
-    <Compile Include="Theme Changer.vb">
+    <Compile Include="Themer.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Web Browser.Designer.vb">
@@ -248,8 +248,8 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Theme Changer.resx">
-      <DependentUpon>Theme Changer.vb</DependentUpon>
+    <EmbeddedResource Include="Themer.resx">
+      <DependentUpon>Themer.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Web Browser.resx">
       <DependentUpon>Web Browser.vb</DependentUpon>

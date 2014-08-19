@@ -47,8 +47,6 @@ Partial Class Scanner
         Me.StopToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripSeparator()
         Me.VolumeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.OptionsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ThemeChangerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.HelpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ChangelogToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AboutRadioToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -67,23 +65,27 @@ Partial Class Scanner
         Me.TIMEToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.DATEToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem4 = New System.Windows.Forms.ToolStripSeparator()
-        Me.APPSETTINGSToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ShowToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ToolStripMenuItem3 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.RadioSettingsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ShowRadioToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.HideRadioToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CloseRadioToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
-        Me.MusicToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PlayRefreshToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PauseStopToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.VolumeSettingsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.MusicOptionsToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PlayLastStationToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.StopToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.VolumeToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator2 = New System.Windows.Forms.ToolStripSeparator()
-        Me.RADIOSTATIONSToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ABCClassicFMToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ABCCountryToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ABCDigMusicToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ABCExtraToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ABCJazzToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripMenuItem3 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.GToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.GippslandPoliceQ1Q2ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.RToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.VToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TimeDateTimer = New System.Windows.Forms.Timer(Me.components)
         Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.GippslandVicFireToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.RuralAmbulanceToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.VictoriaPoliceCFAMFBToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.VictoriaStateEmergencyToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Panel1.SuspendLayout()
         Me.MenuStrip1.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
@@ -245,7 +247,7 @@ Partial Class Scanner
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem, Me.MusicOptionsToolStripMenuItem, Me.OptionsToolStripMenuItem, Me.HelpToolStripMenuItem, Me.AboutMeToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem, Me.MusicOptionsToolStripMenuItem, Me.HelpToolStripMenuItem, Me.AboutMeToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(1204, 24)
@@ -274,7 +276,6 @@ Partial Class Scanner
         '
         'CloseToolStripMenuItem
         '
-        Me.CloseToolStripMenuItem.Image = Global.FinnysRadio.My.Resources.Resources.Close
         Me.CloseToolStripMenuItem.Name = "CloseToolStripMenuItem"
         Me.CloseToolStripMenuItem.Size = New System.Drawing.Size(160, 22)
         Me.CloseToolStripMenuItem.Text = "Close"
@@ -312,22 +313,6 @@ Partial Class Scanner
         Me.VolumeToolStripMenuItem.Name = "VolumeToolStripMenuItem"
         Me.VolumeToolStripMenuItem.Size = New System.Drawing.Size(160, 22)
         Me.VolumeToolStripMenuItem.Text = "Volume"
-        '
-        'OptionsToolStripMenuItem
-        '
-        Me.OptionsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ThemeChangerToolStripMenuItem})
-        Me.OptionsToolStripMenuItem.Enabled = False
-        Me.OptionsToolStripMenuItem.ForeColor = System.Drawing.Color.Black
-        Me.OptionsToolStripMenuItem.Name = "OptionsToolStripMenuItem"
-        Me.OptionsToolStripMenuItem.Size = New System.Drawing.Size(61, 20)
-        Me.OptionsToolStripMenuItem.Text = "Options"
-        Me.OptionsToolStripMenuItem.Visible = False
-        '
-        'ThemeChangerToolStripMenuItem
-        '
-        Me.ThemeChangerToolStripMenuItem.Name = "ThemeChangerToolStripMenuItem"
-        Me.ThemeChangerToolStripMenuItem.Size = New System.Drawing.Size(159, 22)
-        Me.ThemeChangerToolStripMenuItem.Text = "Theme Changer"
         '
         'HelpToolStripMenuItem
         '
@@ -449,16 +434,16 @@ Partial Class Scanner
         '
         'ContextMenuStrip1
         '
-        Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TIMEToolStripMenuItem, Me.DATEToolStripMenuItem, Me.ToolStripMenuItem4, Me.APPSETTINGSToolStripMenuItem, Me.ShowToolStripMenuItem, Me.ToolStripMenuItem3, Me.ToolStripSeparator1, Me.MusicToolStripMenuItem, Me.PlayRefreshToolStripMenuItem, Me.PauseStopToolStripMenuItem, Me.VolumeSettingsToolStripMenuItem, Me.ToolStripSeparator2, Me.RADIOSTATIONSToolStripMenuItem, Me.ABCClassicFMToolStripMenuItem, Me.ABCCountryToolStripMenuItem, Me.ABCDigMusicToolStripMenuItem, Me.ABCExtraToolStripMenuItem, Me.ABCJazzToolStripMenuItem})
+        Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TIMEToolStripMenuItem, Me.DATEToolStripMenuItem, Me.ToolStripMenuItem4, Me.RadioSettingsToolStripMenuItem, Me.ToolStripSeparator1, Me.MusicOptionsToolStripMenuItem1, Me.ToolStripSeparator2, Me.ToolStripMenuItem3})
         Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
-        Me.ContextMenuStrip1.Size = New System.Drawing.Size(206, 352)
+        Me.ContextMenuStrip1.Size = New System.Drawing.Size(185, 154)
         '
         'TIMEToolStripMenuItem
         '
         Me.TIMEToolStripMenuItem.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TIMEToolStripMenuItem.ForeColor = System.Drawing.Color.Lime
         Me.TIMEToolStripMenuItem.Name = "TIMEToolStripMenuItem"
-        Me.TIMEToolStripMenuItem.Size = New System.Drawing.Size(205, 22)
+        Me.TIMEToolStripMenuItem.Size = New System.Drawing.Size(184, 22)
         Me.TIMEToolStripMenuItem.Text = "TIME: 00:00:00 00"
         '
         'DATEToolStripMenuItem
@@ -466,109 +451,110 @@ Partial Class Scanner
         Me.DATEToolStripMenuItem.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DATEToolStripMenuItem.ForeColor = System.Drawing.Color.Lime
         Me.DATEToolStripMenuItem.Name = "DATEToolStripMenuItem"
-        Me.DATEToolStripMenuItem.Size = New System.Drawing.Size(205, 22)
+        Me.DATEToolStripMenuItem.Size = New System.Drawing.Size(184, 22)
         Me.DATEToolStripMenuItem.Text = "DATE: 00/00/0000"
         '
         'ToolStripMenuItem4
         '
         Me.ToolStripMenuItem4.Name = "ToolStripMenuItem4"
-        Me.ToolStripMenuItem4.Size = New System.Drawing.Size(202, 6)
+        Me.ToolStripMenuItem4.Size = New System.Drawing.Size(181, 6)
         '
-        'APPSETTINGSToolStripMenuItem
+        'RadioSettingsToolStripMenuItem
         '
-        Me.APPSETTINGSToolStripMenuItem.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.APPSETTINGSToolStripMenuItem.ForeColor = System.Drawing.Color.Red
-        Me.APPSETTINGSToolStripMenuItem.Name = "APPSETTINGSToolStripMenuItem"
-        Me.APPSETTINGSToolStripMenuItem.Size = New System.Drawing.Size(205, 22)
-        Me.APPSETTINGSToolStripMenuItem.Text = "APP SETTINGS"
+        Me.RadioSettingsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ShowRadioToolStripMenuItem, Me.HideRadioToolStripMenuItem, Me.CloseRadioToolStripMenuItem})
+        Me.RadioSettingsToolStripMenuItem.Name = "RadioSettingsToolStripMenuItem"
+        Me.RadioSettingsToolStripMenuItem.Size = New System.Drawing.Size(184, 22)
+        Me.RadioSettingsToolStripMenuItem.Text = "Radio Settings"
         '
-        'ShowToolStripMenuItem
+        'ShowRadioToolStripMenuItem
         '
-        Me.ShowToolStripMenuItem.Name = "ShowToolStripMenuItem"
-        Me.ShowToolStripMenuItem.Size = New System.Drawing.Size(205, 22)
-        Me.ShowToolStripMenuItem.Text = "Show Radio"
+        Me.ShowRadioToolStripMenuItem.Name = "ShowRadioToolStripMenuItem"
+        Me.ShowRadioToolStripMenuItem.Size = New System.Drawing.Size(136, 22)
+        Me.ShowRadioToolStripMenuItem.Text = "Show Radio"
         '
-        'ToolStripMenuItem3
+        'HideRadioToolStripMenuItem
         '
-        Me.ToolStripMenuItem3.Name = "ToolStripMenuItem3"
-        Me.ToolStripMenuItem3.Size = New System.Drawing.Size(205, 22)
-        Me.ToolStripMenuItem3.Text = "Close Radio"
+        Me.HideRadioToolStripMenuItem.Name = "HideRadioToolStripMenuItem"
+        Me.HideRadioToolStripMenuItem.Size = New System.Drawing.Size(136, 22)
+        Me.HideRadioToolStripMenuItem.Text = "Hide Radio"
+        '
+        'CloseRadioToolStripMenuItem
+        '
+        Me.CloseRadioToolStripMenuItem.Name = "CloseRadioToolStripMenuItem"
+        Me.CloseRadioToolStripMenuItem.Size = New System.Drawing.Size(136, 22)
+        Me.CloseRadioToolStripMenuItem.Text = "Close Radio"
         '
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(202, 6)
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(181, 6)
         '
-        'MusicToolStripMenuItem
+        'MusicOptionsToolStripMenuItem1
         '
-        Me.MusicToolStripMenuItem.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MusicToolStripMenuItem.ForeColor = System.Drawing.Color.Red
-        Me.MusicToolStripMenuItem.Name = "MusicToolStripMenuItem"
-        Me.MusicToolStripMenuItem.Size = New System.Drawing.Size(205, 22)
-        Me.MusicToolStripMenuItem.Text = "MUSIC OPTIONS"
+        Me.MusicOptionsToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PlayLastStationToolStripMenuItem1, Me.StopToolStripMenuItem1, Me.VolumeToolStripMenuItem1})
+        Me.MusicOptionsToolStripMenuItem1.Name = "MusicOptionsToolStripMenuItem1"
+        Me.MusicOptionsToolStripMenuItem1.Size = New System.Drawing.Size(184, 22)
+        Me.MusicOptionsToolStripMenuItem1.Text = "Music Options"
         '
-        'PlayRefreshToolStripMenuItem
+        'PlayLastStationToolStripMenuItem1
         '
-        Me.PlayRefreshToolStripMenuItem.Name = "PlayRefreshToolStripMenuItem"
-        Me.PlayRefreshToolStripMenuItem.Size = New System.Drawing.Size(205, 22)
-        Me.PlayRefreshToolStripMenuItem.Text = "Play/Refresh"
-        Me.PlayRefreshToolStripMenuItem.Visible = False
+        Me.PlayLastStationToolStripMenuItem1.Image = Global.FinnysRadio.My.Resources.Resources.Play
+        Me.PlayLastStationToolStripMenuItem1.Name = "PlayLastStationToolStripMenuItem1"
+        Me.PlayLastStationToolStripMenuItem1.Size = New System.Drawing.Size(160, 22)
+        Me.PlayLastStationToolStripMenuItem1.Text = "Play Last Station"
         '
-        'PauseStopToolStripMenuItem
+        'StopToolStripMenuItem1
         '
-        Me.PauseStopToolStripMenuItem.Name = "PauseStopToolStripMenuItem"
-        Me.PauseStopToolStripMenuItem.Size = New System.Drawing.Size(205, 22)
-        Me.PauseStopToolStripMenuItem.Text = "Pause/Stop"
-        Me.PauseStopToolStripMenuItem.Visible = False
+        Me.StopToolStripMenuItem1.Image = Global.FinnysRadio.My.Resources.Resources._Stop
+        Me.StopToolStripMenuItem1.Name = "StopToolStripMenuItem1"
+        Me.StopToolStripMenuItem1.Size = New System.Drawing.Size(160, 22)
+        Me.StopToolStripMenuItem1.Text = "Stop"
         '
-        'VolumeSettingsToolStripMenuItem
+        'VolumeToolStripMenuItem1
         '
-        Me.VolumeSettingsToolStripMenuItem.Name = "VolumeSettingsToolStripMenuItem"
-        Me.VolumeSettingsToolStripMenuItem.Size = New System.Drawing.Size(205, 22)
-        Me.VolumeSettingsToolStripMenuItem.Text = "Volume Settings"
+        Me.VolumeToolStripMenuItem1.Image = Global.FinnysRadio.My.Resources.Resources.Volume
+        Me.VolumeToolStripMenuItem1.Name = "VolumeToolStripMenuItem1"
+        Me.VolumeToolStripMenuItem1.Size = New System.Drawing.Size(160, 22)
+        Me.VolumeToolStripMenuItem1.Text = "Volume"
         '
         'ToolStripSeparator2
         '
         Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
-        Me.ToolStripSeparator2.Size = New System.Drawing.Size(202, 6)
+        Me.ToolStripSeparator2.Size = New System.Drawing.Size(181, 6)
         '
-        'RADIOSTATIONSToolStripMenuItem
+        'ToolStripMenuItem3
         '
-        Me.RADIOSTATIONSToolStripMenuItem.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RADIOSTATIONSToolStripMenuItem.ForeColor = System.Drawing.Color.Red
-        Me.RADIOSTATIONSToolStripMenuItem.Name = "RADIOSTATIONSToolStripMenuItem"
-        Me.RADIOSTATIONSToolStripMenuItem.Size = New System.Drawing.Size(205, 22)
-        Me.RADIOSTATIONSToolStripMenuItem.Text = "SCANNER STATIONS"
+        Me.ToolStripMenuItem3.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.GToolStripMenuItem, Me.RToolStripMenuItem, Me.VToolStripMenuItem})
+        Me.ToolStripMenuItem3.Name = "ToolStripMenuItem3"
+        Me.ToolStripMenuItem3.Size = New System.Drawing.Size(184, 22)
+        Me.ToolStripMenuItem3.Text = "Radio Stations"
         '
-        'ABCClassicFMToolStripMenuItem
+        'GToolStripMenuItem
         '
-        Me.ABCClassicFMToolStripMenuItem.Name = "ABCClassicFMToolStripMenuItem"
-        Me.ABCClassicFMToolStripMenuItem.Size = New System.Drawing.Size(205, 22)
-        Me.ABCClassicFMToolStripMenuItem.Text = "Gippsland Police Q1/Q2"
+        Me.GToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.GippslandPoliceQ1Q2ToolStripMenuItem, Me.GippslandVicFireToolStripMenuItem})
+        Me.GToolStripMenuItem.Name = "GToolStripMenuItem"
+        Me.GToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.GToolStripMenuItem.Text = "G"
         '
-        'ABCCountryToolStripMenuItem
+        'GippslandPoliceQ1Q2ToolStripMenuItem
         '
-        Me.ABCCountryToolStripMenuItem.Name = "ABCCountryToolStripMenuItem"
-        Me.ABCCountryToolStripMenuItem.Size = New System.Drawing.Size(205, 22)
-        Me.ABCCountryToolStripMenuItem.Text = "Gippsland Vic Fire"
+        Me.GippslandPoliceQ1Q2ToolStripMenuItem.Name = "GippslandPoliceQ1Q2ToolStripMenuItem"
+        Me.GippslandPoliceQ1Q2ToolStripMenuItem.Size = New System.Drawing.Size(200, 22)
+        Me.GippslandPoliceQ1Q2ToolStripMenuItem.Text = "Gippsland Police Q1/Q2"
         '
-        'ABCDigMusicToolStripMenuItem
+        'RToolStripMenuItem
         '
-        Me.ABCDigMusicToolStripMenuItem.Name = "ABCDigMusicToolStripMenuItem"
-        Me.ABCDigMusicToolStripMenuItem.Size = New System.Drawing.Size(205, 22)
-        Me.ABCDigMusicToolStripMenuItem.Text = "Rural Ambulance"
+        Me.RToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.RuralAmbulanceToolStripMenuItem})
+        Me.RToolStripMenuItem.Name = "RToolStripMenuItem"
+        Me.RToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.RToolStripMenuItem.Text = "R"
         '
-        'ABCExtraToolStripMenuItem
+        'VToolStripMenuItem
         '
-        Me.ABCExtraToolStripMenuItem.Name = "ABCExtraToolStripMenuItem"
-        Me.ABCExtraToolStripMenuItem.Size = New System.Drawing.Size(205, 22)
-        Me.ABCExtraToolStripMenuItem.Text = "Victoria Police CFA, MFB"
-        '
-        'ABCJazzToolStripMenuItem
-        '
-        Me.ABCJazzToolStripMenuItem.Name = "ABCJazzToolStripMenuItem"
-        Me.ABCJazzToolStripMenuItem.Size = New System.Drawing.Size(205, 22)
-        Me.ABCJazzToolStripMenuItem.Text = "Victoria State Emergency"
+        Me.VToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.VictoriaPoliceCFAMFBToolStripMenuItem, Me.VictoriaStateEmergencyToolStripMenuItem})
+        Me.VToolStripMenuItem.Name = "VToolStripMenuItem"
+        Me.VToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.VToolStripMenuItem.Text = "V"
         '
         'TimeDateTimer
         '
@@ -580,6 +566,30 @@ Partial Class Scanner
         Me.TextBox1.Size = New System.Drawing.Size(158, 23)
         Me.TextBox1.TabIndex = 19
         Me.TextBox1.Visible = False
+        '
+        'GippslandVicFireToolStripMenuItem
+        '
+        Me.GippslandVicFireToolStripMenuItem.Name = "GippslandVicFireToolStripMenuItem"
+        Me.GippslandVicFireToolStripMenuItem.Size = New System.Drawing.Size(200, 22)
+        Me.GippslandVicFireToolStripMenuItem.Text = "Gippsland Vic Fire"
+        '
+        'RuralAmbulanceToolStripMenuItem
+        '
+        Me.RuralAmbulanceToolStripMenuItem.Name = "RuralAmbulanceToolStripMenuItem"
+        Me.RuralAmbulanceToolStripMenuItem.Size = New System.Drawing.Size(165, 22)
+        Me.RuralAmbulanceToolStripMenuItem.Text = "Rural Ambulance"
+        '
+        'VictoriaPoliceCFAMFBToolStripMenuItem
+        '
+        Me.VictoriaPoliceCFAMFBToolStripMenuItem.Name = "VictoriaPoliceCFAMFBToolStripMenuItem"
+        Me.VictoriaPoliceCFAMFBToolStripMenuItem.Size = New System.Drawing.Size(205, 22)
+        Me.VictoriaPoliceCFAMFBToolStripMenuItem.Text = "Victoria Police CFA, MFB"
+        '
+        'VictoriaStateEmergencyToolStripMenuItem
+        '
+        Me.VictoriaStateEmergencyToolStripMenuItem.Name = "VictoriaStateEmergencyToolStripMenuItem"
+        Me.VictoriaStateEmergencyToolStripMenuItem.Size = New System.Drawing.Size(205, 22)
+        Me.VictoriaStateEmergencyToolStripMenuItem.Text = "Victoria State Emergency"
         '
         'Scanner
         '
@@ -636,7 +646,6 @@ Partial Class Scanner
     Friend WithEvents StopToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ToolStripMenuItem1 As System.Windows.Forms.ToolStripSeparator
     Friend WithEvents VolumeToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents OptionsToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents HelpToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ChangelogToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents AboutRadioToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
@@ -652,26 +661,29 @@ Partial Class Scanner
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
     Friend WithEvents NotifyIcon1 As System.Windows.Forms.NotifyIcon
     Friend WithEvents ContextMenuStrip1 As System.Windows.Forms.ContextMenuStrip
-    Friend WithEvents ShowToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ToolStripMenuItem3 As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ToolStripSeparator1 As System.Windows.Forms.ToolStripSeparator
-    Friend WithEvents PlayRefreshToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents PauseStopToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents VolumeSettingsToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ToolStripSeparator2 As System.Windows.Forms.ToolStripSeparator
-    Friend WithEvents ABCClassicFMToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ABCCountryToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ABCDigMusicToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ABCExtraToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ABCJazzToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents TIMEToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents DATEToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ToolStripMenuItem4 As System.Windows.Forms.ToolStripSeparator
-    Friend WithEvents APPSETTINGSToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents MusicToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents RADIOSTATIONSToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents TimeDateTimer As System.Windows.Forms.Timer
-    Friend WithEvents ThemeChangerToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents RadioToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
+    Friend WithEvents RadioSettingsToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ShowRadioToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents HideRadioToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents CloseRadioToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents MusicOptionsToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents PlayLastStationToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents StopToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents VolumeToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem3 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents GToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents GippslandPoliceQ1Q2ToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents RToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents VToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents GippslandVicFireToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents RuralAmbulanceToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents VictoriaPoliceCFAMFBToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents VictoriaStateEmergencyToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 End Class

@@ -291,10 +291,30 @@
         If CheckBox1.Checked = True Then
             Main.Label95.Show()
             Main.Label96.Show()
+            Scanner.Label95.Show()
+            Scanner.Label96.Show()
+            Main.TimeDateTimer.Enabled = True
+            Scanner.TimeDateTimer.Enabled = True
+            Main.TIMEToolStripMenuItem.Visible = True
+            Scanner.TIMEToolStripMenuItem.Visible = True
+            Main.DATEToolStripMenuItem.Visible = True
+            Scanner.DATEToolStripMenuItem.Visible = True
+            Main.ToolStripMenuItem4.Visible = True
+            Scanner.ToolStripMenuItem4.Visible = True
             My.Settings.ShowClock = True
         Else
             Main.Label95.Hide()
             Main.Label96.Hide()
+            Scanner.Label95.Show()
+            Scanner.Label96.Show()
+            Main.TimeDateTimer.Enabled = False
+            Scanner.TimeDateTimer.Enabled = False
+            Main.TIMEToolStripMenuItem.Visible = False
+            Scanner.TIMEToolStripMenuItem.Visible = False
+            Main.DATEToolStripMenuItem.Visible = False
+            Scanner.DATEToolStripMenuItem.Visible = False
+            Main.ToolStripMenuItem4.Visible = False
+            Scanner.ToolStripMenuItem4.Visible = False
             My.Settings.ShowClock = False
         End If
     End Sub

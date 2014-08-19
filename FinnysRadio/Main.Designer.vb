@@ -148,6 +148,7 @@ Partial Class Main
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.HotKeysTimer = New System.Windows.Forms.Timer(Me.components)
         Me.ContextMenuStrip1.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.MenuStrip1.SuspendLayout()
@@ -1180,7 +1181,7 @@ Partial Class Main
         'ThemeChangerToolStripMenuItem
         '
         Me.ThemeChangerToolStripMenuItem.Name = "ThemeChangerToolStripMenuItem"
-        Me.ThemeChangerToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ThemeChangerToolStripMenuItem.Size = New System.Drawing.Size(115, 22)
         Me.ThemeChangerToolStripMenuItem.Text = "Themer"
         '
         'HelpToolStripMenuItem
@@ -1278,6 +1279,9 @@ Partial Class Main
         Me.TextBox1.Size = New System.Drawing.Size(158, 23)
         Me.TextBox1.TabIndex = 10
         Me.TextBox1.Visible = False
+        '
+        'HotKeysTimer
+        '
         '
         'Main
         '
@@ -1437,4 +1441,5 @@ Partial Class Main
     Friend WithEvents YimagoRadio2ToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents YimagoRadio3ToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents YimagoRadio4ToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents HotKeysTimer As System.Windows.Forms.Timer
 End Class

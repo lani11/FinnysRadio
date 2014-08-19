@@ -49,8 +49,8 @@ Public Class Main
         TimeDateTimer.Interval = 1000
 
         'Play/Pause Timer
-        TimeDateTimer.Start()
-        TimeDateTimer.Interval = 1000
+        HotKeysTimer.Start()
+        HotKeysTimer.Interval = 1000
     End Sub
 
     Private Sub Main_MinimumSizeChanged(sender As Object, e As EventArgs) Handles Me.MinimumSizeChanged
@@ -81,7 +81,7 @@ Public Class Main
     End Sub
 
     'Hot Keys
-    Private Sub Timer1_Tick(sender As System.Object, e As System.EventArgs) Handles TimeDateTimer.Tick
+    Private Sub HotKeysTimer_Tick(sender As Object, e As EventArgs) Handles HotKeysTimer.Tick
         'Play Music
         If (GetAsyncKeyState(36)) Then
             GroupBox1.Hide()
