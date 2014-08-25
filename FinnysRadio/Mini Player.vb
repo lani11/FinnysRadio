@@ -36,7 +36,7 @@
     Private Sub PlayLastStationToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PlayLastStationToolStripMenuItem.Click
         'Play Last Station
         Main.GroupBox1.Hide()
-        Main.WebBrowser1.Navigate(Main.TextBox1.Text)
+        Main.WebBrowser1.Navigate(My.Settings.PlayPause)
     End Sub
 
     Private Sub StopToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles StopToolStripMenuItem.Click
@@ -169,7 +169,7 @@
         Main.Label23.ForeColor = Color.Red
 
         Main.WebBrowser1.Navigate("http://www.abc.net.au/classic/player/")
-        Main.TextBox1.Text = "http://www.abc.net.au/classic/player/"
+        My.Settings.PlayPause = "http://www.abc.net.au/classic/player/"
 
 
         Main.NotifyIcon1.Text = "Finnys Radio-Listen to ABC Classic FM"
@@ -250,7 +250,7 @@
         Main.Label23.ForeColor = Color.Red
 
         Main.WebBrowser1.Navigate("http://abccountry.net.au/player-popup.htm")
-        Main.TextBox1.Text = "http://abccountry.net.au/player-popup.htm"
+        My.Settings.PlayPause = "http://abccountry.net.au/player-popup.htm"
 
         Main.NotifyIcon1.Text = "Finnys Radio-Listen to ABC Country"
 
@@ -330,7 +330,7 @@
         Main.Label23.ForeColor = Color.Red
 
         Main.WebBrowser1.Navigate("http://abcdigmusic.net.au/player-popup.htm")
-        Main.TextBox1.Text = "http://abcdigmusic.net.au/player-popup.htm"
+        My.Settings.PlayPause = "http://abcdigmusic.net.au/player-popup.htm"
 
         Main.NotifyIcon1.Text = "Finnys Radio-Listen to ABC Dig Music"
 
@@ -410,7 +410,7 @@
         Main.Label23.ForeColor = Color.Red
 
         Main.WebBrowser1.Navigate("http://www.abc.net.au/local/players/internet_radio.htm?streamFile=extra")
-        Main.TextBox1.Text = "http://www.abc.net.au/local/players/internet_radio.htm?streamFile=extra"
+        My.Settings.PlayPause = "http://www.abc.net.au/local/players/internet_radio.htm?streamFile=extra"
 
         Main.NotifyIcon1.Text = "Finnys Radio-Listen to ABC Extra"
 
@@ -490,7 +490,7 @@
         Main.Label23.ForeColor = Color.Red
 
         Main.WebBrowser1.Navigate("http://abcjazz.net.au/player-popup.htm")
-        Main.TextBox1.Text = "http://abcjazz.net.au/player-popup.htm"
+        My.Settings.PlayPause = "http://abcjazz.net.au/player-popup.htm"
 
         Main.NotifyIcon1.Text = "Finnys Radio-Listen to ABC Jazz"
 
@@ -570,7 +570,7 @@
         Main.Label23.ForeColor = Color.Red
 
         Main.WebBrowser1.Navigate("http://www.abc.net.au/newsradio/audio/streaming.htm")
-        Main.TextBox1.Text = "http://www.abc.net.au/newsradio/audio/streaming.htm"
+        My.Settings.PlayPause = "http://www.abc.net.au/newsradio/audio/streaming.htm"
 
         Main.NotifyIcon1.Text = "Finnys Radio-Listen to ABC Radio"
 
@@ -650,7 +650,7 @@
         Main.Label23.ForeColor = Color.Red
 
         Main.WebBrowser1.Navigate("http://www.radioaustralia.net.au/listen/")
-        Main.TextBox1.Text = "http://www.radioaustralia.net.au/listen/"
+        My.Settings.PlayPause = "http://www.radioaustralia.net.au/listen/"
 
         Main.NotifyIcon1.Text = "Finnys Radio-Listen to ABC Radio Australia"
 
@@ -730,7 +730,7 @@
         Main.Label23.ForeColor = Color.Red
 
         Main.WebBrowser1.Navigate("http://www.abc.net.au/rn/legacy/player.htm")
-        Main.TextBox1.Text = "http://www.abc.net.au/rn/legacy/player.htm"
+        My.Settings.PlayPause = "http://www.abc.net.au/rn/legacy/player.htm"
 
         Main.NotifyIcon1.Text = "Finnys Radio-Listen to ABC Radio National"
 
@@ -810,7 +810,7 @@
         Main.Label23.ForeColor = Color.Red
 
         Main.WebBrowser1.Navigate("http://right-click.com.au/rcPlayer/index.php?c=gippslandfm")
-        Main.TextBox1.Text = "http://right-click.com.au/rcPlayer/index.php?c=gippslandfm"
+        My.Settings.PlayPause = "http://right-click.com.au/rcPlayer/index.php?c=gippslandfm"
 
         Main.NotifyIcon1.Text = "Finnys Radio-Listen to Gippsland FM"
 
@@ -892,7 +892,7 @@
         'WebBrowser1.Navigate("http://www.countrymusicradio.com.au/CMR_Online.cfm")
         Main.WebBrowser1.Navigate("http://www.countrymusicradio.com.au/")
         Process.Start("http://www.countrymusicradio.com.au/CMR_Online.cfm")
-        Main.TextBox1.Text = "http://www.countrymusicradio.com.au/"
+        My.Settings.PlayPause = "http://www.countrymusicradio.com.au/"
 
         Main.NotifyIcon1.Text = "Finnys Radio-Listen to Country Music Radio.com"
 
@@ -972,7 +972,7 @@
         Main.Label23.ForeColor = Color.Red
 
         'WebBrowser1.Navigate("http://player.arn.com.au/gold1043.aspx")
-        'TextBox1.Text = "http://player.arn.com.au/gold1043.aspx"
+        'My.Settings.PlayPause = "http://player.arn.com.au/gold1043.aspx"
         Process.Start("http://player.arn.com.au/gold1043.aspx")
 
         Main.NotifyIcon1.Text = "Finnys Radio-Listen to Gold 104.3"
@@ -1053,7 +1053,7 @@
         Main.Label23.ForeColor = Color.Red
 
         Main.WebBrowser1.Navigate("http://player.streamtheworld.com/_players/aceradiobroadcast/?market=gippsland&callsign=GOLD1242")
-        Main.TextBox1.Text = "http://player.streamtheworld.com/_players/aceradiobroadcast/?market=gippsland&callsign=GOLD1242"
+        My.Settings.PlayPause = "http://player.streamtheworld.com/_players/aceradiobroadcast/?market=gippsland&callsign=GOLD1242"
 
         Main.NotifyIcon1.Text = "Finnys Radio-Listen to Gold 1242"
 
@@ -1133,7 +1133,7 @@
         Main.Label23.ForeColor = Color.Red
 
         Main.WebBrowser1.Navigate("http://www.kidsfm.com.au/")
-        Main.TextBox1.Text = "http://www.kidsfm.com.au/"
+        My.Settings.PlayPause = "http://www.kidsfm.com.au/"
 
         Main.NotifyIcon1.Text = "Finnys Radio-Listen to Kids FM"
 
@@ -1213,7 +1213,7 @@
         Main.Label23.ForeColor = Color.Red
 
         'WebBrowser1.Navigate("http://www.myspace.com/music/player")
-        'TextBox1.Text = "http://www.myspace.com/music/player"
+        'My.Settings.PlayPause = "http://www.myspace.com/music/player"
         Process.Start("http://www.myspace.com/music/player")
 
         Main.NotifyIcon1.Text = "Finnys Radio-Listen to MySpace Music"
@@ -1294,7 +1294,7 @@
         Main.Label23.ForeColor = Color.Red
 
         Main.WebBrowser1.Navigate("http://www.star1045.com.au/player.aspx")
-        Main.TextBox1.Text = "http://www.star1045.com.au/player.aspx"
+        My.Settings.PlayPause = "http://www.star1045.com.au/player.aspx"
 
         Main.NotifyIcon1.Text = "Finnys Radio-Listen to Star FM"
 
@@ -1374,7 +1374,7 @@
         Main.Label23.ForeColor = Color.Red
 
         Main.WebBrowser1.Navigate("http://player.streamtheworld.com/_players/aceradiobroadcast/?market=gippsland&callsign=TRFM")
-        Main.TextBox1.Text = "http://player.streamtheworld.com/_players/aceradiobroadcast/?market=gippsland&callsign=TRFM"
+        My.Settings.PlayPause = "http://player.streamtheworld.com/_players/aceradiobroadcast/?market=gippsland&callsign=TRFM"
 
         Main.NotifyIcon1.Text = "Finnys Radio-Listen to TR FM"
 
@@ -1454,8 +1454,7 @@
         Main.Label23.ForeColor = Color.Red
 
         Main.WebBrowser1.Navigate("http://www.abc.net.au/triplej/player/triplej.htm")
-        Main.WebBrowser1.Navigate("http://www.abc.net.au/triplej/player/triplej.htm")
-        Main.TextBox1.Text = ""
+        My.Settings.PlayPause = "http://www.abc.net.au/triplej/player/triplej.htm"
 
         Main.NotifyIcon1.Text = "Finnys Radio-Listen to Triple J"
 
@@ -1535,7 +1534,7 @@
         Main.Label23.ForeColor = Color.Red
 
         Main.WebBrowser1.Navigate("http://www.abc.net.au/triplej/player/unearthed.htm")
-        Main.TextBox1.Text = "http://www.abc.net.au/triplej/player/unearthed.htm"
+        My.Settings.PlayPause = "http://www.abc.net.au/triplej/player/unearthed.htm"
 
         Main.NotifyIcon1.Text = "Finnys Radio-Listen to Tripple J Unearthed"
 
@@ -1615,7 +1614,7 @@
         Main.Label23.ForeColor = Color.Red
 
         Main.WebBrowser1.Navigate("http://www.triplem.com.au/melbourne/player/")
-        Main.TextBox1.Text = "http://www.triplem.com.au/melbourne/player/"
+        My.Settings.PlayPause = "http://www.triplem.com.au/melbourne/player/"
 
         Main.NotifyIcon1.Text = "Finnys Radio-Listen to Triple M"
 
@@ -1695,7 +1694,7 @@
         Main.Label23.ForeColor = Color.Red
 
         Main.WebBrowser1.Navigate("http://alamo.mediaradioplayer.com/flash.html")
-        Main.TextBox1.Text = "http://alamo.mediaradioplayer.com/flash.html"
+        My.Settings.PlayPause = "http://alamo.mediaradioplayer.com/flash.html"
 
         Main.NotifyIcon1.Text = "Finnys Radio-Listen to Yimago Radio 1"
 
@@ -1775,7 +1774,7 @@
         Main.Label23.ForeColor = Color.Red
 
         Main.WebBrowser1.Navigate("http://eriador.mediaradioplayer.com/flash.html")
-        Main.TextBox1.Text = "http://eriador.mediaradioplayer.com/flash.html"
+        My.Settings.PlayPause = "http://eriador.mediaradioplayer.com/flash.html"
 
         Main.NotifyIcon1.Text = "Finnys Radio-Listen to Yimago Radio 2"
 
@@ -1855,7 +1854,7 @@
         Main.Label23.ForeColor = Color.Red
 
         Main.WebBrowser1.Navigate("http://elrond.mediaradioplayer.com/flash.html")
-        Main.TextBox1.Text = "http://elrond.mediaradioplayer.com/flash.html"
+        My.Settings.PlayPause = "http://elrond.mediaradioplayer.com/flash.html"
 
         Main.NotifyIcon1.Text = "Finnys Radio-Listen to Yimago Radio 3"
 
@@ -1935,7 +1934,7 @@
         Main.Label23.ForeColor = Color.Lime
 
         Main.WebBrowser1.Navigate("http://excalibur.mediaradioplayer.com/flash.html")
-        Main.TextBox1.Text = "http://excalibur.mediaradioplayer.com/flash.html"
+        My.Settings.PlayPause = "http://excalibur.mediaradioplayer.com/flash.html"
 
         Main.NotifyIcon1.Text = "Finnys Radio-Listen to Yimago Radio 4"
 

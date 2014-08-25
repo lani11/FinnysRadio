@@ -1,4 +1,4 @@
-﻿Public Class Theme_Changer
+﻿Public Class Preferences
     Dim TimeColour As New My.MySettings
     Dim BackgroundColour As New My.MySettings
     Dim FontColour As New My.MySettings
@@ -16,6 +16,14 @@
 
         If My.Settings.ShowClock = True Then
             CheckBox1.Checked = True
+        End If
+
+        If My.Settings.Hotkeys = True Then
+            CheckBox2.Checked = True
+        End If
+
+        If My.Settings.PlayStartup = True Then
+            CheckBox3.Checked = True
         End If
 
     End Sub
@@ -42,6 +50,8 @@
         Main.Label95.Show()
         Main.Label96.Show()
         CheckBox1.Checked = True
+        CheckBox2.Checked = True
+        CheckBox3.Checked = False
     End Sub
 
     Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox1.SelectedIndexChanged
@@ -316,6 +326,24 @@
             Main.ToolStripMenuItem4.Visible = False
             Scanner.ToolStripMenuItem4.Visible = False
             My.Settings.ShowClock = False
+        End If
+    End Sub
+
+    Private Sub CheckBox2_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox2.CheckedChanged
+        If CheckBox2.Checked = True Then
+            Main.HotKeysTimer.Enabled = True
+            My.Settings.Hotkeys = True
+        Else
+            Main.HotKeysTimer.Enabled = False
+            My.Settings.Hotkeys = False
+        End If
+    End Sub
+
+    Private Sub CheckBox3_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox3.CheckedChanged
+        If CheckBox3.Checked = True Then
+            My.Settings.PlayStartup = True
+        Else
+            My.Settings.PlayStartup = False
         End If
     End Sub
 End Class

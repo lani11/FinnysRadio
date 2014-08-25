@@ -135,20 +135,19 @@ Partial Class Main
         Me.VolumeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.OptionsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ThemeChangerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.HelpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ChangelogToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.AboutRadioToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ToolStripMenuItem7 = New System.Windows.Forms.ToolStripSeparator()
-        Me.DebugingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ToolStripMenuItem2 = New System.Windows.Forms.ToolStripSeparator()
-        Me.CheckForUpdatesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AboutMeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.WebBrowser1 = New System.Windows.Forms.WebBrowser()
         Me.TimeDateTimer = New System.Windows.Forms.Timer(Me.components)
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.HotKeysTimer = New System.Windows.Forms.Timer(Me.components)
+        Me.ToolStripMenuItem3 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ChangelogToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AboutRadioToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripMenuItem8 = New System.Windows.Forms.ToolStripSeparator()
+        Me.DebugingToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripMenuItem9 = New System.Windows.Forms.ToolStripSeparator()
+        Me.CheckForUpdatesToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ContextMenuStrip1.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.MenuStrip1.SuspendLayout()
@@ -1097,7 +1096,7 @@ Partial Class Main
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem, Me.MusicOptionsToolStripMenuItem, Me.OptionsToolStripMenuItem, Me.HelpToolStripMenuItem, Me.AboutMeToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem, Me.MusicOptionsToolStripMenuItem, Me.OptionsToolStripMenuItem, Me.AboutMeToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(1204, 24)
@@ -1172,7 +1171,7 @@ Partial Class Main
         '
         'OptionsToolStripMenuItem
         '
-        Me.OptionsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ThemeChangerToolStripMenuItem})
+        Me.OptionsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ThemeChangerToolStripMenuItem, Me.ToolStripMenuItem3, Me.ChangelogToolStripMenuItem1, Me.AboutRadioToolStripMenuItem1, Me.ToolStripMenuItem8, Me.DebugingToolStripMenuItem1, Me.ToolStripMenuItem9, Me.CheckForUpdatesToolStripMenuItem1})
         Me.OptionsToolStripMenuItem.ForeColor = System.Drawing.Color.Black
         Me.OptionsToolStripMenuItem.Name = "OptionsToolStripMenuItem"
         Me.OptionsToolStripMenuItem.Size = New System.Drawing.Size(61, 20)
@@ -1181,52 +1180,8 @@ Partial Class Main
         'ThemeChangerToolStripMenuItem
         '
         Me.ThemeChangerToolStripMenuItem.Name = "ThemeChangerToolStripMenuItem"
-        Me.ThemeChangerToolStripMenuItem.Size = New System.Drawing.Size(115, 22)
-        Me.ThemeChangerToolStripMenuItem.Text = "Themer"
-        '
-        'HelpToolStripMenuItem
-        '
-        Me.HelpToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ChangelogToolStripMenuItem, Me.AboutRadioToolStripMenuItem, Me.ToolStripMenuItem7, Me.DebugingToolStripMenuItem, Me.ToolStripMenuItem2, Me.CheckForUpdatesToolStripMenuItem})
-        Me.HelpToolStripMenuItem.ForeColor = System.Drawing.Color.Black
-        Me.HelpToolStripMenuItem.Name = "HelpToolStripMenuItem"
-        Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(44, 20)
-        Me.HelpToolStripMenuItem.Text = "Help"
-        '
-        'ChangelogToolStripMenuItem
-        '
-        Me.ChangelogToolStripMenuItem.Name = "ChangelogToolStripMenuItem"
-        Me.ChangelogToolStripMenuItem.Size = New System.Drawing.Size(208, 24)
-        Me.ChangelogToolStripMenuItem.Text = "Changelog"
-        '
-        'AboutRadioToolStripMenuItem
-        '
-        Me.AboutRadioToolStripMenuItem.Name = "AboutRadioToolStripMenuItem"
-        Me.AboutRadioToolStripMenuItem.Size = New System.Drawing.Size(208, 24)
-        Me.AboutRadioToolStripMenuItem.Text = "About Radio"
-        '
-        'ToolStripMenuItem7
-        '
-        Me.ToolStripMenuItem7.Name = "ToolStripMenuItem7"
-        Me.ToolStripMenuItem7.Size = New System.Drawing.Size(205, 6)
-        '
-        'DebugingToolStripMenuItem
-        '
-        Me.DebugingToolStripMenuItem.Name = "DebugingToolStripMenuItem"
-        Me.DebugingToolStripMenuItem.Size = New System.Drawing.Size(208, 24)
-        Me.DebugingToolStripMenuItem.Text = "Debuging"
-        '
-        'ToolStripMenuItem2
-        '
-        Me.ToolStripMenuItem2.Name = "ToolStripMenuItem2"
-        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(205, 6)
-        '
-        'CheckForUpdatesToolStripMenuItem
-        '
-        Me.CheckForUpdatesToolStripMenuItem.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckForUpdatesToolStripMenuItem.ForeColor = System.Drawing.Color.Lime
-        Me.CheckForUpdatesToolStripMenuItem.Name = "CheckForUpdatesToolStripMenuItem"
-        Me.CheckForUpdatesToolStripMenuItem.Size = New System.Drawing.Size(208, 24)
-        Me.CheckForUpdatesToolStripMenuItem.Text = "Check For Update's"
+        Me.ThemeChangerToolStripMenuItem.Size = New System.Drawing.Size(208, 24)
+        Me.ThemeChangerToolStripMenuItem.Text = "Preferences"
         '
         'AboutMeToolStripMenuItem
         '
@@ -1272,16 +1227,49 @@ Partial Class Main
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
-        'TextBox1
-        '
-        Me.TextBox1.Location = New System.Drawing.Point(1034, 35)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(158, 23)
-        Me.TextBox1.TabIndex = 10
-        Me.TextBox1.Visible = False
-        '
         'HotKeysTimer
         '
+        '
+        'ToolStripMenuItem3
+        '
+        Me.ToolStripMenuItem3.Name = "ToolStripMenuItem3"
+        Me.ToolStripMenuItem3.Size = New System.Drawing.Size(205, 6)
+        '
+        'ChangelogToolStripMenuItem1
+        '
+        Me.ChangelogToolStripMenuItem1.Name = "ChangelogToolStripMenuItem1"
+        Me.ChangelogToolStripMenuItem1.Size = New System.Drawing.Size(208, 24)
+        Me.ChangelogToolStripMenuItem1.Text = "Changelog"
+        '
+        'AboutRadioToolStripMenuItem1
+        '
+        Me.AboutRadioToolStripMenuItem1.Name = "AboutRadioToolStripMenuItem1"
+        Me.AboutRadioToolStripMenuItem1.Size = New System.Drawing.Size(208, 24)
+        Me.AboutRadioToolStripMenuItem1.Text = "About Radio"
+        '
+        'ToolStripMenuItem8
+        '
+        Me.ToolStripMenuItem8.Name = "ToolStripMenuItem8"
+        Me.ToolStripMenuItem8.Size = New System.Drawing.Size(205, 6)
+        '
+        'DebugingToolStripMenuItem1
+        '
+        Me.DebugingToolStripMenuItem1.Name = "DebugingToolStripMenuItem1"
+        Me.DebugingToolStripMenuItem1.Size = New System.Drawing.Size(208, 24)
+        Me.DebugingToolStripMenuItem1.Text = "Debuging"
+        '
+        'ToolStripMenuItem9
+        '
+        Me.ToolStripMenuItem9.Name = "ToolStripMenuItem9"
+        Me.ToolStripMenuItem9.Size = New System.Drawing.Size(205, 6)
+        '
+        'CheckForUpdatesToolStripMenuItem1
+        '
+        Me.CheckForUpdatesToolStripMenuItem1.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckForUpdatesToolStripMenuItem1.ForeColor = System.Drawing.Color.Lime
+        Me.CheckForUpdatesToolStripMenuItem1.Name = "CheckForUpdatesToolStripMenuItem1"
+        Me.CheckForUpdatesToolStripMenuItem1.Size = New System.Drawing.Size(208, 24)
+        Me.CheckForUpdatesToolStripMenuItem1.Text = "Check For Update's"
         '
         'Main
         '
@@ -1289,7 +1277,6 @@ Partial Class Main
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Gray
         Me.ClientSize = New System.Drawing.Size(1204, 656)
-        Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.WebBrowser1)
         Me.Controls.Add(Me.Label95)
@@ -1377,15 +1364,7 @@ Partial Class Main
     Friend WithEvents TimeDateTimer As System.Windows.Forms.Timer
     Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
-    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
-    Friend WithEvents HelpToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents AboutRadioToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ChangelogToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents CheckForUpdatesToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents MiniModeToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents DebugingToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ToolStripMenuItem7 As System.Windows.Forms.ToolStripSeparator
-    Friend WithEvents ToolStripMenuItem2 As System.Windows.Forms.ToolStripSeparator
     Friend WithEvents ScanerModeToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents Label23 As System.Windows.Forms.Label
     Friend WithEvents Label22 As System.Windows.Forms.Label
@@ -1442,4 +1421,11 @@ Partial Class Main
     Friend WithEvents YimagoRadio3ToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents YimagoRadio4ToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents HotKeysTimer As System.Windows.Forms.Timer
+    Friend WithEvents ToolStripMenuItem3 As System.Windows.Forms.ToolStripSeparator
+    Friend WithEvents ChangelogToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents AboutRadioToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem8 As System.Windows.Forms.ToolStripSeparator
+    Friend WithEvents DebugingToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem9 As System.Windows.Forms.ToolStripSeparator
+    Friend WithEvents CheckForUpdatesToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
 End Class

@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Theme_Changer
+Partial Class Preferences
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,7 +22,7 @@ Partial Class Theme_Changer
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Theme_Changer))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Preferences))
         Me.Button7 = New System.Windows.Forms.Button()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -34,6 +34,8 @@ Partial Class Theme_Changer
         Me.Button1 = New System.Windows.Forms.Button()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox2 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox3 = New System.Windows.Forms.CheckBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox2.SuspendLayout()
         Me.SuspendLayout()
@@ -41,7 +43,7 @@ Partial Class Theme_Changer
         'Button7
         '
         Me.Button7.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button7.Location = New System.Drawing.Point(128, 166)
+        Me.Button7.Location = New System.Drawing.Point(365, 132)
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(114, 36)
         Me.Button7.TabIndex = 6
@@ -121,7 +123,7 @@ Partial Class Theme_Changer
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(248, 166)
+        Me.Button1.Location = New System.Drawing.Point(365, 174)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(114, 36)
         Me.Button1.TabIndex = 21
@@ -131,7 +133,6 @@ Partial Class Theme_Changer
         'GroupBox2
         '
         Me.GroupBox2.Controls.Add(Me.Label3)
-        Me.GroupBox2.Controls.Add(Me.CheckBox1)
         Me.GroupBox2.Controls.Add(Me.ComboBox1)
         Me.GroupBox2.Controls.Add(Me.Label4)
         Me.GroupBox2.Controls.Add(Me.PictureBox1)
@@ -141,7 +142,7 @@ Partial Class Theme_Changer
         Me.GroupBox2.ForeColor = System.Drawing.Color.Black
         Me.GroupBox2.Location = New System.Drawing.Point(12, 12)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(467, 148)
+        Me.GroupBox2.Size = New System.Drawing.Size(467, 114)
         Me.GroupBox2.TabIndex = 22
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Theme Changer"
@@ -150,35 +151,61 @@ Partial Class Theme_Changer
         '
         Me.CheckBox1.AutoSize = True
         Me.CheckBox1.ForeColor = System.Drawing.Color.White
-        Me.CheckBox1.Location = New System.Drawing.Point(9, 103)
+        Me.CheckBox1.Location = New System.Drawing.Point(12, 132)
         Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(118, 19)
-        Me.CheckBox1.TabIndex = 23
-        Me.CheckBox1.Text = "Show/Hide Clock"
+        Me.CheckBox1.Size = New System.Drawing.Size(138, 19)
+        Me.CheckBox1.TabIndex = 24
+        Me.CheckBox1.Text = "Show Clock and Date"
         Me.CheckBox1.UseVisualStyleBackColor = True
         '
-        'Theme_Changer
+        'CheckBox2
+        '
+        Me.CheckBox2.AutoSize = True
+        Me.CheckBox2.ForeColor = System.Drawing.Color.White
+        Me.CheckBox2.Location = New System.Drawing.Point(12, 157)
+        Me.CheckBox2.Name = "CheckBox2"
+        Me.CheckBox2.Size = New System.Drawing.Size(107, 19)
+        Me.CheckBox2.TabIndex = 25
+        Me.CheckBox2.Text = "Enable Hotkeys"
+        Me.CheckBox2.UseVisualStyleBackColor = True
+        '
+        'CheckBox3
+        '
+        Me.CheckBox3.AutoSize = True
+        Me.CheckBox3.ForeColor = System.Drawing.Color.White
+        Me.CheckBox3.Location = New System.Drawing.Point(12, 182)
+        Me.CheckBox3.Name = "CheckBox3"
+        Me.CheckBox3.Size = New System.Drawing.Size(168, 19)
+        Me.CheckBox3.TabIndex = 26
+        Me.CheckBox3.Text = "Play Last Station At Startup"
+        Me.CheckBox3.UseVisualStyleBackColor = True
+        '
+        'Preferences
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Gray
-        Me.ClientSize = New System.Drawing.Size(491, 211)
+        Me.ClientSize = New System.Drawing.Size(491, 216)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Button7)
+        Me.Controls.Add(Me.CheckBox3)
+        Me.Controls.Add(Me.CheckBox1)
+        Me.Controls.Add(Me.CheckBox2)
         Me.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ForeColor = System.Drawing.Color.Black
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
-        Me.Name = "Theme_Changer"
+        Me.Name = "Preferences"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Themer"
+        Me.Text = "Preferences"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox2.PerformLayout()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
     Friend WithEvents Button7 As System.Windows.Forms.Button
@@ -192,4 +219,6 @@ Partial Class Theme_Changer
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents GroupBox2 As System.Windows.Forms.GroupBox
     Friend WithEvents CheckBox1 As System.Windows.Forms.CheckBox
+    Friend WithEvents CheckBox2 As System.Windows.Forms.CheckBox
+    Friend WithEvents CheckBox3 As System.Windows.Forms.CheckBox
 End Class

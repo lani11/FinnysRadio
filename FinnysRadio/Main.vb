@@ -15,6 +15,8 @@ Public Class Main
         username = username.Substring(username.IndexOf("\"), username.Length - username.IndexOf("\"))
         Dim MyVer As String = My.Application.Info.Version.ToString
 
+        Me.Text = "Finnys Radio " + MyVer
+
         'Loads Theme
         Label95.ForeColor = My.Settings.TimeColour
         Label96.ForeColor = My.Settings.TimeColour
@@ -23,34 +25,37 @@ Public Class Main
         TIMEToolStripMenuItem.ForeColor = My.Settings.TimeColour
         DATEToolStripMenuItem.ForeColor = My.Settings.TimeColour
 
+        'Show/Hide Clock
         If My.Settings.ShowClock = True Then
+            TimeDateTimer.Enabled = True
+            TimeDateTimer.Interval = 1000
             Label95.Show()
             Label96.Show()
         Else
+            TimeDateTimer.Enabled = False
+            TimeDateTimer.Interval = 1000
             Label95.Hide()
             Label96.Hide()
         End If
 
-        Me.Text = "Finnys Radio " + MyVer
-
-        'Check For Internet
-        If My.Computer.Network.IsAvailable Then
-
+        'Play Last Play Station
+        If My.Settings.PlayStartup = True Then
+            GroupBox1.Hide()
+            WebBrowser1.Navigate(My.Settings.PlayPause)
         Else
-            My.Computer.Audio.PlaySystemSound(System.Media.SystemSounds.Asterisk)
-            NotifyIcon1.BalloonTipIcon = ToolTipIcon.Warning
-            NotifyIcon1.BalloonTipTitle = "Warning"
-            NotifyIcon1.BalloonTipText = "You are NOT CONNECTED to the Internet"
-            NotifyIcon1.ShowBalloonTip(2)
+            GroupBox1.Show()
+            WebBrowser1.Navigate("http://finnyscomputers.webs.com")
         End If
 
-        'Enables Timer
-        TimeDateTimer.Enabled = True
-        TimeDateTimer.Interval = 1000
+        'Hotkeys Timer
+        If My.Settings.Hotkeys = True Then
+            HotKeysTimer.Enabled = True
+            HotKeysTimer.Interval = 1000
+        Else
+            HotKeysTimer.Enabled = False
+            HotKeysTimer.Interval = 1000
+        End If
 
-        'Play/Pause Timer
-        HotKeysTimer.Start()
-        HotKeysTimer.Interval = 1000
     End Sub
 
     Private Sub Main_MinimumSizeChanged(sender As Object, e As EventArgs) Handles Me.MinimumSizeChanged
@@ -85,7 +90,7 @@ Public Class Main
         'Play Music
         If (GetAsyncKeyState(36)) Then
             GroupBox1.Hide()
-            WebBrowser1.Navigate(TextBox1.Text)
+            WebBrowser1.Navigate(My.Settings.PlayPause)
         End If
 
         'Stop Music
@@ -231,7 +236,7 @@ Public Class Main
     Private Sub PlayLastStationToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PlayLastStationToolStripMenuItem.Click
         'Play Last Station
         GroupBox1.Hide()
-        WebBrowser1.Navigate(TextBox1.Text)
+        WebBrowser1.Navigate(My.Settings.PlayPause)
     End Sub
 
     Private Sub StopToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles StopToolStripMenuItem.Click
@@ -305,46 +310,46 @@ Public Class Main
     End Sub
 
     Private Sub ThemeChangerToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ThemeChangerToolStripMenuItem.Click
-        'Shows Themer
-        Theme_Changer.Show()
+        'Shows Preferences
+        Preferences.Show()
     End Sub
 
-    Private Sub ChangelogToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ChangelogToolStripMenuItem.Click
+    Private Sub ChangelogToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles ChangelogToolStripMenuItem1.Click
         'Shows Changelog
         Changelog.Show()
     End Sub
 
-    Private Sub AboutRadioToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AboutRadioToolStripMenuItem.Click
+    Private Sub AboutRadioToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles AboutRadioToolStripMenuItem1.Click
         'Show About Radio
         About.Show()
     End Sub
 
-    'Debuging Tool
-    Private Sub DebugingToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DebugingToolStripMenuItem.Click
+    Private Sub DebugingToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles DebugingToolStripMenuItem1.Click
+        'Show Debuging Tool
         Debuging.Show()
     End Sub
 
-    Private Sub CheckForUpdatesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CheckForUpdatesToolStripMenuItem.Click
+    Private Sub CheckForUpdatesToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles CheckForUpdatesToolStripMenuItem1.Click
         'Manual Updater
         Dim file As String = Application.StartupPath & "/VersionNEW.txt"
         Dim MyVer As String = My.Application.Info.Version.ToString
 
         If My.Computer.FileSystem.DirectoryExists("\\SERVER-PC\Network Drive 1\Programs\FinnysRadio") Then
-                If My.Computer.FileSystem.FileExists(file) Then
-                    My.Computer.FileSystem.DeleteFile(file)
-                End If
+            If My.Computer.FileSystem.FileExists(file) Then
+                My.Computer.FileSystem.DeleteFile(file)
+            End If
 
-                If My.Computer.FileSystem.FileExists("\\SERVER-PC\Network Drive 1\Programs\FinnysRadio\VersionNEW.txt") Then
-                    My.Computer.Network.DownloadFile("\\SERVER-PC\Network Drive 1\Programs\FinnysRadio\VersionNEW.txt", file)
-                    Dim LastVer As String = My.Computer.FileSystem.ReadAllText(file)
-                    If Not MyVer = LastVer Then
+            If My.Computer.FileSystem.FileExists("\\SERVER-PC\Network Drive 1\Programs\FinnysRadio\VersionNEW.txt") Then
+                My.Computer.Network.DownloadFile("\\SERVER-PC\Network Drive 1\Programs\FinnysRadio\VersionNEW.txt", file)
+                Dim LastVer As String = My.Computer.FileSystem.ReadAllText(file)
+                If Not MyVer = LastVer Then
                     Me.Hide()
                     Program_Update_Available.Show()
-                    Else
-                        Program_Up_To_Date.Show()
-                    End If
+                Else
+                    Program_Up_To_Date.Show()
                 End If
-            Else
+            End If
+        Else
             No_Network.Show()
         End If
     End Sub
@@ -401,7 +406,7 @@ Public Class Main
     Private Sub PlayLastStationToolStripMenuItem2_Click(sender As Object, e As EventArgs) Handles PlayLastStationToolStripMenuItem2.Click
         'Play Last Station
         GroupBox1.Hide()
-        WebBrowser1.Navigate(TextBox1.Text)
+        WebBrowser1.Navigate(My.Settings.PlayPause)
     End Sub
 
     Private Sub StopToolStripMenuItem2_Click(sender As Object, e As EventArgs) Handles StopToolStripMenuItem2.Click
@@ -539,7 +544,7 @@ Public Class Main
         Mini_Player.Label23.ForeColor = Color.Red
 
         WebBrowser1.Navigate("http://www.abc.net.au/classic/player/")
-        TextBox1.Text = "http://www.abc.net.au/classic/player/"
+        My.Settings.PlayPause = "http://www.abc.net.au/classic/player/"
 
         NotifyIcon1.Text = "Finnys Radio-Listen to ABC Classic FM"
 
@@ -619,7 +624,7 @@ Public Class Main
         Mini_Player.Label23.ForeColor = Color.Red
 
         WebBrowser1.Navigate("http://abccountry.net.au/player-popup.htm")
-        TextBox1.Text = "http://abccountry.net.au/player-popup.htm"
+        My.Settings.PlayPause = "http://abccountry.net.au/player-popup.htm"
 
         NotifyIcon1.Text = "Finnys Radio-Listen to ABC Country"
 
@@ -699,7 +704,7 @@ Public Class Main
         Mini_Player.Label23.ForeColor = Color.Red
 
         WebBrowser1.Navigate("http://abcdigmusic.net.au/player-popup.htm")
-        TextBox1.Text = "http://abcdigmusic.net.au/player-popup.htm"
+        My.Settings.PlayPause = "http://abcdigmusic.net.au/player-popup.htm"
 
         NotifyIcon1.Text = "Finnys Radio-Listen to ABC Dig Music"
 
@@ -779,7 +784,7 @@ Public Class Main
         Mini_Player.Label23.ForeColor = Color.Red
 
         WebBrowser1.Navigate("http://www.abc.net.au/local/players/internet_radio.htm?streamFile=extra")
-        TextBox1.Text = "http://www.abc.net.au/local/players/internet_radio.htm?streamFile=extra"
+        My.Settings.PlayPause = "http://www.abc.net.au/local/players/internet_radio.htm?streamFile=extra"
 
         NotifyIcon1.Text = "Finnys Radio-Listen to ABC Extra"
 
@@ -859,7 +864,7 @@ Public Class Main
         Mini_Player.Label23.ForeColor = Color.Red
 
         WebBrowser1.Navigate("http://abcjazz.net.au/player-popup.htm")
-        TextBox1.Text = "http://abcjazz.net.au/player-popup.htm"
+        My.Settings.PlayPause = "http://abcjazz.net.au/player-popup.htm"
 
         NotifyIcon1.Text = "Finnys Radio-Listen to ABC Jazz"
 
@@ -939,7 +944,7 @@ Public Class Main
         Mini_Player.Label23.ForeColor = Color.Red
 
         WebBrowser1.Navigate("http://www.abc.net.au/newsradio/audio/streaming.htm")
-        TextBox1.Text = "http://www.abc.net.au/newsradio/audio/streaming.htm"
+        My.Settings.PlayPause = "http://www.abc.net.au/newsradio/audio/streaming.htm"
 
         NotifyIcon1.Text = "Finnys Radio-Listen to ABC Radio"
 
@@ -1019,7 +1024,7 @@ Public Class Main
         Mini_Player.Label23.ForeColor = Color.Red
 
         WebBrowser1.Navigate("http://www.radioaustralia.net.au/listen/")
-        TextBox1.Text = "http://www.radioaustralia.net.au/listen/"
+        My.Settings.PlayPause = "http://www.radioaustralia.net.au/listen/"
 
         NotifyIcon1.Text = "Finnys Radio-Listen to ABC Radio Australia"
 
@@ -1099,7 +1104,7 @@ Public Class Main
         Mini_Player.Label23.ForeColor = Color.Red
 
         WebBrowser1.Navigate("http://www.abc.net.au/rn/legacy/player.htm")
-        TextBox1.Text = "http://www.abc.net.au/rn/legacy/player.htm"
+        My.Settings.PlayPause = "http://www.abc.net.au/rn/legacy/player.htm"
 
         NotifyIcon1.Text = "Finnys Radio-Listen to ABC Radio National"
 
@@ -1179,7 +1184,7 @@ Public Class Main
         Mini_Player.Label23.ForeColor = Color.Red
 
         WebBrowser1.Navigate("http://right-click.com.au/rcPlayer/index.php?c=gippslandfm")
-        TextBox1.Text = "http://right-click.com.au/rcPlayer/index.php?c=gippslandfm"
+        My.Settings.PlayPause = "http://right-click.com.au/rcPlayer/index.php?c=gippslandfm"
 
         NotifyIcon1.Text = "Finnys Radio-Listen to Gippsland FM"
 
@@ -1261,7 +1266,7 @@ Public Class Main
         'WebBrowser1.Navigate("http://www.countrymusicradio.com.au/CMR_Online.cfm")
         WebBrowser1.Navigate("http://www.countrymusicradio.com.au/")
         Process.Start("http://www.countrymusicradio.com.au/CMR_Online.cfm")
-        TextBox1.Text = "http://www.countrymusicradio.com.au/"
+        My.Settings.PlayPause = "http://www.countrymusicradio.com.au/"
 
         NotifyIcon1.Text = "Finnys Radio-Listen to Country Music Radio.com"
 
@@ -1341,7 +1346,7 @@ Public Class Main
         Mini_Player.Label23.ForeColor = Color.Red
 
         'WebBrowser1.Navigate("http://player.arn.com.au/gold1043.aspx")
-        'TextBox1.Text = "http://player.arn.com.au/gold1043.aspx"
+        'My.Settings.PlayPause = "http://player.arn.com.au/gold1043.aspx"
         Process.Start("http://player.arn.com.au/gold1043.aspx")
 
         NotifyIcon1.Text = "Finnys Radio-Listen to Gold 104.3"
@@ -1422,7 +1427,7 @@ Public Class Main
         Mini_Player.Label23.ForeColor = Color.Red
 
         WebBrowser1.Navigate("http://player.streamtheworld.com/_players/aceradiobroadcast/?market=gippsland&callsign=GOLD1242")
-        TextBox1.Text = "http://player.streamtheworld.com/_players/aceradiobroadcast/?market=gippsland&callsign=GOLD1242"
+        My.Settings.PlayPause = "http://player.streamtheworld.com/_players/aceradiobroadcast/?market=gippsland&callsign=GOLD1242"
 
         NotifyIcon1.Text = "Finnys Radio-Listen to Gold 1242"
 
@@ -1502,7 +1507,7 @@ Public Class Main
         Mini_Player.Label23.ForeColor = Color.Red
 
         WebBrowser1.Navigate("http://www.kidsfm.com.au/")
-        TextBox1.Text = "http://www.kidsfm.com.au/"
+        My.Settings.PlayPause = "http://www.kidsfm.com.au/"
 
         NotifyIcon1.Text = "Finnys Radio-Listen to Kids FM"
 
@@ -1582,7 +1587,7 @@ Public Class Main
         Mini_Player.Label23.ForeColor = Color.Red
 
         'WebBrowser1.Navigate("http://www.myspace.com/music/player")
-        'TextBox1.Text = "http://www.myspace.com/music/player"
+        'My.Settings.PlayPause = "http://www.myspace.com/music/player"
         Process.Start("http://www.myspace.com/music/player")
 
         NotifyIcon1.Text = "Finnys Radio-Listen to MySpace Music"
@@ -1663,7 +1668,7 @@ Public Class Main
         Mini_Player.Label23.ForeColor = Color.Red
 
         WebBrowser1.Navigate("http://www.star1045.com.au/player.aspx")
-        TextBox1.Text = "http://www.star1045.com.au/player.aspx"
+        My.Settings.PlayPause = "http://www.star1045.com.au/player.aspx"
 
         NotifyIcon1.Text = "Finnys Radio-Listen to Star FM"
 
@@ -1743,7 +1748,7 @@ Public Class Main
         Mini_Player.Label23.ForeColor = Color.Red
 
         WebBrowser1.Navigate("http://player.streamtheworld.com/_players/aceradiobroadcast/?market=gippsland&callsign=TRFM")
-        TextBox1.Text = "http://player.streamtheworld.com/_players/aceradiobroadcast/?market=gippsland&callsign=TRFM"
+        My.Settings.PlayPause = "http://player.streamtheworld.com/_players/aceradiobroadcast/?market=gippsland&callsign=TRFM"
 
         NotifyIcon1.Text = "Finnys Radio-Listen to TR FM"
 
@@ -1824,7 +1829,7 @@ Public Class Main
 
         WebBrowser1.Navigate("http://www.abc.net.au/triplej/player/triplej.htm")
         WebBrowser1.Navigate("http://www.abc.net.au/triplej/player/triplej.htm")
-        TextBox1.Text = ""
+        My.Settings.PlayPause = ""
 
         NotifyIcon1.Text = "Finnys Radio-Listen to Triple J"
 
@@ -1904,7 +1909,7 @@ Public Class Main
         Mini_Player.Label23.ForeColor = Color.Red
 
         WebBrowser1.Navigate("http://www.abc.net.au/triplej/player/unearthed.htm")
-        TextBox1.Text = "http://www.abc.net.au/triplej/player/unearthed.htm"
+        My.Settings.PlayPause = "http://www.abc.net.au/triplej/player/unearthed.htm"
 
         NotifyIcon1.Text = "Finnys Radio-Listen to Tripple J Unearthed"
 
@@ -1984,7 +1989,7 @@ Public Class Main
         Mini_Player.Label23.ForeColor = Color.Red
 
         WebBrowser1.Navigate("http://www.triplem.com.au/melbourne/player/")
-        TextBox1.Text = "http://www.triplem.com.au/melbourne/player/"
+        My.Settings.PlayPause = "http://www.triplem.com.au/melbourne/player/"
 
         NotifyIcon1.Text = "Finnys Radio-Listen to Triple M"
 
@@ -2064,7 +2069,7 @@ Public Class Main
         Mini_Player.Label23.ForeColor = Color.Red
 
         WebBrowser1.Navigate("http://alamo.mediaradioplayer.com/flash.html")
-        TextBox1.Text = "http://alamo.mediaradioplayer.com/flash.html"
+        My.Settings.PlayPause = "http://alamo.mediaradioplayer.com/flash.html"
 
         NotifyIcon1.Text = "Finnys Radio-Listen to Yimago Radio 1"
 
@@ -2144,7 +2149,7 @@ Public Class Main
         Mini_Player.Label23.ForeColor = Color.Red
 
         WebBrowser1.Navigate("http://eriador.mediaradioplayer.com/flash.html")
-        TextBox1.Text = "http://eriador.mediaradioplayer.com/flash.html"
+        My.Settings.PlayPause = "http://eriador.mediaradioplayer.com/flash.html"
 
         NotifyIcon1.Text = "Finnys Radio-Listen to Yimago Radio 2"
 
@@ -2224,7 +2229,7 @@ Public Class Main
         Mini_Player.Label23.ForeColor = Color.Red
 
         WebBrowser1.Navigate("http://elrond.mediaradioplayer.com/flash.html")
-        TextBox1.Text = "http://elrond.mediaradioplayer.com/flash.html"
+        My.Settings.PlayPause = "http://elrond.mediaradioplayer.com/flash.html"
 
         NotifyIcon1.Text = "Finnys Radio-Listen to Yimago Radio 3"
 
@@ -2304,7 +2309,7 @@ Public Class Main
         Mini_Player.Label23.ForeColor = Color.Lime
 
         WebBrowser1.Navigate("http://excalibur.mediaradioplayer.com/flash.html")
-        TextBox1.Text = "http://excalibur.mediaradioplayer.com/flash.html"
+        My.Settings.PlayPause = "http://excalibur.mediaradioplayer.com/flash.html"
 
         NotifyIcon1.Text = "Finnys Radio-Listen to Yimago Radio 4"
 
@@ -2389,7 +2394,7 @@ Public Class Main
         Mini_Player.Label23.ForeColor = Color.Red
 
         WebBrowser1.Navigate("http://www.abc.net.au/classic/player/")
-        TextBox1.Text = "http://www.abc.net.au/classic/player/"
+        My.Settings.PlayPause = "http://www.abc.net.au/classic/player/"
 
         NotifyIcon1.BalloonTipIcon = ToolTipIcon.Info
         NotifyIcon1.BalloonTipTitle = "INFO"
@@ -2473,7 +2478,7 @@ Public Class Main
         Mini_Player.Label23.ForeColor = Color.Red
 
         WebBrowser1.Navigate("http://abccountry.net.au/player-popup.htm")
-        TextBox1.Text = "http://abccountry.net.au/player-popup.htm"
+        My.Settings.PlayPause = "http://abccountry.net.au/player-popup.htm"
 
         NotifyIcon1.BalloonTipIcon = ToolTipIcon.Info
         NotifyIcon1.BalloonTipTitle = "INFO"
@@ -2557,7 +2562,7 @@ Public Class Main
         Mini_Player.Label23.ForeColor = Color.Red
 
         WebBrowser1.Navigate("http://abcdigmusic.net.au/player-popup.htm")
-        TextBox1.Text = "http://abcdigmusic.net.au/player-popup.htm"
+        My.Settings.PlayPause = "http://abcdigmusic.net.au/player-popup.htm"
 
         NotifyIcon1.BalloonTipIcon = ToolTipIcon.Info
         NotifyIcon1.BalloonTipTitle = "INFO"
@@ -2641,7 +2646,7 @@ Public Class Main
         Mini_Player.Label23.ForeColor = Color.Red
 
         WebBrowser1.Navigate("http://www.abc.net.au/local/players/internet_radio.htm?streamFile=extra")
-        TextBox1.Text = "http://www.abc.net.au/local/players/internet_radio.htm?streamFile=extra"
+        My.Settings.PlayPause = "http://www.abc.net.au/local/players/internet_radio.htm?streamFile=extra"
 
         NotifyIcon1.BalloonTipIcon = ToolTipIcon.Info
         NotifyIcon1.BalloonTipTitle = "INFO"
@@ -2725,7 +2730,7 @@ Public Class Main
         Mini_Player.Label23.ForeColor = Color.Red
 
         WebBrowser1.Navigate("http://abcjazz.net.au/player-popup.htm")
-        TextBox1.Text = "http://abcjazz.net.au/player-popup.htm"
+        My.Settings.PlayPause = "http://abcjazz.net.au/player-popup.htm"
 
         NotifyIcon1.BalloonTipIcon = ToolTipIcon.Info
         NotifyIcon1.BalloonTipTitle = "INFO"
@@ -2809,7 +2814,7 @@ Public Class Main
         Mini_Player.Label23.ForeColor = Color.Red
 
         WebBrowser1.Navigate("http://www.abc.net.au/newsradio/audio/streaming.htm")
-        TextBox1.Text = "http://www.abc.net.au/newsradio/audio/streaming.htm"
+        My.Settings.PlayPause = "http://www.abc.net.au/newsradio/audio/streaming.htm"
 
         NotifyIcon1.BalloonTipIcon = ToolTipIcon.Info
         NotifyIcon1.BalloonTipTitle = "INFO"
@@ -2893,7 +2898,7 @@ Public Class Main
         Mini_Player.Label23.ForeColor = Color.Red
 
         WebBrowser1.Navigate("http://www.radioaustralia.net.au/listen/")
-        TextBox1.Text = "http://www.radioaustralia.net.au/listen/"
+        My.Settings.PlayPause = "http://www.radioaustralia.net.au/listen/"
 
         NotifyIcon1.BalloonTipIcon = ToolTipIcon.Info
         NotifyIcon1.BalloonTipTitle = "INFO"
@@ -2977,7 +2982,7 @@ Public Class Main
         Mini_Player.Label23.ForeColor = Color.Red
 
         WebBrowser1.Navigate("http://www.abc.net.au/rn/legacy/player.htm")
-        TextBox1.Text = "http://www.abc.net.au/rn/legacy/player.htm"
+        My.Settings.PlayPause = "http://www.abc.net.au/rn/legacy/player.htm"
 
         NotifyIcon1.BalloonTipIcon = ToolTipIcon.Info
         NotifyIcon1.BalloonTipTitle = "INFO"
@@ -3061,7 +3066,7 @@ Public Class Main
         Mini_Player.Label23.ForeColor = Color.Red
 
         WebBrowser1.Navigate("http://www.countrymusicradio.com.au/CMR_Online.cfm")
-        TextBox1.Text = "http://www.countrymusicradio.com.au/CMR_Online.cfm"
+        My.Settings.PlayPause = "http://www.countrymusicradio.com.au/CMR_Online.cfm"
 
         NotifyIcon1.BalloonTipIcon = ToolTipIcon.Info
         NotifyIcon1.BalloonTipTitle = "INFO"
@@ -3145,7 +3150,7 @@ Public Class Main
         Mini_Player.Label23.ForeColor = Color.Red
 
         WebBrowser1.Navigate("http://right-click.com.au/rcPlayer/index.php?c=gippslandfm")
-        TextBox1.Text = "http://right-click.com.au/rcPlayer/index.php?c=gippslandfm"
+        My.Settings.PlayPause = "http://right-click.com.au/rcPlayer/index.php?c=gippslandfm"
 
         NotifyIcon1.BalloonTipIcon = ToolTipIcon.Info
         NotifyIcon1.BalloonTipTitle = "INFO"
@@ -3229,7 +3234,7 @@ Public Class Main
         Mini_Player.Label23.ForeColor = Color.Red
 
         WebBrowser1.Navigate("http://player.arn.com.au/gold1043.aspx")
-        TextBox1.Text = "http://player.arn.com.au/gold1043.aspx"
+        My.Settings.PlayPause = "http://player.arn.com.au/gold1043.aspx"
 
         NotifyIcon1.BalloonTipIcon = ToolTipIcon.Info
         NotifyIcon1.BalloonTipTitle = "INFO"
@@ -3313,7 +3318,7 @@ Public Class Main
         Mini_Player.Label23.ForeColor = Color.Red
 
         WebBrowser1.Navigate("http://player.streamtheworld.com/_players/aceradiobroadcast/?market=gippsland&callsign=GOLD1242")
-        TextBox1.Text = "http://player.streamtheworld.com/_players/aceradiobroadcast/?market=gippsland&callsign=GOLD1242"
+        My.Settings.PlayPause = "http://player.streamtheworld.com/_players/aceradiobroadcast/?market=gippsland&callsign=GOLD1242"
 
         NotifyIcon1.BalloonTipIcon = ToolTipIcon.Info
         NotifyIcon1.BalloonTipTitle = "INFO"
@@ -3397,7 +3402,7 @@ Public Class Main
         Mini_Player.Label23.ForeColor = Color.Red
 
         WebBrowser1.Navigate("http://www.kidsfm.com.au/")
-        TextBox1.Text = "http://www.kidsfm.com.au/"
+        My.Settings.PlayPause = "http://www.kidsfm.com.au/"
 
         NotifyIcon1.BalloonTipIcon = ToolTipIcon.Info
         NotifyIcon1.BalloonTipTitle = "INFO"
@@ -3481,7 +3486,7 @@ Public Class Main
         Mini_Player.Label23.ForeColor = Color.Red
 
         WebBrowser1.Navigate("http://www.myspace.com/music/player")
-        TextBox1.Text = "http://www.myspace.com/music/player"
+        My.Settings.PlayPause = "http://www.myspace.com/music/player"
 
         NotifyIcon1.BalloonTipIcon = ToolTipIcon.Info
         NotifyIcon1.BalloonTipTitle = "INFO"
@@ -3565,7 +3570,7 @@ Public Class Main
         Mini_Player.Label23.ForeColor = Color.Red
 
         WebBrowser1.Navigate("http://www.star1045.com.au/player.aspx")
-        TextBox1.Text = "http://www.star1045.com.au/player.aspx"
+        My.Settings.PlayPause = "http://www.star1045.com.au/player.aspx"
 
         NotifyIcon1.BalloonTipIcon = ToolTipIcon.Info
         NotifyIcon1.BalloonTipTitle = "INFO"
@@ -3649,7 +3654,7 @@ Public Class Main
         Mini_Player.Label23.ForeColor = Color.Red
 
         WebBrowser1.Navigate("http://player.streamtheworld.com/_players/aceradiobroadcast/?market=gippsland&callsign=TRFM")
-        TextBox1.Text = "http://player.streamtheworld.com/_players/aceradiobroadcast/?market=gippsland&callsign=TRFM"
+        My.Settings.PlayPause = "http://player.streamtheworld.com/_players/aceradiobroadcast/?market=gippsland&callsign=TRFM"
 
         NotifyIcon1.BalloonTipIcon = ToolTipIcon.Info
         NotifyIcon1.BalloonTipTitle = "INFO"
@@ -3733,7 +3738,7 @@ Public Class Main
         Mini_Player.Label23.ForeColor = Color.Red
 
         WebBrowser1.Navigate("http://www.abc.net.au/triplej/player/triplej.htm")
-        TextBox1.Text = "http://www.abc.net.au/triplej/player/triplej.htm"
+        My.Settings.PlayPause = "http://www.abc.net.au/triplej/player/triplej.htm"
 
         NotifyIcon1.BalloonTipIcon = ToolTipIcon.Info
         NotifyIcon1.BalloonTipTitle = "INFO"
@@ -3817,7 +3822,7 @@ Public Class Main
         Mini_Player.Label23.ForeColor = Color.Red
 
         WebBrowser1.Navigate("http://www.abc.net.au/triplej/player/unearthed.htm")
-        TextBox1.Text = "http://www.abc.net.au/triplej/player/unearthed.htm"
+        My.Settings.PlayPause = "http://www.abc.net.au/triplej/player/unearthed.htm"
 
         NotifyIcon1.BalloonTipIcon = ToolTipIcon.Info
         NotifyIcon1.BalloonTipTitle = "INFO"
@@ -3901,7 +3906,7 @@ Public Class Main
         Mini_Player.Label23.ForeColor = Color.Red
 
         WebBrowser1.Navigate("http://www.triplem.com.au/melbourne/player/")
-        TextBox1.Text = "http://www.triplem.com.au/melbourne/player/"
+        My.Settings.PlayPause = "http://www.triplem.com.au/melbourne/player/"
 
         NotifyIcon1.BalloonTipIcon = ToolTipIcon.Info
         NotifyIcon1.BalloonTipTitle = "INFO"
@@ -3985,7 +3990,7 @@ Public Class Main
         Mini_Player.Label23.ForeColor = Color.Red
 
         WebBrowser1.Navigate("http://alamo.mediaradioplayer.com/flash.html")
-        TextBox1.Text = "http://alamo.mediaradioplayer.com/flash.html"
+        My.Settings.PlayPause = "http://alamo.mediaradioplayer.com/flash.html"
 
         NotifyIcon1.BalloonTipIcon = ToolTipIcon.Info
         NotifyIcon1.BalloonTipTitle = "INFO"
@@ -4069,7 +4074,7 @@ Public Class Main
         Mini_Player.Label23.ForeColor = Color.Red
 
         WebBrowser1.Navigate("http://eriador.mediaradioplayer.com/flash.html")
-        TextBox1.Text = "http://eriador.mediaradioplayer.com/flash.html"
+        My.Settings.PlayPause = "http://eriador.mediaradioplayer.com/flash.html"
 
         NotifyIcon1.BalloonTipIcon = ToolTipIcon.Info
         NotifyIcon1.BalloonTipTitle = "INFO"
@@ -4153,7 +4158,7 @@ Public Class Main
         Mini_Player.Label23.ForeColor = Color.Red
 
         WebBrowser1.Navigate("http://elrond.mediaradioplayer.com/flash.html")
-        TextBox1.Text = "http://elrond.mediaradioplayer.com/flash.html"
+        My.Settings.PlayPause = "http://elrond.mediaradioplayer.com/flash.html"
 
         NotifyIcon1.BalloonTipIcon = ToolTipIcon.Info
         NotifyIcon1.BalloonTipTitle = "INFO"
@@ -4237,7 +4242,7 @@ Public Class Main
         Mini_Player.Label23.ForeColor = Color.Lime
 
         WebBrowser1.Navigate("http://excalibur.mediaradioplayer.com/flash.html")
-        TextBox1.Text = "http://excalibur.mediaradioplayer.com/flash.html"
+        My.Settings.PlayPause = "http://excalibur.mediaradioplayer.com/flash.html"
 
         NotifyIcon1.BalloonTipIcon = ToolTipIcon.Info
         NotifyIcon1.BalloonTipTitle = "INFO"
