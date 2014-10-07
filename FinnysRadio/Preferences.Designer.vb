@@ -36,6 +36,7 @@ Partial Class Preferences
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.CheckBox2 = New System.Windows.Forms.CheckBox()
         Me.CheckBox3 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox4 = New System.Windows.Forms.CheckBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox2.SuspendLayout()
         Me.SuspendLayout()
@@ -180,12 +181,24 @@ Partial Class Preferences
         Me.CheckBox3.Text = "Play Last Station At Startup"
         Me.CheckBox3.UseVisualStyleBackColor = True
         '
+        'CheckBox4
+        '
+        Me.CheckBox4.AutoSize = True
+        Me.CheckBox4.ForeColor = System.Drawing.Color.White
+        Me.CheckBox4.Location = New System.Drawing.Point(191, 132)
+        Me.CheckBox4.Name = "CheckBox4"
+        Me.CheckBox4.Size = New System.Drawing.Size(166, 19)
+        Me.CheckBox4.TabIndex = 27
+        Me.CheckBox4.Text = "Enable Automatic Updates"
+        Me.CheckBox4.UseVisualStyleBackColor = True
+        '
         'Preferences
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Gray
         Me.ClientSize = New System.Drawing.Size(491, 216)
+        Me.Controls.Add(Me.CheckBox4)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Button7)
@@ -221,4 +234,5 @@ Partial Class Preferences
     Friend WithEvents CheckBox1 As System.Windows.Forms.CheckBox
     Friend WithEvents CheckBox2 As System.Windows.Forms.CheckBox
     Friend WithEvents CheckBox3 As System.Windows.Forms.CheckBox
+    Friend WithEvents CheckBox4 As System.Windows.Forms.CheckBox
 End Class

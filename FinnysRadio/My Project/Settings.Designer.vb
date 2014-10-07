@@ -149,6 +149,18 @@ Namespace My
                 Me("PlayStartup") = value
             End Set
         End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("True")>  _
+        Public Property AutoUpdater() As String
+            Get
+                Return CType(Me("AutoUpdater"),String)
+            End Get
+            Set
+                Me("AutoUpdater") = value
+            End Set
+        End Property
     End Class
 End Namespace
 
