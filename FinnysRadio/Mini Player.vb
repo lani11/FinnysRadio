@@ -42,7 +42,7 @@
     Private Sub StopToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles StopToolStripMenuItem.Click
         'Stop Playing Station
         Main.GroupBox1.Show()
-        Main.WebBrowser1.Navigate("http://finnyscomputers.webs.com")
+        Main.WebBrowser1.Navigate("")
         Main.Label1.ForeColor = Color.Red
         Main.Label2.ForeColor = Color.Red
         Main.Label3.ForeColor = Color.Red

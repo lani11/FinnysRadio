@@ -26,6 +26,10 @@
             CheckBox3.Checked = True
         End If
 
+        If My.Settings.AutoUpdater = True Then
+            CheckBox4.Checked = True
+        End If
+
     End Sub
 
     Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
@@ -52,6 +56,7 @@
         CheckBox1.Checked = True
         CheckBox2.Checked = True
         CheckBox3.Checked = False
+        CheckBox4.Checked = True
     End Sub
 
     Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox1.SelectedIndexChanged
@@ -344,6 +349,14 @@
             My.Settings.PlayStartup = True
         Else
             My.Settings.PlayStartup = False
+        End If
+    End Sub
+
+    Private Sub CheckBox4_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox4.CheckedChanged
+        If CheckBox4.Checked = True Then
+            My.Settings.AutoUpdater = True
+        Else
+            My.Settings.AutoUpdater = False
         End If
     End Sub
 End Class

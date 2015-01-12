@@ -44,7 +44,7 @@ Public Class Main
             WebBrowser1.Navigate(My.Settings.PlayPause)
         Else
             GroupBox1.Show()
-            WebBrowser1.Navigate("http://finnyscomputers.webs.com")
+            WebBrowser1.Navigate("")
         End If
 
         'Hotkeys Timer
@@ -58,28 +58,25 @@ Public Class Main
 
     End Sub
 
-    Private Sub Main_MinimumSizeChanged(sender As Object, e As EventArgs) Handles Me.MinimumSizeChanged
-        Me.Hide()
-    End Sub
-
     'Auto Updater
     Private Sub Main_Shown(sender As Object, e As EventArgs) Handles Me.Shown
-        Dim file As String = Application.StartupPath & "/VersionNEW.txt"
-        Dim MyVer As String = My.Application.Info.Version.ToString
+        If My.Settings.AutoUpdater = True Then
+            Dim file As String = Application.StartupPath & "/VersionNEW.txt"
+            Dim MyVer As String = My.Application.Info.Version.ToString
+            If My.Computer.Network.IsAvailable Then
+                If My.Computer.FileSystem.FileExists(file) Then
+                    My.Computer.FileSystem.DeleteFile(file)
+                End If
 
-        If My.Computer.Network.IsAvailable Then
-            If My.Computer.FileSystem.FileExists(file) Then
-                My.Computer.FileSystem.DeleteFile(file)
-            End If
+                If My.Computer.FileSystem.FileExists("\\SERVER-PC\Network Drive 1\Programs\FinnysRadio\VersionNEW.txt") Then
+                    My.Computer.Network.DownloadFile("\\SERVER-PC\Network Drive 1\Programs\FinnysRadio\VersionNEW.txt", file)
+                    Dim LastVer As String = My.Computer.FileSystem.ReadAllText(file)
+                    If Not MyVer = LastVer Then
+                        Me.Hide()
+                        Program_Update_Available.Show()
+                    Else
 
-            If My.Computer.FileSystem.FileExists("\\SERVER-PC\Network Drive 1\Programs\FinnysRadio\VersionNEW.txt") Then
-                My.Computer.Network.DownloadFile("\\SERVER-PC\Network Drive 1\Programs\FinnysRadio\VersionNEW.txt", file)
-                Dim LastVer As String = My.Computer.FileSystem.ReadAllText(file)
-                If Not MyVer = LastVer Then
-                    Me.Hide()
-                    Program_Update_Available.Show()
-                Else
-
+                    End If
                 End If
             End If
         End If
@@ -96,7 +93,7 @@ Public Class Main
         'Stop Music
         If (GetAsyncKeyState(35)) Then
             GroupBox1.Show()
-            WebBrowser1.Navigate("http://finnyscomputers.webs.com")
+            WebBrowser1.Navigate("")
         End If
 
         'Show From Taskbar
@@ -148,7 +145,7 @@ Public Class Main
     Private Sub ScanerModeToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ScanerModeToolStripMenuItem.Click
         'Scanner Mode
         GroupBox1.Show()
-        WebBrowser1.Navigate("http://finnyscomputers.webs.com")
+        WebBrowser1.Navigate("")
         Label1.ForeColor = Color.Red
         Label2.ForeColor = Color.Red
         Label3.ForeColor = Color.Red
@@ -242,7 +239,7 @@ Public Class Main
     Private Sub StopToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles StopToolStripMenuItem.Click
         'Stop Playing Station
         GroupBox1.Show()
-        WebBrowser1.Navigate("http://finnyscomputers.webs.com")
+        WebBrowser1.Navigate("")
         Label1.ForeColor = Color.Red
         Label2.ForeColor = Color.Red
         Label3.ForeColor = Color.Red
@@ -412,7 +409,7 @@ Public Class Main
     Private Sub StopToolStripMenuItem2_Click(sender As Object, e As EventArgs) Handles StopToolStripMenuItem2.Click
         'Stop Playing Station
         GroupBox1.Show()
-        WebBrowser1.Navigate("http://finnyscomputers.webs.com")
+        WebBrowser1.Navigate("")
         Label1.ForeColor = Color.Red
         Label2.ForeColor = Color.Red
         Label3.ForeColor = Color.Red

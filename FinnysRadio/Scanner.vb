@@ -9,7 +9,7 @@ Public Class Scanner
     Private Sub Scanner_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing
         Main.Close()
         GroupBox1.Show()
-        WebBrowser1.Navigate("http://finnyscomputers.webs.com")
+        WebBrowser1.Navigate("")
         Label1.ForeColor = Color.Red
         Label2.ForeColor = Color.Red
         Label3.ForeColor = Color.Red
@@ -50,7 +50,7 @@ Public Class Scanner
 
     Private Sub RadioToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RadioToolStripMenuItem.Click
         GroupBox1.Show()
-        WebBrowser1.Navigate("http://finnyscomputers.webs.com")
+        WebBrowser1.Navigate("")
         Label1.ForeColor = Color.Red
         Label2.ForeColor = Color.Red
         Label3.ForeColor = Color.Red
@@ -85,7 +85,7 @@ Public Class Scanner
     Private Sub StopToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles StopToolStripMenuItem.Click
         'Stop Playing Station
         GroupBox1.Show()
-        WebBrowser1.Navigate("http://finnyscomputers.webs.com")
+        WebBrowser1.Navigate("")
         Label1.ForeColor = Color.Red
         Label2.ForeColor = Color.Red
         Label3.ForeColor = Color.Red
@@ -196,7 +196,7 @@ Public Class Scanner
     Private Sub StopToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles StopToolStripMenuItem1.Click
         'Stop Playing Station
         GroupBox1.Show()
-        WebBrowser1.Navigate("http://finnyscomputers.webs.com")
+        WebBrowser1.Navigate("")
         Label1.ForeColor = Color.Red
         Label2.ForeColor = Color.Red
         Label3.ForeColor = Color.Red
